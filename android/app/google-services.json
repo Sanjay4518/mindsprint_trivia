@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1003626375748",
+    "project_id": "mindsprint-trivia",
+    "storage_bucket": "mindsprint-trivia.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1003626375748:android:4bdf3799da84cc5c932a11",
+        "android_client_info": {
+          "package_name": "com.example.mindsprint_trivia"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqhTiC2B1s1Ppdwd2u9KANfguczWIu_7c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
