@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import '../services/league_service.dart';
 import '../services/player_service.dart';
+import '../widgets/league_badge.dart';
 
 class LeaderboardScreen extends StatefulWidget {
   const LeaderboardScreen({super.key});
@@ -103,6 +104,7 @@ class _LeaderboardScreenState extends State<LeaderboardScreen> {
               itemBuilder: (context, index) {
                 final player = players[index];
                 final isYou = player["name"] == PlayerService.username;
+                final league = LeagueService.leagueForXp(player["xp"] as int);
 
                 return Container(
                   margin: const EdgeInsets.only(bottom: 12),
@@ -122,21 +124,37 @@ class _LeaderboardScreenState extends State<LeaderboardScreen> {
                   ),
                   child: Row(
                     children: [
-                      Container(
-                        width: 42,
-                        height: 42,
-                        decoration: BoxDecoration(
-                          color: Colors.white10,
-                          borderRadius: BorderRadius.circular(12),
-                        ),
-                        child: Center(
-                          child: Text(
-                            "#${player["rank"]}",
-                            style: const TextStyle(
-                              fontWeight: FontWeight.bold,
-                              color: Colors.white,
+                      SizedBox(
+                        width: 50,
+                        height: 50,
+                        child: Stack(
+                          alignment: Alignment.center,
+                          children: [
+                            LeagueBadge(league: league, size: 46),
+                            Positioned(
+                              right: 0,
+                              bottom: 0,
+                              child: Container(
+                                padding: const EdgeInsets.symmetric(
+                                  horizontal: 4,
+                                  vertical: 2,
+                                ),
+                                decoration: BoxDecoration(
+                                  color: const Color(0xFF0F1117),
+                                  borderRadius: BorderRadius.circular(8),
+                                  border: Border.all(color: Colors.white24),
+                                ),
+                                child: Text(
+                                  "#${player["rank"]}",
+                                  style: const TextStyle(
+                                    fontWeight: FontWeight.w900,
+                                    color: Colors.white,
+                                    fontSize: 10,
+                                  ),
+                                ),
+                              ),
                             ),
-                          ),
+                          ],
                         ),
                       ),
                       const SizedBox(width: 14),

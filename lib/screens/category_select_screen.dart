@@ -12,89 +12,117 @@ class CategorySelectScreen extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(title: const Text("Choose Category")),
-      body: Padding(
-        padding: const EdgeInsets.all(20),
-        child: Column(
-          children: [
-            if (!PlayerService.isPremium)
-              Container(
-                width: double.infinity,
-                padding: const EdgeInsets.all(16),
-                margin: const EdgeInsets.only(bottom: 16),
-                decoration: BoxDecoration(
-                  color: Colors.orange.withValues(alpha: 0.12),
-                  borderRadius: BorderRadius.circular(18),
-                  border: Border.all(color: Colors.orange),
-                ),
-                child: const Text(
-                  "Category-based quizzes are premium only. Upgrade later to unlock focused practice.",
-                  style: TextStyle(color: Colors.white70),
+      body: SafeArea(
+        child: Padding(
+          padding: const EdgeInsets.fromLTRB(20, 8, 20, 20),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              const Text(
+                "Focused Practice",
+                style: TextStyle(
+                  color: Colors.white,
+                  fontSize: 24,
+                  fontWeight: FontWeight.w900,
                 ),
               ),
-            Expanded(
-              child: ListView.builder(
-                itemCount: categories.length,
-                itemBuilder: (context, index) {
-                  final category = categories[index];
-                  final locked =
-                      !PlayerService.isPremium && category != "Mixed";
+              const SizedBox(height: 6),
+              const Text(
+                "Choose a topic and sharpen one area at a time.",
+                style: TextStyle(color: Colors.white60, fontSize: 13),
+              ),
+              const SizedBox(height: 18),
+              if (!PlayerService.isPremium)
+                Container(
+                  width: double.infinity,
+                  padding: const EdgeInsets.all(16),
+                  margin: const EdgeInsets.only(bottom: 16),
+                  decoration: BoxDecoration(
+                    color: Colors.orange.withValues(alpha: 0.12),
+                    borderRadius: BorderRadius.circular(18),
+                    border: Border.all(color: Colors.orange),
+                  ),
+                  child: const Text(
+                    "Category-based quizzes are premium only. Upgrade later to unlock focused practice.",
+                    style: TextStyle(color: Colors.white70),
+                  ),
+                ),
+              Expanded(
+                child: ListView.builder(
+                  itemCount: categories.length,
+                  itemBuilder: (context, index) {
+                    final category = categories[index];
+                    final locked =
+                        !PlayerService.isPremium && category != "Mixed";
 
-                  return Padding(
-                    padding: const EdgeInsets.only(bottom: 12),
-                    child: ElevatedButton(
-                      style: ElevatedButton.styleFrom(
-                        backgroundColor:
-                            locked
-                                ? const Color(0xFF2A2F3A)
-                                : const Color(0xFF181C24),
-                        minimumSize: const Size(double.infinity, 58),
-                        shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(18),
+                    return Padding(
+                      padding: const EdgeInsets.only(bottom: 12),
+                      child: ElevatedButton(
+                        style: ElevatedButton.styleFrom(
+                          backgroundColor:
+                              locked
+                                  ? const Color(0xFF2A2F3A)
+                                  : const Color(0xFF181C24),
+                          foregroundColor: Colors.white,
+                          minimumSize: const Size(double.infinity, 60),
+                          alignment: Alignment.centerLeft,
+                          padding: const EdgeInsets.symmetric(horizontal: 18),
                         ),
-                      ),
-                      onPressed: () {
-                        if (locked) {
-                          ScaffoldMessenger.of(context).showSnackBar(
-                            const SnackBar(
-                              content: Text(
-                                "Premium required for category mode",
+                        onPressed: () {
+                          if (locked) {
+                            ScaffoldMessenger.of(context).showSnackBar(
+                              const SnackBar(
+                                content: Text(
+                                  "Premium required for category mode",
+                                ),
                               ),
+                            );
+                            return;
+                          }
+
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder:
+                                  (context) =>
+                                      NormalModeScreen(category: category),
                             ),
                           );
-                          return;
-                        }
-
-                        Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                            builder:
-                                (context) =>
-                                    NormalModeScreen(category: category),
-                          ),
-                        );
-                      },
-                      child: Row(
-                        mainAxisAlignment: MainAxisAlignment.center,
-                        children: [
-                          Text(
-                            category,
-                            style: const TextStyle(
-                              fontSize: 18,
-                              fontWeight: FontWeight.bold,
+                        },
+                        child: Row(
+                          children: [
+                            Icon(
+                              locked ? Icons.lock_rounded : Icons.topic_rounded,
+                              size: 20,
+                              color:
+                                  locked
+                                      ? Colors.white38
+                                      : Colors.lightBlueAccent,
                             ),
-                          ),
-                          if (locked) ...[
-                            const SizedBox(width: 10),
-                            const Icon(Icons.lock, size: 18),
+                            const SizedBox(width: 12),
+                            Text(
+                              category,
+                              style: const TextStyle(
+                                fontSize: 18,
+                                fontWeight: FontWeight.bold,
+                              ),
+                            ),
+                            if (locked) ...[
+                              const Spacer(),
+                              const Icon(
+                                Icons.workspace_premium_rounded,
+                                size: 18,
+                              ),
+                            ],
                           ],
-                        ],
+                        ),
                       ),
-                    ),
-                  );
-                },
+                    );
+                  },
+                ),
               ),
-            ),
-          ],
+            ],
+          ),
         ),
       ),
     );

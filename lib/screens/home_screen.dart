@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import '../helpers/mode_entry_helper.dart';
+import '../services/league_service.dart';
 import '../services/player_service.dart';
 import '../services/stamina_service.dart';
+import '../widgets/league_badge.dart';
 import '../widgets/stamina_bar.dart';
 import 'leaderboard_screen.dart';
 import 'premium_screen.dart';
@@ -59,65 +61,14 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 
   Widget buildLeagueProgressCard() {
-    final currentLeague = PlayerService.getLeague();
-    final nextLeague = PlayerService.getNextLeagueName();
-    final progress = PlayerService.getLeagueProgress();
-    final xpToNext = PlayerService.getXpToNextLeague();
+    final progress = LeagueService.progressForXp(PlayerService.totalXp);
 
-    return Container(
-      width: double.infinity,
-      padding: const EdgeInsets.all(16),
-      decoration: BoxDecoration(
-        color: const Color(0xFF181C24),
-        borderRadius: BorderRadius.circular(20),
-        border: Border.all(color: Colors.white10),
-      ),
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          Row(
-            children: [
-              const Icon(Icons.emoji_events_rounded, color: Colors.amber),
-              const SizedBox(width: 8),
-              const Text(
-                "League Progress",
-                style: TextStyle(
-                  fontSize: 16,
-                  fontWeight: FontWeight.bold,
-                  color: Colors.white,
-                ),
-              ),
-              const Spacer(),
-              Text(
-                currentLeague,
-                style: const TextStyle(
-                  color: Colors.lightBlueAccent,
-                  fontWeight: FontWeight.bold,
-                ),
-              ),
-            ],
-          ),
-          const SizedBox(height: 12),
-          ClipRRect(
-            borderRadius: BorderRadius.circular(12),
-            child: LinearProgressIndicator(
-              value: progress,
-              minHeight: 12,
-              backgroundColor: const Color(0xFF2B3242),
-              valueColor: const AlwaysStoppedAnimation<Color>(
-                Colors.blueAccent,
-              ),
-            ),
-          ),
-          const SizedBox(height: 10),
-          Text(
-            nextLeague == "Max League"
-                ? "You are already in the highest league."
-                : "$xpToNext XP needed to reach $nextLeague",
-            style: const TextStyle(color: Colors.white70, fontSize: 13),
-          ),
-        ],
-      ),
+    return LeagueProgressCard(
+      currentLeague: progress.currentLeague,
+      nextLeague: progress.nextLeague,
+      progress: progress.progress,
+      xpToNextLeague: progress.xpToNextLeague,
+      totalXp: PlayerService.totalXp,
     );
   }
 
@@ -355,7 +306,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
   @override
   Widget build(BuildContext context) {
-    final String leagueName = PlayerService.getLeague();
+    final league = LeagueService.leagueForXp(PlayerService.totalXp);
 
     return Scaffold(
       appBar: AppBar(
@@ -404,20 +355,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   ),
                   child: Row(
                     children: [
-                      Container(
-                        width: 62,
-                        height: 62,
-                        decoration: BoxDecoration(
-                          color: Colors.white.withValues(alpha: 0.14),
-                          shape: BoxShape.circle,
-                          border: Border.all(color: Colors.white24),
-                        ),
-                        child: const Icon(
-                          Icons.person,
-                          size: 34,
-                          color: Colors.white,
-                        ),
-                      ),
+                      LeagueBadge(league: league, size: 62),
                       const SizedBox(width: 16),
                       Expanded(
                         child: Column(
@@ -433,7 +371,7 @@ class _HomeScreenState extends State<HomeScreen> {
                             ),
                             const SizedBox(height: 6),
                             Text(
-                              "League: $leagueName",
+                              "${league.name} League",
                               style: TextStyle(
                                 color: Colors.white.withValues(alpha: 0.9),
                                 fontSize: 14,
@@ -441,7 +379,7 @@ class _HomeScreenState extends State<HomeScreen> {
                             ),
                             const SizedBox(height: 2),
                             Text(
-                              "XP: ${PlayerService.totalXp}",
+                              "${PlayerService.totalXp} XP",
                               style: TextStyle(
                                 color: Colors.white.withValues(alpha: 0.9),
                                 fontSize: 14,

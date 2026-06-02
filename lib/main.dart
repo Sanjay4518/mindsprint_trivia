@@ -1,42 +1,13 @@
-import 'dart:async';
 import 'package:flutter/material.dart';
-import 'services/ad_service.dart';
-import 'services/audio_service.dart';
-import 'services/player_service.dart';
-import 'services/question_service.dart';
-import 'services/settings_service.dart';
-import 'services/stamina_service.dart';
-import 'screens/home_screen.dart';
+import 'screens/splash_screen.dart';
 
-void main() async {
+void main() {
   WidgetsFlutterBinding.ensureInitialized();
-
-  await PlayerService.loadPlayer();
-  await StaminaService.loadStamina();
-  await SettingsService.loadSettings();
-  await QuestionService.loadQuestions();
-  unawaited(AdService.instance.initialize());
-
-  // TEMP ONLY:
-  // Keep this for one run if premium is stuck from earlier testing.
-  // After confirming premium is reset, REMOVE this line.
-
   runApp(const MyApp());
 }
 
-class MyApp extends StatefulWidget {
+class MyApp extends StatelessWidget {
   const MyApp({super.key});
-
-  @override
-  State<MyApp> createState() => _MyAppState();
-}
-
-class _MyAppState extends State<MyApp> {
-  @override
-  void initState() {
-    super.initState();
-    AudioService.startMusic();
-  }
 
   @override
   Widget build(BuildContext context) {
@@ -58,8 +29,32 @@ class _MyAppState extends State<MyApp> {
           centerTitle: true,
           foregroundColor: Colors.white,
         ),
+        elevatedButtonTheme: ElevatedButtonThemeData(
+          style: ElevatedButton.styleFrom(
+            backgroundColor: const Color(0xFF4F8CFF),
+            foregroundColor: Colors.white,
+            padding: const EdgeInsets.symmetric(vertical: 15, horizontal: 18),
+            textStyle: const TextStyle(
+              fontSize: 15,
+              fontWeight: FontWeight.w800,
+            ),
+            shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(16),
+            ),
+          ),
+        ),
+        outlinedButtonTheme: OutlinedButtonThemeData(
+          style: OutlinedButton.styleFrom(
+            foregroundColor: Colors.white70,
+            side: const BorderSide(color: Color(0xFF3B4659)),
+            padding: const EdgeInsets.symmetric(vertical: 15, horizontal: 18),
+            shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(16),
+            ),
+          ),
+        ),
       ),
-      home: const HomeScreen(),
+      home: const SplashScreen(),
     );
   }
 }

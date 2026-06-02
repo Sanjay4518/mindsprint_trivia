@@ -5,6 +5,13 @@ class PlayerService {
   static String username = "Player";
   static int totalXp = 0;
   static int gamesPlayed = 0;
+  static int totalQuestionsAnswered = 0;
+  static int correctAnswers = 0;
+  static int wrongAnswers = 0;
+  static int rapidFireHighScore = 0;
+  static String lastKnownLeague = "Bronze";
+  static String? lastPromotionFromLeague;
+  static String? lastPromotionToLeague;
   static bool isPremium = false;
 
   static Future<void> loadPlayer() async {
@@ -13,6 +20,13 @@ class PlayerService {
     username = prefs.getString("username") ?? "Player";
     totalXp = prefs.getInt("xp") ?? 0;
     gamesPlayed = prefs.getInt("games") ?? 0;
+    totalQuestionsAnswered = prefs.getInt("totalQuestionsAnswered") ?? 0;
+    correctAnswers = prefs.getInt("correctAnswers") ?? 0;
+    wrongAnswers = prefs.getInt("wrongAnswers") ?? 0;
+    rapidFireHighScore = prefs.getInt("rapidFireHighScore") ?? 0;
+    lastKnownLeague = prefs.getString("lastKnownLeague") ?? getLeague();
+    lastPromotionFromLeague = prefs.getString("lastPromotionFromLeague");
+    lastPromotionToLeague = prefs.getString("lastPromotionToLeague");
     isPremium = prefs.getBool("premium") ?? false;
   }
 
@@ -22,6 +36,21 @@ class PlayerService {
     await prefs.setString("username", username);
     await prefs.setInt("xp", totalXp);
     await prefs.setInt("games", gamesPlayed);
+    await prefs.setInt("totalQuestionsAnswered", totalQuestionsAnswered);
+    await prefs.setInt("correctAnswers", correctAnswers);
+    await prefs.setInt("wrongAnswers", wrongAnswers);
+    await prefs.setInt("rapidFireHighScore", rapidFireHighScore);
+    await prefs.setString("lastKnownLeague", lastKnownLeague);
+    if (lastPromotionFromLeague == null || lastPromotionToLeague == null) {
+      await prefs.remove("lastPromotionFromLeague");
+      await prefs.remove("lastPromotionToLeague");
+    } else {
+      await prefs.setString(
+        "lastPromotionFromLeague",
+        lastPromotionFromLeague!,
+      );
+      await prefs.setString("lastPromotionToLeague", lastPromotionToLeague!);
+    }
     await prefs.setBool("premium", isPremium);
   }
 
@@ -31,9 +60,75 @@ class PlayerService {
   }
 
   static Future<void> addXp(int xp) async {
+    final previousLeague = getLeague();
+
     totalXp += xp;
     gamesPlayed++;
+
+    _detectPromotion(previousLeague);
     await savePlayer();
+  }
+
+  static Future<void> recordNormalResult({
+    required int xpEarned,
+    required int correct,
+    required int wrong,
+  }) async {
+    final previousLeague = getLeague();
+
+    totalXp += xpEarned;
+    gamesPlayed++;
+    correctAnswers += correct;
+    wrongAnswers += wrong;
+    totalQuestionsAnswered += correct + wrong;
+
+    _detectPromotion(previousLeague);
+    await savePlayer();
+  }
+
+  static Future<void> recordRapidFireResult({
+    required int xpEarned,
+    required int score,
+    required int correct,
+    required int wrong,
+  }) async {
+    final previousLeague = getLeague();
+
+    totalXp += xpEarned;
+    gamesPlayed++;
+    correctAnswers += correct;
+    wrongAnswers += wrong;
+    totalQuestionsAnswered += correct + wrong;
+    if (score > rapidFireHighScore) {
+      rapidFireHighScore = score;
+    }
+
+    _detectPromotion(previousLeague);
+    await savePlayer();
+  }
+
+  static void _detectPromotion(String previousLeague) {
+    final currentLeague = getLeague();
+    final previousRank = LeagueService.rankForLeague(previousLeague);
+    final currentRank = LeagueService.rankForLeague(currentLeague);
+
+    lastKnownLeague = currentLeague;
+
+    if (currentRank > previousRank) {
+      lastPromotionFromLeague = previousLeague;
+      lastPromotionToLeague = currentLeague;
+    } else {
+      lastPromotionFromLeague = null;
+      lastPromotionToLeague = null;
+    }
+  }
+
+  static bool get hasRecentPromotion =>
+      lastPromotionFromLeague != null && lastPromotionToLeague != null;
+
+  static double get accuracyPercentage {
+    if (totalQuestionsAnswered == 0) return 0;
+    return (correctAnswers / totalQuestionsAnswered) * 100;
   }
 
   static Future<void> setPremium(bool value) async {

@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import '../services/league_service.dart';
 import '../services/player_service.dart';
+import '../widgets/league_badge.dart';
 
 class ProfileScreen extends StatefulWidget {
   const ProfileScreen({super.key});
@@ -17,7 +19,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
     loadProfile();
   }
 
-  void loadProfile() async {
+  Future<void> loadProfile() async {
     await PlayerService.loadPlayer();
     if (!mounted) return;
     setState(() {
@@ -25,7 +27,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
     });
   }
 
-  void saveName() async {
+  Future<void> saveName() async {
     await PlayerService.updateUsername(nameController.text);
     if (!mounted) return;
     ScaffoldMessenger.of(
@@ -40,26 +42,57 @@ class _ProfileScreenState extends State<ProfileScreen> {
     super.dispose();
   }
 
-  Widget infoTile(String title, String value, Color accent) {
+  Widget sectionTitle(String title) {
+    return Padding(
+      padding: const EdgeInsets.only(bottom: 12),
+      child: Text(
+        title,
+        style: const TextStyle(
+          color: Colors.white,
+          fontSize: 16,
+          fontWeight: FontWeight.w800,
+        ),
+      ),
+    );
+  }
+
+  Widget statTile({
+    required String title,
+    required String value,
+    required IconData icon,
+    required Color color,
+  }) {
     return Container(
-      width: double.infinity,
-      margin: const EdgeInsets.only(bottom: 12),
-      padding: const EdgeInsets.all(16),
+      padding: const EdgeInsets.all(14),
       decoration: BoxDecoration(
         color: const Color(0xFF181C24),
-        borderRadius: BorderRadius.circular(18),
-        border: Border.all(color: accent.withValues(alpha: 0.18)),
+        borderRadius: BorderRadius.circular(16),
+        border: Border.all(color: color.withValues(alpha: 0.18)),
       ),
-      child: Row(
-        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Text(title, style: const TextStyle(color: Colors.white70)),
+          Icon(icon, color: color, size: 22),
+          const Spacer(),
           Text(
             value,
-            style: TextStyle(
-              color: accent,
-              fontWeight: FontWeight.bold,
-              fontSize: 16,
+            maxLines: 1,
+            overflow: TextOverflow.ellipsis,
+            style: const TextStyle(
+              color: Colors.white,
+              fontSize: 20,
+              fontWeight: FontWeight.w900,
+            ),
+          ),
+          const SizedBox(height: 4),
+          Text(
+            title,
+            maxLines: 2,
+            overflow: TextOverflow.ellipsis,
+            style: const TextStyle(
+              color: Colors.white54,
+              fontSize: 12,
+              height: 1.2,
             ),
           ),
         ],
@@ -67,45 +100,97 @@ class _ProfileScreenState extends State<ProfileScreen> {
     );
   }
 
-  Widget buildLeagueProgressCard() {
-    final progress = PlayerService.getLeagueProgress();
-    final nextLeague = PlayerService.getNextLeagueName();
-    final xpToNext = PlayerService.getXpToNextLeague();
+  Widget buildHeader() {
+    final progress = LeagueService.progressForXp(PlayerService.totalXp);
+    final league = progress.currentLeague;
 
     return Container(
       width: double.infinity,
-      margin: const EdgeInsets.only(bottom: 14),
+      padding: const EdgeInsets.all(20),
+      decoration: BoxDecoration(
+        color: const Color(0xFF181C24),
+        borderRadius: BorderRadius.circular(22),
+        border: Border.all(color: league.color.withValues(alpha: 0.35)),
+      ),
+      child: Row(
+        children: [
+          LeagueBadge(league: league, size: 68),
+          const SizedBox(width: 16),
+          Expanded(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text(
+                  PlayerService.username,
+                  maxLines: 1,
+                  overflow: TextOverflow.ellipsis,
+                  style: const TextStyle(
+                    color: Colors.white,
+                    fontSize: 24,
+                    fontWeight: FontWeight.w900,
+                  ),
+                ),
+                const SizedBox(height: 6),
+                Text(
+                  "${league.name} League",
+                  style: TextStyle(
+                    color: league.color,
+                    fontWeight: FontWeight.w800,
+                  ),
+                ),
+                const SizedBox(height: 6),
+                Text(
+                  "${PlayerService.totalXp} total XP",
+                  style: const TextStyle(color: Colors.white60, fontSize: 13),
+                ),
+              ],
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+
+  Widget buildNameEditor() {
+    return Container(
       padding: const EdgeInsets.all(16),
       decoration: BoxDecoration(
         color: const Color(0xFF181C24),
         borderRadius: BorderRadius.circular(18),
-        border: Border.all(color: Colors.blueAccent.withValues(alpha: 0.20)),
+        border: Border.all(color: Colors.white10),
       ),
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
+      child: Row(
         children: [
-          const Text(
-            "League Progress",
-            style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
-          ),
-          const SizedBox(height: 10),
-          ClipRRect(
-            borderRadius: BorderRadius.circular(10),
-            child: LinearProgressIndicator(
-              value: progress,
-              minHeight: 12,
-              backgroundColor: const Color(0xFF2B3242),
-              valueColor: const AlwaysStoppedAnimation<Color>(
-                Colors.blueAccent,
+          Expanded(
+            child: TextField(
+              controller: nameController,
+              style: const TextStyle(color: Colors.white),
+              decoration: InputDecoration(
+                labelText: "Username",
+                labelStyle: const TextStyle(color: Colors.white54),
+                filled: true,
+                fillColor: const Color(0xFF232A36),
+                border: OutlineInputBorder(
+                  borderRadius: BorderRadius.circular(14),
+                  borderSide: BorderSide.none,
+                ),
               ),
             ),
           ),
-          const SizedBox(height: 10),
-          Text(
-            nextLeague == "Max League"
-                ? "You are already in the highest league."
-                : "$xpToNext XP needed to reach $nextLeague",
-            style: const TextStyle(color: Colors.white70),
+          const SizedBox(width: 12),
+          SizedBox(
+            height: 54,
+            child: ElevatedButton(
+              onPressed: saveName,
+              style: ElevatedButton.styleFrom(
+                backgroundColor: const Color(0xFF4F8CFF),
+                foregroundColor: Colors.white,
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(14),
+                ),
+              ),
+              child: const Text("Save"),
+            ),
           ),
         ],
       ),
@@ -114,95 +199,79 @@ class _ProfileScreenState extends State<ProfileScreen> {
 
   @override
   Widget build(BuildContext context) {
-    final league = PlayerService.getLeague();
+    final progress = LeagueService.progressForXp(PlayerService.totalXp);
 
     return Scaffold(
-      appBar: AppBar(title: const Text("Profile")),
-      body: Padding(
-        padding: const EdgeInsets.all(20),
-        child: Column(
-          children: [
-            Container(
-              width: double.infinity,
-              padding: const EdgeInsets.all(20),
-              decoration: BoxDecoration(
-                gradient: const LinearGradient(
-                  colors: [Color(0xFF1D2B64), Color(0xFF4F8CFF)],
-                ),
-                borderRadius: BorderRadius.circular(22),
+      appBar: AppBar(title: const Text("Player Dashboard")),
+      body: SafeArea(
+        child: SingleChildScrollView(
+          padding: const EdgeInsets.fromLTRB(20, 8, 20, 24),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              buildHeader(),
+              const SizedBox(height: 16),
+              LeagueProgressCard(
+                currentLeague: progress.currentLeague,
+                nextLeague: progress.nextLeague,
+                progress: progress.progress,
+                xpToNextLeague: progress.xpToNextLeague,
+                totalXp: PlayerService.totalXp,
               ),
-              child: Column(
-                children: const [
-                  CircleAvatar(
-                    radius: 34,
-                    backgroundColor: Colors.white24,
-                    child: Icon(Icons.person, size: 36, color: Colors.white),
-                  ),
-                  SizedBox(height: 12),
-                  Text(
-                    "Player Profile",
-                    style: TextStyle(
-                      fontSize: 20,
-                      fontWeight: FontWeight.bold,
-                      color: Colors.white,
-                    ),
-                  ),
-                ],
-              ),
-            ),
-            const SizedBox(height: 20),
-            Container(
-              padding: const EdgeInsets.all(16),
-              decoration: BoxDecoration(
-                color: const Color(0xFF181C24),
-                borderRadius: BorderRadius.circular(18),
-              ),
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
+              const SizedBox(height: 20),
+              sectionTitle("Performance"),
+              GridView.count(
+                shrinkWrap: true,
+                physics: const NeverScrollableScrollPhysics(),
+                crossAxisCount: 2,
+                mainAxisSpacing: 12,
+                crossAxisSpacing: 12,
+                childAspectRatio: 1.35,
                 children: [
-                  const Text(
-                    "Player Name",
-                    style: TextStyle(
-                      fontWeight: FontWeight.bold,
-                      color: Colors.white70,
-                    ),
+                  statTile(
+                    title: "Games Played",
+                    value: "${PlayerService.gamesPlayed}",
+                    icon: Icons.sports_esports_rounded,
+                    color: Colors.greenAccent,
                   ),
-                  const SizedBox(height: 10),
-                  TextField(
-                    controller: nameController,
-                    style: const TextStyle(color: Colors.white),
-                    decoration: InputDecoration(
-                      filled: true,
-                      fillColor: const Color(0xFF232A36),
-                      border: OutlineInputBorder(
-                        borderRadius: BorderRadius.circular(14),
-                        borderSide: BorderSide.none,
-                      ),
-                      hintText: "Enter your name",
-                      hintStyle: const TextStyle(color: Colors.white38),
-                    ),
+                  statTile(
+                    title: "Accuracy",
+                    value:
+                        "${PlayerService.accuracyPercentage.toStringAsFixed(1)}%",
+                    icon: Icons.track_changes_rounded,
+                    color: Colors.orangeAccent,
                   ),
-                  const SizedBox(height: 12),
-                  SizedBox(
-                    width: double.infinity,
-                    child: ElevatedButton(
-                      onPressed: saveName,
-                      child: const Text("Save"),
-                    ),
+                  statTile(
+                    title: "Questions",
+                    value: "${PlayerService.totalQuestionsAnswered}",
+                    icon: Icons.quiz_rounded,
+                    color: Colors.lightBlueAccent,
+                  ),
+                  statTile(
+                    title: "Rapid High Score",
+                    value: "${PlayerService.rapidFireHighScore}",
+                    icon: Icons.flash_on_rounded,
+                    color: Colors.pinkAccent,
+                  ),
+                  statTile(
+                    title: "Correct",
+                    value: "${PlayerService.correctAnswers}",
+                    icon: Icons.check_circle_rounded,
+                    color: Colors.green,
+                  ),
+                  statTile(
+                    title: "Wrong",
+                    value: "${PlayerService.wrongAnswers}",
+                    icon: Icons.cancel_rounded,
+                    color: Colors.redAccent,
                   ),
                 ],
               ),
-            ),
-            const SizedBox(height: 16),
-            buildLeagueProgressCard(),
-            infoTile("Total XP", "${PlayerService.totalXp}", Colors.amber),
-            infoTile(
-              "Games Played",
-              "${PlayerService.gamesPlayed}",
-              Colors.greenAccent,
-            ),
-            infoTile("League", league, Colors.lightBlueAccent),
-          ],
+              const SizedBox(height: 20),
+              sectionTitle("Profile"),
+              buildNameEditor(),
+            ],
+          ),
         ),
       ),
     );

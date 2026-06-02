@@ -102,15 +102,18 @@ class LeagueService {
       currentLeague: current,
       nextLeague: next,
       progress:
-          span <= 0
-              ? 1.0
-              : (earnedInLeague / span).clamp(0.0, 1.0).toDouble(),
+          span <= 0 ? 1.0 : (earnedInLeague / span).clamp(0.0, 1.0).toDouble(),
       xpToNextLeague: (next.minXp - xp).clamp(0, next.minXp).toInt(),
     );
   }
 
   static List<String> get leagueNames =>
       leagues.map((league) => league.name).toList(growable: false);
+
+  static int rankForLeague(String leagueName) {
+    final index = leagues.indexWhere((league) => league.name == leagueName);
+    return index < 0 ? 0 : index;
+  }
 
   static Color colorForLeague(String leagueName) {
     return leagues

@@ -74,7 +74,11 @@ class _ResultScreenState extends State<ResultScreen> {
 
     if (!saved) {
       await PlayerService.loadPlayer();
-      await PlayerService.addXp(totalXpEarned);
+      await PlayerService.recordNormalResult(
+        xpEarned: totalXpEarned,
+        correct: widget.correct,
+        wrong: widget.wrong,
+      );
       await StaminaService.saveStamina();
       saved = true;
     }

@@ -38,7 +38,12 @@ class _RapidFireResultScreenState extends State<RapidFireResultScreen> {
     if (!saved) {
       await PlayerService.loadPlayer();
       int xpToAdd = widget.score > 0 ? widget.score : 0;
-      await PlayerService.addXp(xpToAdd);
+      await PlayerService.recordRapidFireResult(
+        xpEarned: xpToAdd,
+        score: widget.score,
+        correct: widget.correct,
+        wrong: widget.wrong,
+      );
       saved = true;
     }
 
@@ -189,102 +194,104 @@ class _RapidFireResultScreenState extends State<RapidFireResultScreen> {
           IconButton(onPressed: showInfo, icon: const Icon(Icons.info_outline)),
         ],
       ),
-      body: Padding(
-        padding: const EdgeInsets.all(22),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            Container(
-              width: double.infinity,
-              padding: const EdgeInsets.all(20),
-              decoration: BoxDecoration(
-                gradient: const LinearGradient(
-                  colors: [Color(0xFF4B1D95), Color(0xFFFF5E62)],
+      body: SafeArea(
+        child: SingleChildScrollView(
+          padding: const EdgeInsets.all(22),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Container(
+                width: double.infinity,
+                padding: const EdgeInsets.all(20),
+                decoration: BoxDecoration(
+                  gradient: const LinearGradient(
+                    colors: [Color(0xFF4B1D95), Color(0xFFFF5E62)],
+                  ),
+                  borderRadius: BorderRadius.circular(24),
                 ),
-                borderRadius: BorderRadius.circular(24),
-              ),
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  const Text(
-                    "Final Score",
-                    style: TextStyle(color: Colors.white70, fontSize: 15),
-                  ),
-                  const SizedBox(height: 8),
-                  Text(
-                    "${widget.score} XP",
-                    style: const TextStyle(
-                      color: Colors.white,
-                      fontSize: 34,
-                      fontWeight: FontWeight.bold,
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    const Text(
+                      "Final Score",
+                      style: TextStyle(color: Colors.white70, fontSize: 15),
                     ),
-                  ),
-                  const SizedBox(height: 10),
-                  Text(
-                    "Current League: ${PlayerService.getLeague()}",
-                    style: const TextStyle(color: Colors.white70),
-                  ),
+                    const SizedBox(height: 8),
+                    Text(
+                      "${widget.score} XP",
+                      style: const TextStyle(
+                        color: Colors.white,
+                        fontSize: 34,
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
+                    const SizedBox(height: 10),
+                    Text(
+                      "Current League: ${PlayerService.getLeague()}",
+                      style: const TextStyle(color: Colors.white70),
+                    ),
+                  ],
+                ),
+              ),
+              const SizedBox(height: 18),
+              Row(
+                children: [
+                  buildStatCard("Correct", "${widget.correct}", Colors.green),
+                  const SizedBox(width: 12),
+                  buildStatCard("Wrong", "${widget.wrong}", Colors.redAccent),
                 ],
               ),
-            ),
-            const SizedBox(height: 18),
-            Row(
-              children: [
-                buildStatCard("Correct", "${widget.correct}", Colors.green),
-                const SizedBox(width: 12),
-                buildStatCard("Wrong", "${widget.wrong}", Colors.redAccent),
-              ],
-            ),
-            const SizedBox(height: 12),
-            Row(
-              children: [
-                buildStatCard(
-                  "Best Streak",
-                  "${widget.bestStreak}",
-                  Colors.orange,
-                ),
-                const SizedBox(width: 12),
-                buildStatCard("XP Saved", "$savedXp", Colors.amber),
-              ],
-            ),
-            const SizedBox(height: 12),
-            Container(
-              width: double.infinity,
-              padding: const EdgeInsets.all(16),
-              decoration: BoxDecoration(
-                color: const Color(0xFF181C24),
-                borderRadius: BorderRadius.circular(18),
+              const SizedBox(height: 12),
+              Row(
+                children: [
+                  buildStatCard(
+                    "Best Streak",
+                    "${widget.bestStreak}",
+                    Colors.orange,
+                  ),
+                  const SizedBox(width: 12),
+                  buildStatCard("XP Saved", "$savedXp", Colors.amber),
+                ],
               ),
-              child: Text(
-                "Weakest Category: ${widget.weakestCategory}",
-                style: const TextStyle(
-                  fontSize: 18,
-                  color: Colors.white,
-                  fontWeight: FontWeight.w600,
+              const SizedBox(height: 12),
+              Container(
+                width: double.infinity,
+                padding: const EdgeInsets.all(16),
+                decoration: BoxDecoration(
+                  color: const Color(0xFF181C24),
+                  borderRadius: BorderRadius.circular(18),
+                ),
+                child: Text(
+                  "Weakest Category: ${widget.weakestCategory}",
+                  style: const TextStyle(
+                    fontSize: 18,
+                    color: Colors.white,
+                    fontWeight: FontWeight.w600,
+                  ),
                 ),
               ),
-            ),
-            buildUpsellCard(),
-            const Spacer(),
-            SizedBox(
-              width: double.infinity,
-              child: ElevatedButton(
-                onPressed: playAgain,
-                child: const Text("Play Again"),
-              ),
-            ),
-            const SizedBox(height: 10),
-            SizedBox(
-              width: double.infinity,
-              child: ElevatedButton(
-                onPressed: goHome,
-                style: ElevatedButton.styleFrom(
-                  backgroundColor: const Color(0xFF232A36),
+              buildUpsellCard(),
+              const SizedBox(height: 20),
+              SizedBox(
+                width: double.infinity,
+                child: ElevatedButton(
+                  onPressed: playAgain,
+                  child: const Text("Play Again"),
                 ),
-                child: const Text("Main Menu"),
               ),
-            ),
-          ],
+              const SizedBox(height: 10),
+              SizedBox(
+                width: double.infinity,
+                child: ElevatedButton(
+                  onPressed: goHome,
+                  style: ElevatedButton.styleFrom(
+                    backgroundColor: const Color(0xFF232A36),
+                  ),
+                  child: const Text("Main Menu"),
+                ),
+              ),
+            ],
+          ),
         ),
       ),
     );
