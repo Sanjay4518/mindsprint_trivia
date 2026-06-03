@@ -1,0 +1,1519 @@
+﻿========================================================================
+QUESTIONS.JSON AUDIT SUMMARY (read-only)
+========================================================================
+Total questions: 2138
+
+--- Category counts ---
+  Static GK: 240
+  Technology: 240
+  Geography: 230
+  Math: 230
+  Polity: 208
+  Defence: 200
+  History: 200
+  Reasoning: 200
+  Science: 200
+  Current Affairs: 190
+
+--- Duplicate IDs: 100 id values, 100 extra rows ---
+  ca_121: appears 2 times
+  ca_122: appears 2 times
+  ca_123: appears 2 times
+  ca_124: appears 2 times
+  ca_125: appears 2 times
+  ca_126: appears 2 times
+  ca_127: appears 2 times
+  ca_128: appears 2 times
+  ca_129: appears 2 times
+  ca_130: appears 2 times
+  ca_131: appears 2 times
+  ca_132: appears 2 times
+  ca_133: appears 2 times
+  ca_134: appears 2 times
+  ca_135: appears 2 times
+  ca_136: appears 2 times
+  ca_137: appears 2 times
+  ca_138: appears 2 times
+  ca_139: appears 2 times
+  ca_140: appears 2 times
+  sgk_001: appears 2 times
+  sgk_002: appears 2 times
+  sgk_003: appears 2 times
+  sgk_004: appears 2 times
+  sgk_005: appears 2 times
+  sgk_006: appears 2 times
+  sgk_007: appears 2 times
+  sgk_008: appears 2 times
+  sgk_009: appears 2 times
+  sgk_010: appears 2 times
+  sgk_011: appears 2 times
+  sgk_012: appears 2 times
+  sgk_013: appears 2 times
+  sgk_014: appears 2 times
+  sgk_015: appears 2 times
+  sgk_016: appears 2 times
+  sgk_017: appears 2 times
+  sgk_018: appears 2 times
+  sgk_019: appears 2 times
+  sgk_020: appears 2 times
+  sgk_021: appears 2 times
+  sgk_022: appears 2 times
+  sgk_023: appears 2 times
+  sgk_024: appears 2 times
+  sgk_025: appears 2 times
+  sgk_026: appears 2 times
+  sgk_027: appears 2 times
+  sgk_028: appears 2 times
+  sgk_029: appears 2 times
+  sgk_030: appears 2 times
+  sgk_031: appears 2 times
+  sgk_032: appears 2 times
+  sgk_033: appears 2 times
+  sgk_034: appears 2 times
+  sgk_035: appears 2 times
+  sgk_036: appears 2 times
+  sgk_037: appears 2 times
+  sgk_038: appears 2 times
+  sgk_039: appears 2 times
+  sgk_040: appears 2 times
+  tech_041: appears 2 times
+  tech_042: appears 2 times
+  tech_043: appears 2 times
+  tech_044: appears 2 times
+  tech_045: appears 2 times
+  tech_046: appears 2 times
+  tech_047: appears 2 times
+  tech_048: appears 2 times
+  tech_049: appears 2 times
+  tech_050: appears 2 times
+  tech_051: appears 2 times
+  tech_052: appears 2 times
+  tech_053: appears 2 times
+  tech_054: appears 2 times
+  tech_055: appears 2 times
+  tech_056: appears 2 times
+  tech_057: appears 2 times
+  tech_058: appears 2 times
+  tech_059: appears 2 times
+  tech_060: appears 2 times
+  tech_061: appears 2 times
+  tech_062: appears 2 times
+  tech_063: appears 2 times
+  tech_064: appears 2 times
+  tech_065: appears 2 times
+  tech_066: appears 2 times
+  tech_067: appears 2 times
+  tech_068: appears 2 times
+  tech_069: appears 2 times
+  tech_070: appears 2 times
+  tech_071: appears 2 times
+  tech_072: appears 2 times
+  tech_073: appears 2 times
+  tech_074: appears 2 times
+  tech_075: appears 2 times
+  tech_076: appears 2 times
+  tech_077: appears 2 times
+  tech_078: appears 2 times
+  tech_079: appears 2 times
+  tech_080: appears 2 times
+
+--- correctIndex (overall) ---
+  0: 582 (27.2%)
+  1: 1158 (54.2%)
+  2: 350 (16.4%)
+  3: 48 (2.2%)
+
+--- correctIndex by category ---
+  Current Affairs: 1=186, 2=4
+  Defence: 1=196, 2=4
+  Geography: 0=19, 1=143, 2=66, 3=2
+  History: 0=53, 1=89, 2=52, 3=6
+  Math: 0=190, 1=28, 2=6, 3=6
+  Polity: 0=32, 1=95, 2=72, 3=9
+  Reasoning: 0=92, 1=65, 2=24, 3=19
+  Science: 0=7, 1=135, 2=57, 3=1
+  Static GK: 0=153, 1=65, 2=17, 3=5
+  Technology: 0=36, 1=156, 2=48
+
+--- Invalid correctIndex: 0 ---
+
+--- Options count != 4: 0 ---
+
+--- Duplicate options within question: 5 ---
+  rea_002: ['EV', 'FU', 'GU', 'EV']
+  rea_038: ['61', '121', '121', 'None']
+  rea_196: ['365', '725', '725', '7250']
+  mat_070: ['41', '83', '41', '55']
+  mat_210: ['212', '107', '212', '212']
+
+--- Empty/missing fields: 0 ---
+
+--- Malformed (any structural issue): 5 ---
+  rea_002: duplicate-options
+  rea_038: duplicate-options
+  rea_196: duplicate-options
+  mat_070: duplicate-options
+  mat_210: duplicate-options
+
+--- Encoding/mojibake: 0 ---
+
+--- Exact duplicate question text: 105 groups, 105 redundant ---
+  [2] ['his_120', 'his_192']
+      which event occurred earliest?
+  [2] ['geo_041', 'sgk_088']
+      which river flows through a rift valley in india?
+  [2] ['geo_081', 'sgk_048']
+      which river originates from the amarkantak plateau?
+  [2] ['ca_121', 'ca_121']
+      recent discussions around india's fiscal strategy emphasize which key challenge?
+  [2] ['ca_122', 'ca_122']
+      recent debates on ai-generated content regulation primarily revolve around which concern?
+  [2] ['ca_123', 'ca_123']
+      recent climate finance discussions highlight which major issue for developing countries?
+  [2] ['ca_124', 'ca_124']
+      indiaÆs recent focus on connectivity corridors (like imec-type initiatives) aims to achieve what str
+  [2] ['ca_125', 'ca_125']
+      recent expansion of dbt (direct benefit transfer) systems primarily aims to:
+  [2] ['ca_126', 'ca_126']
+      recent emphasis on multi-domain warfare highlights integration of which domains?
+  [2] ['ca_127', 'ca_127']
+      recent global reports stress æinclusive growthÆ. what does this imply?
+  [2] ['ca_128', 'ca_128']
+      recent discussions around un reforms focus mainly on:
+  [2] ['ca_129', 'ca_129']
+      recent push in indiaÆs space sector liberalization aims to:
+  [2] ['ca_130', 'ca_130']
+      which emerging concept promotes reducing emissions across supply chains and industries?
+  [2] ['ca_131', 'ca_131']
+      recent growth in indiaÆs startup ecosystem is largely driven by:
+  [2] ['ca_132', 'ca_132']
+      the rise of cyber warfare in recent conflicts emphasizes which capability?
+  [2] ['ca_133', 'ca_133']
+      indiaÆs recent trade diversification strategy aims to:
+  [2] ['ca_134', 'ca_134']
+      recent advancements in fusion energy research are significant because they:
+  [2] ['ca_135', 'ca_135']
+      recent environmental indices highlight which global concern?
+  [2] ['ca_136', 'ca_136']
+      recent agriculture-related policies in india emphasize which approach?
+  [2] ['ca_137', 'ca_137']
+      recent emphasis on ev adoption aims to address which issue?
+  [2] ['ca_138', 'ca_138']
+      recent discussions on digital taxation globally focus on:
+  [2] ['ca_139', 'ca_139']
+      indiaÆs recent push in 6g research reflects which objective?
+  [2] ['ca_140', 'ca_140']
+      recent global economic forums emphasize 'resilient recovery'. what does this imply?
+  [2] ['mat_024', 'mat_164']
+      if a:b = 5:7 and b:c = 3:4, find a:c.
+  [2] ['mat_069', 'mat_179']
+      if x + 1/x = 5, find x▓ + 1/x▓.
+  [2] ['sgk_001', 'sgk_001']
+      which of the following bodies is responsible for adjudicating disputes related to elections in india
+  [2] ['sgk_002', 'sgk_002']
+      which classical dance form is known for its strong narrative style and elaborate facial expressions 
+  [2] ['sgk_003', 'sgk_003']
+      which unesco world heritage site in india is associated with rock-cut architecture and buddhist mona
+  [2] ['sgk_004', 'sgk_004']
+      which international organization is primarily responsible for maintaining global financial stability
+  [2] ['sgk_005', 'sgk_005']
+      which indian civilian award is given for exceptional service in any field of human endeavor and rank
+  [2] ['sgk_006', 'sgk_006']
+      which of the following books is authored by amartya sen?
+  [2] ['sgk_007', 'sgk_007']
+      which term in cricket refers to a bowler taking three wickets in three consecutive deliveries?
+  [2] ['sgk_008', 'sgk_008']
+      which river is known as the 'sorrow of bihar' due to frequent flooding?
+  [2] ['sgk_009', 'sgk_009']
+      which institution in india is responsible for managing monetary policy?
+  [2] ['sgk_010', 'sgk_010']
+      which grouping includes brazil, russia, india, china, and south africa?
+  [2] ['sgk_011', 'sgk_011']
+      which indian classical music tradition is primarily associated with north india?
+  [2] ['sgk_012', 'sgk_012']
+      which monument is known for its indo-islamic architecture and located in delhi?
+  [2] ['sgk_013', 'sgk_013']
+      where is the headquarters of the world trade organization located?
+  [2] ['sgk_014', 'sgk_014']
+      which indian scientist is known for his work in space research and served as president of india?
+  [2] ['sgk_015', 'sgk_015']
+      which award is given for bravery in peacetime in india?
+  [2] ['sgk_016', 'sgk_016']
+      who authored 'discovery of india'?
+  [2] ['sgk_017', 'sgk_017']
+      in which sport is the term 'smash' commonly used?
+  [2] ['sgk_018', 'sgk_018']
+      which mountain range separates europe and asia?
+  [2] ['sgk_019', 'sgk_019']
+      what does gdp primarily measure?
+  [2] ['sgk_020', 'sgk_020']
+      which organization deals with global health issues?
+  [2] ['sgk_021', 'sgk_021']
+      which dance form originated in tamil nadu and is known for geometric movements?
+  [2] ['sgk_022', 'sgk_022']
+      which monument is associated with vijayanagara empire architecture?
+  [2] ['sgk_023', 'sgk_023']
+      which organization focuses on global education, science and culture?
+  [2] ['sgk_024', 'sgk_024']
+      who is known as the father of indian nuclear program?
+  [2] ['sgk_025', 'sgk_025']
+      which award is india's highest literary honor?
+  [2] ['sgk_026', 'sgk_026']
+      who wrote 'the god of small things'?
+  [2] ['sgk_027', 'sgk_027']
+      which sport uses the term 'love' for zero score?
+  [2] ['sgk_028', 'sgk_028']
+      which desert is the largest hot desert in the world?
+  [2] ['sgk_029', 'sgk_029']
+      which body regulates the securities market in india?
+  [2] ['sgk_030', 'sgk_030']
+      which organization focuses on child welfare globally?
+  [2] ['sgk_031', 'sgk_031']
+      which instrument is primarily associated with carnatic music?
+  [2] ['sgk_032', 'sgk_032']
+      which monument is known for its dravidian architecture?
+  [2] ['sgk_033', 'sgk_033']
+      which organization provides loans to developing countries?
+  [2] ['sgk_034', 'sgk_034']
+      who is known for discovering the raman effect?
+  [2] ['sgk_035', 'sgk_035']
+      which award is given for excellence in sports in india?
+  [2] ['sgk_036', 'sgk_036']
+      who authored 'india after gandhi'?
+  [2] ['sgk_037', 'sgk_037']
+      which sport uses the term 'checkmate'?
+  [2] ['sgk_038', 'sgk_038']
+      which plateau is known as the 'roof of the world'?
+  [2] ['sgk_039', 'sgk_039']
+      which institution prepares india's union budget?
+  [2] ['sgk_040', 'sgk_040']
+      which organization focuses on agriculture and food security?
+  [2] ['tech_041', 'tech_041']
+      what is the primary function of a dns cache in networking?
+  [2] ['tech_042', 'tech_042']
+      which type of attack involves overwhelming a system with traffic to make it unavailable?
+  [2] ['tech_043', 'tech_043']
+      which cloud service model provides virtualized computing resources like servers and storage?
+  [2] ['tech_044', 'tech_044']
+      which of the following best describes overfitting in machine learning?
+  [2] ['tech_045', 'tech_045']
+      what is the primary advantage of iot devices?
+  [2] ['tech_046', 'tech_046']
+      what role does encryption play in digital payments?
+  [2] ['tech_047', 'tech_047']
+      which protocol is primarily used for sending emails?
+  [2] ['tech_048', 'tech_048']
+      which practice enhances password security?
+  [2] ['tech_049', 'tech_049']
+      what enables seamless connectivity between multiple devices in 5g networks?
+  [2] ['tech_050', 'tech_050']
+      which concept ensures that only authorized users access system resources?
+  [2] ['tech_051', 'tech_051']
+      which cloud feature allows automatic resource scaling based on demand?
+  [2] ['tech_052', 'tech_052']
+      which attack exploits vulnerabilities in web applications by injecting malicious sql queries?
+  [2] ['tech_053', 'tech_053']
+      which ai technique involves trial-and-error learning using rewards?
+  [2] ['tech_054', 'tech_054']
+      what is the main use of virtual reality?
+  [2] ['tech_055', 'tech_055']
+      what does http stand for?
+  [2] ['tech_056', 'tech_056']
+      which technology underpins most cryptocurrencies?
+  [2] ['tech_057', 'tech_057']
+      which system allows machines to operate with minimal human intervention?
+  [2] ['tech_058', 'tech_058']
+      what is the role of navigation satellites?
+  [2] ['tech_059', 'tech_059']
+      which technology is used for wireless data transfer over short distances?
+  [2] ['tech_060', 'tech_060']
+      which data structure is best suited for hierarchical data representation?
+  [2] ['tech_061', 'tech_061']
+      what is the purpose of a vpn?
+  [2] ['tech_062', 'tech_062']
+      which feature ensures data availability even during system failure?
+  [2] ['tech_063', 'tech_063']
+      which application uses ai for voice recognition?
+  [2] ['tech_064', 'tech_064']
+      what is the key feature of edge computing?
+  [2] ['tech_065', 'tech_065']
+      which device connects multiple networks together?
+  [2] ['tech_066', 'tech_066']
+      what is the main advantage of digital wallets?
+  [2] ['tech_067', 'tech_067']
+      which technology integrates sensors and machines for smart manufacturing?
+  [2] ['tech_068', 'tech_068']
+      what type of satellite is primarily used for weather forecasting?
+  [2] ['tech_069', 'tech_069']
+      which technology is used for contactless card payments?
+  [2] ['tech_070', 'tech_070']
+      which principle ensures data hiding in programming?
+  [2] ['tech_071', 'tech_071']
+      which attack intercepts communication between two parties secretly?
+  [2] ['tech_072', 'tech_072']
+      which model provides full control over infrastructure?
+  [2] ['tech_073', 'tech_073']
+      which field of ai focuses on enabling machines to understand human language?
+  [2] ['tech_074', 'tech_074']
+      what is the purpose of smart contracts in blockchain?
+  [2] ['tech_075', 'tech_075']
+      which protocol is used for file transfer over networks?
+  [2] ['tech_076', 'tech_076']
+      which system enables instant interbank fund transfer in india?
+  [2] ['tech_077', 'tech_077']
+      which concept refers to machines learning from data without human programming?
+  [2] ['tech_078', 'tech_078']
+      what is the function of a launch vehicle?
+  [2] ['tech_079', 'tech_079']
+      which device converts digital signals to analog signals?
+  [2] ['tech_080', 'tech_080']
+      which concept allows a function to call itself?
+
+--- Near-duplicate (normalized): 107 groups, 108 redundant ---
+  [3] ['mat_069', 'mat_179', 'mat_209']
+      norm: if x 1 x 5 find x▓ 1 x▓
+        mat_069: If x + 1/x = 5, find x▓ + 1/x▓.
+        mat_179: If x + 1/x = 5, find x▓ + 1/x▓.
+        mat_209: If x - 1/x = 5, find x▓ + 1/x▓.
+  [2] ['his_120', 'his_192']
+      norm: which event occurred earliest
+        his_120: Which event occurred earliest?
+        his_192: Which event occurred earliest?
+  [2] ['geo_041', 'sgk_088']
+      norm: which river flows through a rift valley in india
+        geo_041: Which river flows through a rift valley in India?
+        sgk_088: Which river flows through a rift valley in India?
+  [2] ['geo_081', 'sgk_048']
+      norm: which river originates from the amarkantak plateau
+        geo_081: Which river originates from the Amarkantak Plateau?
+        sgk_048: Which river originates from the Amarkantak plateau?
+  [2] ['ca_121', 'ca_121']
+      norm: recent discussions around india s fiscal strategy emphasize which key challenge
+        ca_121: Recent discussions around India's fiscal strategy emphasize which key challenge?
+        ca_121: Recent discussions around India's fiscal strategy emphasize which key challenge?
+  [2] ['ca_122', 'ca_122']
+      norm: recent debates on ai generated content regulation primarily revolve around which
+        ca_122: Recent debates on AI-generated content regulation primarily revolve around which concern?
+        ca_122: Recent debates on AI-generated content regulation primarily revolve around which concern?
+  [2] ['ca_123', 'ca_123']
+      norm: recent climate finance discussions highlight which major issue for developing co
+        ca_123: Recent climate finance discussions highlight which major issue for developing countries?
+        ca_123: Recent climate finance discussions highlight which major issue for developing countries?
+  [2] ['ca_124', 'ca_124']
+      norm: india s recent focus on connectivity corridors like imec type initiatives aims t
+        ca_124: IndiaÆs recent focus on connectivity corridors (like IMEC-type initiatives) aims to achieve what str
+        ca_124: IndiaÆs recent focus on connectivity corridors (like IMEC-type initiatives) aims to achieve what str
+  [2] ['ca_125', 'ca_125']
+      norm: recent expansion of dbt direct benefit transfer systems primarily aims to
+        ca_125: Recent expansion of DBT (Direct Benefit Transfer) systems primarily aims to:
+        ca_125: Recent expansion of DBT (Direct Benefit Transfer) systems primarily aims to:
+  [2] ['ca_126', 'ca_126']
+      norm: recent emphasis on multi domain warfare highlights integration of which domains
+        ca_126: Recent emphasis on multi-domain warfare highlights integration of which domains?
+        ca_126: Recent emphasis on multi-domain warfare highlights integration of which domains?
+  [2] ['ca_127', 'ca_127']
+      norm: recent global reports stress inclusive growth what does this imply
+        ca_127: Recent global reports stress æinclusive growthÆ. What does this imply?
+        ca_127: Recent global reports stress æinclusive growthÆ. What does this imply?
+  [2] ['ca_128', 'ca_128']
+      norm: recent discussions around un reforms focus mainly on
+        ca_128: Recent discussions around UN reforms focus mainly on:
+        ca_128: Recent discussions around UN reforms focus mainly on:
+  [2] ['ca_129', 'ca_129']
+      norm: recent push in india s space sector liberalization aims to
+        ca_129: Recent push in IndiaÆs space sector liberalization aims to:
+        ca_129: Recent push in IndiaÆs space sector liberalization aims to:
+  [2] ['ca_130', 'ca_130']
+      norm: which emerging concept promotes reducing emissions across supply chains and indu
+        ca_130: Which emerging concept promotes reducing emissions across supply chains and industries?
+        ca_130: Which emerging concept promotes reducing emissions across supply chains and industries?
+  [2] ['ca_131', 'ca_131']
+      norm: recent growth in india s startup ecosystem is largely driven by
+        ca_131: Recent growth in IndiaÆs startup ecosystem is largely driven by:
+        ca_131: Recent growth in IndiaÆs startup ecosystem is largely driven by:
+  [2] ['ca_132', 'ca_132']
+      norm: the rise of cyber warfare in recent conflicts emphasizes which capability
+        ca_132: The rise of cyber warfare in recent conflicts emphasizes which capability?
+        ca_132: The rise of cyber warfare in recent conflicts emphasizes which capability?
+  [2] ['ca_133', 'ca_133']
+      norm: india s recent trade diversification strategy aims to
+        ca_133: IndiaÆs recent trade diversification strategy aims to:
+        ca_133: IndiaÆs recent trade diversification strategy aims to:
+  [2] ['ca_134', 'ca_134']
+      norm: recent advancements in fusion energy research are significant because they
+        ca_134: Recent advancements in fusion energy research are significant because they:
+        ca_134: Recent advancements in fusion energy research are significant because they:
+  [2] ['ca_135', 'ca_135']
+      norm: recent environmental indices highlight which global concern
+        ca_135: Recent environmental indices highlight which global concern?
+        ca_135: Recent environmental indices highlight which global concern?
+  [2] ['ca_136', 'ca_136']
+      norm: recent agriculture related policies in india emphasize which approach
+        ca_136: Recent agriculture-related policies in India emphasize which approach?
+        ca_136: Recent agriculture-related policies in India emphasize which approach?
+  [2] ['ca_137', 'ca_137']
+      norm: recent emphasis on ev adoption aims to address which issue
+        ca_137: Recent emphasis on EV adoption aims to address which issue?
+        ca_137: Recent emphasis on EV adoption aims to address which issue?
+  [2] ['ca_138', 'ca_138']
+      norm: recent discussions on digital taxation globally focus on
+        ca_138: Recent discussions on digital taxation globally focus on:
+        ca_138: Recent discussions on digital taxation globally focus on:
+  [2] ['ca_139', 'ca_139']
+      norm: india s recent push in 6g research reflects which objective
+        ca_139: IndiaÆs recent push in 6G research reflects which objective?
+        ca_139: IndiaÆs recent push in 6G research reflects which objective?
+  [2] ['ca_140', 'ca_140']
+      norm: recent global economic forums emphasize resilient recovery what does this imply
+        ca_140: Recent global economic forums emphasize 'resilient recovery'. What does this imply?
+        ca_140: Recent global economic forums emphasize 'resilient recovery'. What does this imply?
+  [2] ['mat_009', 'mat_099']
+      norm: if x 1 x 3 find x▓ 1 x▓
+        mat_009: If x + 1/x = 3, find x▓ + 1/x▓.
+        mat_099: If x - 1/x = 3, find x▓ + 1/x▓.
+  [2] ['mat_024', 'mat_164']
+      norm: if a b 5 7 and b c 3 4 find a c
+        mat_024: If A:B = 5:7 and B:C = 3:4, find A:C.
+        mat_164: If A:B = 5:7 and B:C = 3:4, find A:C.
+  [2] ['mat_128', 'mat_139']
+      norm: if x 1 x 4 find x▓ 1 x▓
+        mat_128: If x + 1/x = 4, find x▓ + 1/x▓.
+        mat_139: If x - 1/x = 4, find x▓ + 1/x▓.
+  [2] ['sgk_001', 'sgk_001']
+      norm: which of the following bodies is responsible for adjudicating disputes related t
+        sgk_001: Which of the following bodies is responsible for adjudicating disputes related to elections in India
+        sgk_001: Which of the following bodies is responsible for adjudicating disputes related to elections in India
+  [2] ['sgk_002', 'sgk_002']
+      norm: which classical dance form is known for its strong narrative style and elaborate
+        sgk_002: Which classical dance form is known for its strong narrative style and elaborate facial expressions 
+        sgk_002: Which classical dance form is known for its strong narrative style and elaborate facial expressions 
+  [2] ['sgk_003', 'sgk_003']
+      norm: which unesco world heritage site in india is associated with rock cut architectu
+        sgk_003: Which UNESCO World Heritage Site in India is associated with rock-cut architecture and Buddhist mona
+        sgk_003: Which UNESCO World Heritage Site in India is associated with rock-cut architecture and Buddhist mona
+  [2] ['sgk_004', 'sgk_004']
+      norm: which international organization is primarily responsible for maintaining global
+        sgk_004: Which international organization is primarily responsible for maintaining global financial stability
+        sgk_004: Which international organization is primarily responsible for maintaining global financial stability
+  [2] ['sgk_005', 'sgk_005']
+      norm: which indian civilian award is given for exceptional service in any field of hum
+        sgk_005: Which Indian civilian award is given for exceptional service in any field of human endeavor and rank
+        sgk_005: Which Indian civilian award is given for exceptional service in any field of human endeavor and rank
+  [2] ['sgk_006', 'sgk_006']
+      norm: which of the following books is authored by amartya sen
+        sgk_006: Which of the following books is authored by Amartya Sen?
+        sgk_006: Which of the following books is authored by Amartya Sen?
+  [2] ['sgk_007', 'sgk_007']
+      norm: which term in cricket refers to a bowler taking three wickets in three consecuti
+        sgk_007: Which term in cricket refers to a bowler taking three wickets in three consecutive deliveries?
+        sgk_007: Which term in cricket refers to a bowler taking three wickets in three consecutive deliveries?
+  [2] ['sgk_008', 'sgk_008']
+      norm: which river is known as the sorrow of bihar due to frequent flooding
+        sgk_008: Which river is known as the 'Sorrow of Bihar' due to frequent flooding?
+        sgk_008: Which river is known as the 'Sorrow of Bihar' due to frequent flooding?
+  [2] ['sgk_009', 'sgk_009']
+      norm: which institution in india is responsible for managing monetary policy
+        sgk_009: Which institution in India is responsible for managing monetary policy?
+        sgk_009: Which institution in India is responsible for managing monetary policy?
+  [2] ['sgk_010', 'sgk_010']
+      norm: which grouping includes brazil russia india china and south africa
+        sgk_010: Which grouping includes Brazil, Russia, India, China, and South Africa?
+        sgk_010: Which grouping includes Brazil, Russia, India, China, and South Africa?
+  [2] ['sgk_011', 'sgk_011']
+      norm: which indian classical music tradition is primarily associated with north india
+        sgk_011: Which Indian classical music tradition is primarily associated with North India?
+        sgk_011: Which Indian classical music tradition is primarily associated with North India?
+  [2] ['sgk_012', 'sgk_012']
+      norm: which monument is known for its indo islamic architecture and located in delhi
+        sgk_012: Which monument is known for its Indo-Islamic architecture and located in Delhi?
+        sgk_012: Which monument is known for its Indo-Islamic architecture and located in Delhi?
+  [2] ['sgk_013', 'sgk_013']
+      norm: where is the headquarters of the world trade organization located
+        sgk_013: Where is the headquarters of the World Trade Organization located?
+        sgk_013: Where is the headquarters of the World Trade Organization located?
+  [2] ['sgk_014', 'sgk_014']
+      norm: which indian scientist is known for his work in space research and served as pre
+        sgk_014: Which Indian scientist is known for his work in space research and served as President of India?
+        sgk_014: Which Indian scientist is known for his work in space research and served as President of India?
+  [2] ['sgk_015', 'sgk_015']
+      norm: which award is given for bravery in peacetime in india
+        sgk_015: Which award is given for bravery in peacetime in India?
+        sgk_015: Which award is given for bravery in peacetime in India?
+  [2] ['sgk_016', 'sgk_016']
+      norm: who authored discovery of india
+        sgk_016: Who authored 'Discovery of India'?
+        sgk_016: Who authored 'Discovery of India'?
+  [2] ['sgk_017', 'sgk_017']
+      norm: in which sport is the term smash commonly used
+        sgk_017: In which sport is the term 'smash' commonly used?
+        sgk_017: In which sport is the term 'smash' commonly used?
+  [2] ['sgk_018', 'sgk_018']
+      norm: which mountain range separates europe and asia
+        sgk_018: Which mountain range separates Europe and Asia?
+        sgk_018: Which mountain range separates Europe and Asia?
+  [2] ['sgk_019', 'sgk_019']
+      norm: what does gdp primarily measure
+        sgk_019: What does GDP primarily measure?
+        sgk_019: What does GDP primarily measure?
+  [2] ['sgk_020', 'sgk_020']
+      norm: which organization deals with global health issues
+        sgk_020: Which organization deals with global health issues?
+        sgk_020: Which organization deals with global health issues?
+  [2] ['sgk_021', 'sgk_021']
+      norm: which dance form originated in tamil nadu and is known for geometric movements
+        sgk_021: Which dance form originated in Tamil Nadu and is known for geometric movements?
+        sgk_021: Which dance form originated in Tamil Nadu and is known for geometric movements?
+  [2] ['sgk_022', 'sgk_022']
+      norm: which monument is associated with vijayanagara empire architecture
+        sgk_022: Which monument is associated with Vijayanagara Empire architecture?
+        sgk_022: Which monument is associated with Vijayanagara Empire architecture?
+  [2] ['sgk_023', 'sgk_023']
+      norm: which organization focuses on global education science and culture
+        sgk_023: Which organization focuses on global education, science and culture?
+        sgk_023: Which organization focuses on global education, science and culture?
+  [2] ['sgk_024', 'sgk_024']
+      norm: who is known as the father of indian nuclear program
+        sgk_024: Who is known as the father of Indian nuclear program?
+        sgk_024: Who is known as the father of Indian nuclear program?
+  [2] ['sgk_025', 'sgk_025']
+      norm: which award is india s highest literary honor
+        sgk_025: Which award is India's highest literary honor?
+        sgk_025: Which award is India's highest literary honor?
+  [2] ['sgk_026', 'sgk_026']
+      norm: who wrote the god of small things
+        sgk_026: Who wrote 'The God of Small Things'?
+        sgk_026: Who wrote 'The God of Small Things'?
+  [2] ['sgk_027', 'sgk_027']
+      norm: which sport uses the term love for zero score
+        sgk_027: Which sport uses the term 'love' for zero score?
+        sgk_027: Which sport uses the term 'love' for zero score?
+  [2] ['sgk_028', 'sgk_028']
+      norm: which desert is the largest hot desert in the world
+        sgk_028: Which desert is the largest hot desert in the world?
+        sgk_028: Which desert is the largest hot desert in the world?
+  [2] ['sgk_029', 'sgk_029']
+      norm: which body regulates the securities market in india
+        sgk_029: Which body regulates the securities market in India?
+        sgk_029: Which body regulates the securities market in India?
+  [2] ['sgk_030', 'sgk_030']
+      norm: which organization focuses on child welfare globally
+        sgk_030: Which organization focuses on child welfare globally?
+        sgk_030: Which organization focuses on child welfare globally?
+  [2] ['sgk_031', 'sgk_031']
+      norm: which instrument is primarily associated with carnatic music
+        sgk_031: Which instrument is primarily associated with Carnatic music?
+        sgk_031: Which instrument is primarily associated with Carnatic music?
+  [2] ['sgk_032', 'sgk_032']
+      norm: which monument is known for its dravidian architecture
+        sgk_032: Which monument is known for its Dravidian architecture?
+        sgk_032: Which monument is known for its Dravidian architecture?
+  [2] ['sgk_033', 'sgk_033']
+      norm: which organization provides loans to developing countries
+        sgk_033: Which organization provides loans to developing countries?
+        sgk_033: Which organization provides loans to developing countries?
+  ... and 47 more groups
+
+--- Ambiguous / review flagged: 296 ---
+  pol_108 (Polity): manual-review-requested, meta-option, factual-debate, cag-reporting-debate-all-of-above
+      Q: Which authority submits its reports directly to the President and not to Parliament?
+      marked [3]: All of the above
+  rea_001 (Reasoning): manual-review-requested, math-reasoning-verify, likely-wrong-correctIndex-expected-720-at-index-1
+      Q: Find the next term: 4, 6, 12, 36, 144, ?
+      marked [2]: 864
+  sgk_001 (Static GK): manual-review-requested, election-dispute-body-debate
+      Q: Which of the following bodies is responsible for adjudicating disputes related to elections in India?
+      marked [3]: High Courts
+  sgk_001 (Static GK): manual-review-requested, election-dispute-body-debate
+      Q: Which of the following bodies is responsible for adjudicating disputes related to elections in India?
+      marked [3]: High Courts
+  pol_172 (Polity): meta-option
+      Q: Which emergency has no maximum time limit for its operation?
+      marked [2]: Financial Emergency
+  his_046 (History): answer-visible-in-stem
+      Q: Which committee proposed grouping of provinces under Cabinet Mission Plan?
+      marked [2]: Cabinet Mission
+  his_194 (History): answer-visible-in-stem
+      Q: Which Mughal ruler wrote his autobiography Tuzuk-i-Jahangiri?
+      marked [1]: Jahangir
+  his_198 (History): very-short-stem
+      Q: Who founded Arya Samaj?
+      marked [0]: Dayananda Saraswati
+  geo_142 (Geography): answer-visible-in-stem
+      Q: Which plate boundary type is associated with transform faults like San Andreas Fault?
+      marked [2]: Transform
+  sci_098 (Science): answer-visible-in-stem
+      Q: Which reaction type involves addition of atoms without removal?
+      marked [1]: Addition
+  ca_001 (Current Affairs): current-affairs-staleness
+      Q: Which of the following best describes the primary objective of the G20 grouping?
+      marked [1]: Platform for global economic coordination and financial stability
+  ca_002 (Current Affairs): current-affairs-staleness
+      Q: Which feature best distinguishes mission-mode government schemes like Digital India?
+      marked [1]: Time-bound implementation with measurable targets
+  ca_003 (Current Affairs): current-affairs-staleness
+      Q: Which of the following best explains the role of the Reserve Bank of India in inflation control?
+      marked [1]: Adjusting repo rates and liquidity conditions
+  ca_004 (Current Affairs): current-affairs-staleness
+      Q: Which of the following best reflects the goal of global climate agreements like COP summits?
+      marked [1]: Limit global temperature rise and reduce emissions
+  ca_005 (Current Affairs): current-affairs-staleness
+      Q: Why is IndiaÆs participation in QUAD strategically significant?
+      marked [1]: To strengthen maritime security and regional balance in Indo-Pacific
+  ca_006 (Current Affairs): current-affairs-staleness
+      Q: Which of the following is a key component measured by the Human Development Index (HDI)?
+      marked [1]: Life expectancy and education levels
+  ca_007 (Current Affairs): current-affairs-staleness
+      Q: Which of the following best explains the significance of reusable launch vehicle technology?
+      marked [1]: Lowers cost of space missions significantly
+  ca_008 (Current Affairs): current-affairs-staleness
+      Q: Which is a key objective of joint military exercises conducted by India with other countries?
+      marked [1]: Enhance interoperability and strategic cooperation
+  ca_009 (Current Affairs): current-affairs-staleness
+      Q: Which factor most directly influences a countryÆs GDP growth rate?
+      marked [1]: Investment and consumption levels
+  ca_010 (Current Affairs): current-affairs-staleness
+      Q: What is the primary objective of financial inclusion schemes in India?
+      marked [1]: Provide banking services to underserved populations
+  ca_011 (Current Affairs): current-affairs-staleness
+      Q: Which of the following best describes carbon neutrality?
+      marked [1]: Balancing carbon emissions with carbon removal
+  ca_012 (Current Affairs): current-affairs-staleness
+      Q: Which function is primarily associated with the World Trade Organization (WTO)?
+      marked [1]: Regulation of global trade rules
+  ca_013 (Current Affairs): current-affairs-staleness
+      Q: Which of the following best explains the importance of Artificial Intelligence in governance?
+      marked [1]: Improves decision-making through data analysis
+  ca_014 (Current Affairs): current-affairs-staleness
+      Q: Which index measures inequality within a country?
+      marked [1]: Gini coefficient
+  ca_015 (Current Affairs): current-affairs-staleness
+      Q: Which aspect is most critical in modern defense strategy involving cyber warfare?
+      marked [1]: Data security and network resilience
+  ca_016 (Current Affairs): current-affairs-staleness
+      Q: Which policy tool is used by RBI to control liquidity in the banking system?
+      marked [1]: Repo rate
+  ca_017 (Current Affairs): current-affairs-staleness
+      Q: Which factor is most important in strengthening bilateral relations between countries?
+      marked [1]: Mutual economic and strategic interests
+  ca_018 (Current Affairs): current-affairs-staleness
+      Q: Which of the following is a key aim of biodiversity conservation programs?
+      marked [1]: Protect species and ecosystems
+  ca_019 (Current Affairs): current-affairs-staleness
+      Q: Which of the following best explains the role of satellites in modern communication?
+      marked [1]: Enable long-distance signal transmission
+  ca_020 (Current Affairs): current-affairs-staleness
+      Q: Which is a key outcome expected from global economic summits like G20?
+      marked [1]: Policy coordination among major economies
+  ca_021 (Current Affairs): current-affairs-staleness
+      Q: Which indicator is most directly used to measure inflation in India?
+      marked [1]: CPI
+  ca_022 (Current Affairs): current-affairs-staleness
+      Q: Which is a major goal of infrastructure-focused government initiatives?
+      marked [1]: Boost economic growth and connectivity
+  ca_023 (Current Affairs): current-affairs-staleness
+      Q: Which of the following best describes the role of IMF?
+      marked [1]: Provide financial stability and support to countries
+  ca_024 (Current Affairs): current-affairs-staleness
+      Q: Which technology is increasingly used in modern warfare for surveillance?
+      marked [1]: Drones
+  ca_025 (Current Affairs): current-affairs-staleness
+      Q: Which concept focuses on sustainable use of resources without compromising future generations?
+      marked [1]: Sustainable development
+  ca_026 (Current Affairs): current-affairs-staleness
+      Q: Which innovation is most associated with digital payments in India?
+      marked [1]: UPI system
+  ca_027 (Current Affairs): current-affairs-staleness
+      Q: Which factor most directly affects fiscal deficit?
+      marked [1]: Government expenditure vs revenue gap
+  ca_028 (Current Affairs): current-affairs-staleness
+      Q: Which aspect is central to strategic partnerships between nations?
+      marked [1]: Shared geopolitical interests
+  ca_029 (Current Affairs): current-affairs-staleness
+      Q: Which index focuses on happiness and well-being of citizens?
+      marked [1]: World Happiness Report
+  ca_030 (Current Affairs): current-affairs-staleness
+      Q: Which gas is most associated with global warming?
+      marked [1]: Carbon dioxide
+  ca_031 (Current Affairs): current-affairs-staleness
+      Q: Which field is most impacted by advancements in gene editing technologies like CRISPR?
+      marked [1]: Biotechnology
+  ca_032 (Current Affairs): current-affairs-staleness
+      Q: Which objective is central to skill development initiatives in India?
+      marked [1]: Enhance employability
+  ca_033 (Current Affairs): current-affairs-staleness
+      Q: Which organization primarily deals with global health emergencies?
+      marked [1]: WHO
+  ca_034 (Current Affairs): current-affairs-staleness
+      Q: Which is a key objective of defense modernization programs?
+      marked [1]: Enhance combat readiness and technology
+  ca_035 (Current Affairs): current-affairs-staleness
+      Q: Which factor is most responsible for inflation in an economy?
+      marked [1]: Excess demand over supply
+  ca_036 (Current Affairs): current-affairs-staleness
+      Q: Which is a major goal of climate summits like COP?
+      marked [1]: Emission reduction commitments
+  ca_037 (Current Affairs): current-affairs-staleness
+      Q: Why are strategic chokepoints like the Strait of Hormuz important in global geopolitics?
+      marked [1]: Control of major energy supply routes
+  ca_038 (Current Affairs): current-affairs-staleness
+      Q: Which sector is most transformed by advancements in artificial intelligence?
+      marked [1]: Data processing and automation
+  ca_039 (Current Affairs): current-affairs-staleness
+      Q: Which concept focuses on reducing carbon footprint through lifestyle changes?
+      marked [1]: Sustainable living
+  ca_040 (Current Affairs): current-affairs-staleness
+      Q: Which index evaluates economic inequality within a population?
+      marked [2]: Gini coefficient
+  ca_041 (Current Affairs): current-affairs-staleness
+      Q: Which of the following best reflects the shift in IndiaÆs digital governance approach under recent Digital Public Infras
+      marked [2]: Creation of interoperable platforms like Aadhaar, UPI, and DigiLocker
+  ca_042 (Current Affairs): current-affairs-staleness
+      Q: Why has the increasing adoption of UPI been considered transformative for IndiaÆs financial ecosystem?
+      marked [2]: It enables real-time, low-cost digital transactions at scale
+  ca_043 (Current Affairs): current-affairs-staleness
+      Q: Which factor has been central to IndiaÆs recent foreign policy emphasis on the Indo-Pacific region?
+      marked [2]: Maritime security and trade routes
+  ca_044 (Current Affairs): current-affairs-staleness
+      Q: Which of the following best explains the concept of 'climate finance' discussed in recent global climate negotiations?
+      marked [1]: Financial support from developed to developing nations for climate action
+  ca_045 (Current Affairs): current-affairs-staleness
+      Q: What is the key significance of India's recent push in semiconductor manufacturing initiatives?
+      marked [1]: Achieving self-reliance in critical technology supply chains
+  ca_046 (Current Affairs): current-affairs-staleness
+      Q: Which trend has been highlighted in recent Human Development Index reports regarding developing countries?
+      marked [1]: Stagnation or reversal due to global crises
+  ca_047 (Current Affairs): current-affairs-staleness
+      Q: Which of the following best explains the significance of joint military exercises involving India and other nations?
+      marked [1]: Enhancing operational coordination and strategic trust
+  ca_048 (Current Affairs): current-affairs-staleness
+      Q: Which of the following best reflects the evolving role of BRICS in global governance?
+      marked [1]: Economic cooperation platform among emerging economies
+  ca_049 (Current Affairs): current-affairs-staleness
+      Q: Why has inflation targeting become a key policy framework in India?
+      marked [1]: To stabilize prices and maintain purchasing power
+  ca_050 (Current Affairs): current-affairs-staleness
+      Q: Which of the following best explains the growing importance of Artificial Intelligence in defense systems?
+      marked [1]: Enhancing decision-making and autonomous operations
+  ca_051 (Current Affairs): current-affairs-staleness
+      Q: Which concept has gained prominence in recent climate discussions to reduce emissions at the consumer level?
+      marked [1]: Lifestyle for Environment (LiFE)
+  ca_052 (Current Affairs): current-affairs-staleness
+      Q: Mission-mode schemes in India are increasingly evaluated based on which factor?
+      marked [1]: Output-based measurable outcomes
+  ca_053 (Current Affairs): current-affairs-staleness
+      Q: IndiaÆs engagement with Africa in recent years has focused primarily on which area?
+      marked [1]: Development partnership and capacity building
+  ca_054 (Current Affairs): current-affairs-staleness
+      Q: Which of the following best describes the purpose of the Global Hunger Index?
+      marked [1]: Assess hunger and malnutrition levels
+  ca_055 (Current Affairs): current-affairs-staleness
+      Q: Which technological domain is increasingly critical in modern warfare strategies?
+      marked [1]: Cybersecurity
+  ca_056 (Current Affairs): current-affairs-staleness
+      Q: Which factor has driven the rapid expansion of IndiaÆs digital economy?
+      marked [1]: Integration of digital payment systems and internet penetration
+  ca_057 (Current Affairs): current-affairs-staleness
+      Q: IndiaÆs recent space missions emphasize which strategic objective?
+      marked [1]: Scientific research and global collaboration
+  ca_058 (Current Affairs): current-affairs-staleness
+      Q: Which mechanism is commonly proposed to reduce carbon emissions through economic incentives?
+      marked [1]: Carbon pricing or carbon markets
+  ca_059 (Current Affairs): current-affairs-staleness
+      Q: Which of the following best describes the role of WHO in global governance?
+      marked [1]: Global health coordination and emergency response
+  ca_060 (Current Affairs): current-affairs-staleness
+      Q: Which is a major expected outcome from global summits like COP and G20?
+      marked [1]: Policy coordination on global challenges
+  ca_061 (Current Affairs): current-affairs-staleness
+      Q: IndiaÆs recent push toward inclusion of its government bonds in global indices is expected to have which major economic 
+      marked [1]: Increase in foreign portfolio investment inflows
+  ca_062 (Current Affairs): current-affairs-staleness
+      Q: The growing global focus on AI regulation frameworks is primarily aimed at addressing which concern?
+      marked [1]: Ensuring ethical use and data privacy
+  ca_063 (Current Affairs): current-affairs-staleness
+      Q: Recent COP discussions have emphasized 'loss and damage' funding. What does this concept refer to?
+      marked [1]: Compensation for climate-related damages in vulnerable countries
+  ca_064 (Current Affairs): current-affairs-staleness
+      Q: IndiaÆs increasing focus on indigenous defense production aligns with which broader strategic objective?
+      marked [1]: Achieving self-reliance and reducing import dependency
+  ca_065 (Current Affairs): current-affairs-staleness
+      Q: IndiaÆs engagement in the Global South dialogue initiatives reflects which diplomatic priority?
+      marked [1]: Strengthening leadership among developing nations
+  ca_066 (Current Affairs): current-affairs-staleness
+      Q: Recent global reports have highlighted increasing inequality post-pandemic. Which factor has contributed most to this tr
+      marked [1]: Unequal recovery across sectors and countries
+  ca_067 (Current Affairs): current-affairs-staleness
+      Q: Recent expansion of digital public infrastructure in India primarily aims to achieve which goal?
+      marked [1]: Enhance accessibility and transparency of services
+  ca_068 (Current Affairs): current-affairs-staleness
+      Q: Recent advancements in quantum computing are expected to significantly impact which field?
+      marked [1]: Cryptography and data security
+  ca_069 (Current Affairs): current-affairs-staleness
+      Q: IndiaÆs updated climate commitments focus heavily on which transition?
+      marked [1]: Renewable energy adoption
+  ca_070 (Current Affairs): current-affairs-staleness
+      Q: Recent reforms discussions in global institutions like IMF and World Bank focus on what key issue?
+      marked [1]: Greater representation of developing countries
+  ca_071 (Current Affairs): current-affairs-staleness
+      Q: The increasing adoption of Central Bank Digital Currency (CBDC) aims to achieve which objective?
+      marked [1]: Enhance digital payment efficiency and financial inclusion
+  ca_072 (Current Affairs): current-affairs-staleness
+      Q: Recent developments in hypersonic missile technology are significant because they:
+      marked [1]: Travel at speeds exceeding Mach 5 making interception difficult
+  ca_073 (Current Affairs): current-affairs-staleness
+      Q: IndiaÆs recent semiconductor initiatives are primarily aimed at:
+      marked [1]: Strengthening domestic electronics manufacturing ecosystem
+  ca_074 (Current Affairs): current-affairs-staleness
+      Q: Recent G20 discussions have emphasized sustainable growth. Which concept is central to this approach?
+      marked [1]: Inclusive and resilient economic development
+  ca_075 (Current Affairs): current-affairs-staleness
+      Q: Which concept is increasingly promoted globally to reduce environmental impact through individual behavior?
+      marked [1]: Sustainable lifestyle practices
+  ca_076 (Current Affairs): current-affairs-staleness
+      Q: IndiaÆs recent focus on supply chain resilience partnerships is primarily aimed at:
+      marked [1]: Diversifying and securing critical supply chains
+  ca_077 (Current Affairs): current-affairs-staleness
+      Q: Recent World Happiness Reports emphasize which factor as key to higher rankings?
+      marked [1]: Social support and well-being
+  ca_078 (Current Affairs): current-affairs-staleness
+      Q: Advancements in generative AI technologies raise concerns mainly related to:
+      marked [1]: Misinformation and ethical use
+  ca_079 (Current Affairs): current-affairs-staleness
+      Q: IndiaÆs focus on infrastructure development is expected to primarily boost:
+      marked [1]: Economic growth and logistics efficiency
+  ca_080 (Current Affairs): current-affairs-staleness
+      Q: The concept of network-centric warfare emphasizes:
+      marked [1]: Integration of information systems for real-time decision making
+  ca_081 (Current Affairs): current-affairs-staleness
+      Q: Recent RBI policy stance shifts have primarily focused on which balance?
+      marked [1]: Controlling inflation while supporting growth
+  ca_082 (Current Affairs): current-affairs-staleness
+      Q: Recent discussions on AI governance globally emphasize which regulatory priority?
+      marked [1]: Transparency, accountability, and data protection
+  ca_083 (Current Affairs): current-affairs-staleness
+      Q: Recent climate negotiations have stressed 'just transition'. What does this imply?
+      marked [1]: Fair transition to green economy considering workers and developing nations
+  ca_084 (Current Affairs): current-affairs-staleness
+      Q: IndiaÆs recent outreach to West Asia focuses significantly on which strategic area?
+      marked [1]: Energy security and connectivity corridors
+  ca_085 (Current Affairs): current-affairs-staleness
+      Q: Recent expansion of IndiaÆs digital identity ecosystem is intended to achieve what outcome?
+      marked [1]: Enable seamless service delivery across sectors
+  ca_086 (Current Affairs): current-affairs-staleness
+      Q: IndiaÆs emphasis on integrated theatre commands aims to improve which aspect of defense?
+      marked [1]: Jointness among armed forces
+  ca_087 (Current Affairs): current-affairs-staleness
+      Q: Recent global reports emphasize resilience. What does economic resilience refer to?
+      marked [1]: Ability to withstand shocks and recover quickly
+  ca_088 (Current Affairs): current-affairs-staleness
+      Q: Recent reforms in multilateral institutions are driven by which concern?
+      marked [1]: Need for equitable representation and governance
+  ca_089 (Current Affairs): current-affairs-staleness
+      Q: IndiaÆs recent advancements in space missions highlight which capability?
+      marked [1]: Cost-effective and reliable launch systems
+  ca_090 (Current Affairs): current-affairs-staleness
+      Q: Carbon markets discussed globally are designed to:
+      marked [1]: Provide economic incentives to reduce emissions
+  ca_091 (Current Affairs): current-affairs-staleness
+      Q: IndiaÆs recent push in logistics policy reforms is expected to:
+      marked [1]: Reduce transportation costs and improve efficiency
+  ca_092 (Current Affairs): current-affairs-staleness
+      Q: Recent developments in drone warfare highlight which strategic shift?
+      marked [1]: Increased reliance on unmanned and precision systems
+  ca_093 (Current Affairs): current-affairs-staleness
+      Q: IndiaÆs engagement with regional groupings like BIMSTEC emphasizes:
+      marked [1]: Regional connectivity and economic cooperation
+  ca_094 (Current Affairs): current-affairs-staleness
+      Q: Recent breakthroughs in mRNA technology are primarily significant for:
+      marked [1]: Rapid vaccine development and medical innovation
+  ca_095 (Current Affairs): current-affairs-staleness
+      Q: Recent economic surveys emphasize which factor as key to long-term growth?
+      marked [1]: Investment in infrastructure and human capital
+  ca_096 (Current Affairs): current-affairs-staleness
+      Q: Recent focus on green hydrogen missions aims to achieve what?
+      marked [1]: Promote clean energy and reduce carbon emissions
+  ca_097 (Current Affairs): current-affairs-staleness
+      Q: Which recent policy focus promotes circular economy principles?
+      marked [1]: Reuse, recycling, and resource efficiency
+  ca_098 (Current Affairs): current-affairs-staleness
+      Q: IndiaÆs focus on manufacturing under PLI schemes aims to:
+      marked [1]: Boost domestic production and global competitiveness
+  ca_099 (Current Affairs): current-affairs-staleness
+      Q: Recent semiconductor ecosystem initiatives are crucial for which sector?
+      marked [1]: Electronics and strategic industries
+  ca_100 (Current Affairs): current-affairs-staleness
+      Q: Recent global summits increasingly emphasize 'resilient supply chains'. What does this imply?
+      marked [1]: Diversified and secure supply networks
+  ca_101 (Current Affairs): current-affairs-staleness
+      Q: Cybersecurity strategies in recent policies focus mainly on:
+      marked [1]: Protecting digital infrastructure and data
+  ca_102 (Current Affairs): current-affairs-staleness
+      Q: Recent discussions in WTO revolve around which issue?
+      marked [1]: Trade rules and dispute resolution reforms
+  ca_103 (Current Affairs): current-affairs-staleness
+      Q: Which recent initiative focuses on restoring degraded ecosystems?
+      marked [1]: Ecosystem restoration programs
+  ca_104 (Current Affairs): current-affairs-staleness
+      Q: Recent fiscal policy debates in India emphasize which balance?
+      marked [1]: Balancing growth with fiscal discipline
+  ca_105 (Current Affairs): current-affairs-staleness
+      Q: IndiaÆs push in 5G technology primarily aims to:
+      marked [1]: Enhance connectivity and digital economy
+  ca_106 (Current Affairs): current-affairs-staleness
+      Q: Strategic partnerships in Indo-Pacific are largely focused on:
+      marked [1]: Ensuring free and open maritime routes
+  ca_107 (Current Affairs): current-affairs-staleness
+      Q: Recent global inequality reports highlight which concern?
+      marked [1]: Widening income gaps post-pandemic
+  ca_108 (Current Affairs): current-affairs-staleness
+      Q: Recent advancements in missile defense systems focus on:
+      marked [1]: Intercepting incoming threats effectively
+  ca_109 (Current Affairs): current-affairs-staleness
+      Q: Skill development initiatives in recent policy focus on:
+      marked [1]: Enhancing workforce capability for modern industries
+  ca_110 (Current Affairs): current-affairs-staleness
+      Q: Which approach is emphasized globally to reduce plastic pollution?
+      marked [1]: Reduce, reuse, recycle strategies
+  ca_111 (Current Affairs): current-affairs-staleness
+      Q: Recent developments in EV ecosystem in India aim to:
+      marked [1]: Promote sustainable transportation
+  ca_112 (Current Affairs): current-affairs-staleness
+      Q: Digital economy expansion is primarily driven by:
+      marked [1]: Technology adoption and digital infrastructure
+  ca_113 (Current Affairs): current-affairs-staleness
+      Q: Recent WHO initiatives have focused on:
+      marked [1]: Global health preparedness and response
+  ca_114 (Current Affairs): current-affairs-staleness
+      Q: Recent G20 agendas highlight which issue as a global priority?
+      marked [1]: Sustainable and inclusive economic growth
+  ca_115 (Current Affairs): current-affairs-staleness
+      Q: Recent advances in biotechnology are mainly applied in:
+      marked [1]: Healthcare and agriculture
+  ca_116 (Current Affairs): current-affairs-staleness
+      Q: Which recent global concept emphasizes net-zero emissions?
+      marked [1]: Balancing emissions with removal efforts
+  ca_117 (Current Affairs): current-affairs-staleness
+      Q: Modern defense policies increasingly rely on:
+      marked [1]: Technology-driven warfare systems
+  ca_118 (Current Affairs): current-affairs-staleness
+      Q: Financial inclusion initiatives primarily aim to:
+      marked [1]: Expand access to banking and financial services
+  ca_119 (Current Affairs): current-affairs-staleness
+      Q: IndiaÆs recent trade agreements focus on:
+      marked [1]: Enhancing market access and economic cooperation
+  ca_120 (Current Affairs): current-affairs-staleness
+      Q: Recent global development reports emphasize which key challenge?
+      marked [1]: Balancing growth with sustainability
+  ca_121 (Current Affairs): current-affairs-staleness
+      Q: Recent discussions around India's fiscal strategy emphasize which key challenge?
+      marked [1]: Balancing capital expenditure with fiscal deficit control
+  ca_122 (Current Affairs): current-affairs-staleness
+      Q: Recent debates on AI-generated content regulation primarily revolve around which concern?
+      marked [1]: Data privacy and misinformation risks
+  ca_123 (Current Affairs): current-affairs-staleness
+      Q: Recent climate finance discussions highlight which major issue for developing countries?
+      marked [1]: Access to adequate funding for adaptation and mitigation
+  ca_124 (Current Affairs): current-affairs-staleness
+      Q: IndiaÆs recent focus on connectivity corridors (like IMEC-type initiatives) aims to achieve what strategic outcome?
+      marked [1]: Diversified trade routes and economic integration
+  ca_125 (Current Affairs): current-affairs-staleness
+      Q: Recent expansion of DBT (Direct Benefit Transfer) systems primarily aims to:
+      marked [1]: Reduce leakages and improve efficiency in welfare delivery
+  ca_126 (Current Affairs): current-affairs-staleness
+      Q: Recent emphasis on multi-domain warfare highlights integration of which domains?
+      marked [1]: Land, air, sea, cyber, and space
+  ca_127 (Current Affairs): current-affairs-staleness
+      Q: Recent global reports stress æinclusive growthÆ. What does this imply?
+      marked [1]: Growth benefiting all sections of society
+  ca_128 (Current Affairs): current-affairs-staleness
+      Q: Recent discussions around UN reforms focus mainly on:
+      marked [1]: Increasing representation of developing nations in decision-making
+  ca_129 (Current Affairs): current-affairs-staleness
+      Q: Recent push in IndiaÆs space sector liberalization aims to:
+      marked [1]: Encourage private players and innovation
+  ca_130 (Current Affairs): current-affairs-staleness
+      Q: Which emerging concept promotes reducing emissions across supply chains and industries?
+      marked [1]: Green supply chain management
+  ca_131 (Current Affairs): current-affairs-staleness
+      Q: Recent growth in IndiaÆs startup ecosystem is largely driven by:
+      marked [1]: Digital infrastructure and policy support
+  ca_132 (Current Affairs): current-affairs-staleness
+      Q: The rise of cyber warfare in recent conflicts emphasizes which capability?
+      marked [1]: Protection of critical information infrastructure
+  ca_133 (Current Affairs): current-affairs-staleness
+      Q: IndiaÆs recent trade diversification strategy aims to:
+      marked [1]: Reduce risk by expanding multiple trade partners
+  ca_134 (Current Affairs): current-affairs-staleness
+      Q: Recent advancements in fusion energy research are significant because they:
+      marked [1]: Offer potential for clean and abundant energy
+  ca_135 (Current Affairs): current-affairs-staleness
+      Q: Recent environmental indices highlight which global concern?
+      marked [1]: Climate vulnerability and ecological degradation
+  ca_136 (Current Affairs): current-affairs-staleness
+      Q: Recent agriculture-related policies in India emphasize which approach?
+      marked [1]: Use of technology and sustainability in farming
+  ca_137 (Current Affairs): current-affairs-staleness
+      Q: Recent emphasis on EV adoption aims to address which issue?
+      marked [1]: Reduce carbon emissions in transport sector
+  ca_138 (Current Affairs): current-affairs-staleness
+      Q: Recent discussions on digital taxation globally focus on:
+      marked [1]: Taxing multinational digital companies fairly
+  ca_139 (Current Affairs): current-affairs-staleness
+      Q: IndiaÆs recent push in 6G research reflects which objective?
+      marked [1]: Future-ready communication infrastructure
+  ca_140 (Current Affairs): current-affairs-staleness
+      Q: Recent global economic forums emphasize 'resilient recovery'. What does this imply?
+      marked [1]: Recovery that can withstand future shocks
+  ca_121 (Current Affairs): current-affairs-staleness
+      Q: Recent discussions around India's fiscal strategy emphasize which key challenge?
+      marked [1]: Balancing capital expenditure with fiscal deficit control
+  ca_122 (Current Affairs): current-affairs-staleness
+      Q: Recent debates on AI-generated content regulation primarily revolve around which concern?
+      marked [1]: Data privacy and misinformation risks
+  ca_123 (Current Affairs): current-affairs-staleness
+      Q: Recent climate finance discussions highlight which major issue for developing countries?
+      marked [1]: Access to adequate funding for adaptation and mitigation
+  ca_124 (Current Affairs): current-affairs-staleness
+      Q: IndiaÆs recent focus on connectivity corridors (like IMEC-type initiatives) aims to achieve what strategic outcome?
+      marked [1]: Diversified trade routes and economic integration
+  ca_125 (Current Affairs): current-affairs-staleness
+      Q: Recent expansion of DBT (Direct Benefit Transfer) systems primarily aims to:
+      marked [1]: Reduce leakages and improve efficiency in welfare delivery
+  ca_126 (Current Affairs): current-affairs-staleness
+      Q: Recent emphasis on multi-domain warfare highlights integration of which domains?
+      marked [1]: Land, air, sea, cyber, and space
+  ca_127 (Current Affairs): current-affairs-staleness
+      Q: Recent global reports stress æinclusive growthÆ. What does this imply?
+      marked [1]: Growth benefiting all sections of society
+  ca_128 (Current Affairs): current-affairs-staleness
+      Q: Recent discussions around UN reforms focus mainly on:
+      marked [1]: Increasing representation of developing nations in decision-making
+  ca_129 (Current Affairs): current-affairs-staleness
+      Q: Recent push in IndiaÆs space sector liberalization aims to:
+      marked [1]: Encourage private players and innovation
+  ca_130 (Current Affairs): current-affairs-staleness
+      Q: Which emerging concept promotes reducing emissions across supply chains and industries?
+      marked [1]: Green supply chain management
+  ca_131 (Current Affairs): current-affairs-staleness
+      Q: Recent growth in IndiaÆs startup ecosystem is largely driven by:
+      marked [1]: Digital infrastructure and policy support
+  ca_132 (Current Affairs): current-affairs-staleness
+      Q: The rise of cyber warfare in recent conflicts emphasizes which capability?
+      marked [1]: Protection of critical information infrastructure
+  ca_133 (Current Affairs): current-affairs-staleness
+      Q: IndiaÆs recent trade diversification strategy aims to:
+      marked [1]: Reduce risk by expanding multiple trade partners
+  ca_134 (Current Affairs): current-affairs-staleness
+      Q: Recent advancements in fusion energy research are significant because they:
+      marked [1]: Offer potential for clean and abundant energy
+  ca_135 (Current Affairs): current-affairs-staleness
+      Q: Recent environmental indices highlight which global concern?
+      marked [1]: Climate vulnerability and ecological degradation
+  ca_136 (Current Affairs): current-affairs-staleness
+      Q: Recent agriculture-related policies in India emphasize which approach?
+      marked [1]: Use of technology and sustainability in farming
+  ca_137 (Current Affairs): current-affairs-staleness
+      Q: Recent emphasis on EV adoption aims to address which issue?
+      marked [1]: Reduce carbon emissions in transport sector
+  ca_138 (Current Affairs): current-affairs-staleness
+      Q: Recent discussions on digital taxation globally focus on:
+      marked [1]: Taxing multinational digital companies fairly
+  ca_139 (Current Affairs): current-affairs-staleness
+      Q: IndiaÆs recent push in 6G research reflects which objective?
+      marked [1]: Future-ready communication infrastructure
+  ca_140 (Current Affairs): current-affairs-staleness
+      Q: Recent global economic forums emphasize 'resilient recovery'. What does this imply?
+      marked [1]: Recovery that can withstand future shocks
+  ca_181 (Current Affairs): current-affairs-staleness
+      Q: Recent trends in IndiaÆs retail inflation have prompted policymakers to focus on which key factor?
+      marked [1]: Food price volatility management
+  ca_182 (Current Affairs): current-affairs-staleness
+      Q: Recent global AI governance discussions emphasize which principle for responsible deployment?
+      marked [1]: Human oversight and accountability
+  ca_183 (Current Affairs): current-affairs-staleness
+      Q: Recent emphasis on climate adaptation strategies in India focuses primarily on:
+      marked [1]: Resilience against extreme weather events
+  ca_184 (Current Affairs): current-affairs-staleness
+      Q: IndiaÆs recent emphasis on strategic autonomy is most visible in which approach?
+      marked [1]: Issue-based partnerships with multiple countries
+  ca_185 (Current Affairs): current-affairs-staleness
+      Q: Recent reforms in public service delivery systems aim to achieve:
+      marked [1]: Transparency and efficiency through digitization
+  ca_186 (Current Affairs): current-affairs-staleness
+      Q: Recent emphasis on indigenous aircraft carrier development signifies:
+      marked [1]: Enhancement of blue-water naval capabilities
+  ca_187 (Current Affairs): current-affairs-staleness
+      Q: Recent global economic outlook reports highlight which major risk?
+      marked [1]: Geopolitical tensions affecting trade and growth
+  ca_188 (Current Affairs): current-affairs-staleness
+      Q: Recent IMF lending frameworks are increasingly focused on which objective?
+      marked [1]: Debt sustainability and structural reforms
+  ca_189 (Current Affairs): current-affairs-staleness
+      Q: IndiaÆs recent progress in digital public infrastructure is globally recognized for:
+      marked [1]: Scalability and interoperability
+  ca_190 (Current Affairs): current-affairs-staleness
+      Q: Recent discussions on ænet-zero pathwaysÆ emphasize which strategy?
+      marked [1]: Balancing emissions with carbon sinks and technology
+  ca_191 (Current Affairs): current-affairs-staleness
+      Q: Recent push towards digital lending regulations aims to:
+      marked [1]: Protect consumers and ensure transparency
+  ca_192 (Current Affairs): current-affairs-staleness
+      Q: The recent focus on space militarization highlights which strategic concern?
+      marked [1]: Security of satellites and space assets
+  ca_193 (Current Affairs): current-affairs-staleness
+      Q: IndiaÆs engagement with ASEAN countries primarily aims at:
+      marked [1]: Trade, connectivity and regional stability
+  ca_194 (Current Affairs): current-affairs-staleness
+      Q: Recent breakthroughs in semiconductor technology aim to improve:
+      marked [1]: Processing power and energy efficiency
+  ca_195 (Current Affairs): current-affairs-staleness
+      Q: Recent reports on climate vulnerability emphasize which key factor?
+      marked [1]: Exposure and adaptive capacity of regions
+  ca_196 (Current Affairs): current-affairs-staleness
+      Q: Recent energy transition policies in India prioritize which approach?
+      marked [1]: Diversification into renewables and green fuels
+  ca_197 (Current Affairs): current-affairs-staleness
+      Q: Recent initiatives to combat desertification focus on:
+      marked [1]: Land restoration and sustainable practices
+  ca_198 (Current Affairs): current-affairs-staleness
+      Q: Recent reforms in IndiaÆs banking sector aim to improve:
+      marked [1]: Credit flow and financial stability
+  ca_199 (Current Affairs): current-affairs-staleness
+      Q: Recent developments in quantum communication focus on:
+      marked [1]: Ultra-secure data transmission
+  ca_200 (Current Affairs): current-affairs-staleness
+      Q: Recent global summit agendas on æinclusive digital growthÆ emphasize:
+      marked [1]: Bridging digital divide and ensuring access
+  ca_201 (Current Affairs): current-affairs-staleness
+      Q: Recent focus on æborder infrastructureÆ in India aims to:
+      marked [1]: Improve mobility and strategic deployment
+  ca_202 (Current Affairs): current-affairs-staleness
+      Q: Recent discussions on global financial stability highlight which risk?
+      marked [1]: Debt crises in emerging economies
+  ca_203 (Current Affairs): current-affairs-staleness
+      Q: Recent focus on æcarbon sinksÆ refers to:
+      marked [1]: Systems that absorb more carbon than they emit
+  ca_204 (Current Affairs): current-affairs-staleness
+      Q: Recent global economic trends highlight which challenge for policymakers?
+      marked [1]: Balancing inflation control with economic growth
+  ca_205 (Current Affairs): current-affairs-staleness
+      Q: Recent advancements in robotics are primarily transforming which sector?
+      marked [1]: Manufacturing and automation
+  ca_206 (Current Affairs): current-affairs-staleness
+      Q: Recent Indo-Pacific strategies emphasize which principle?
+      marked [1]: Free, open and inclusive maritime region
+  ca_207 (Current Affairs): current-affairs-staleness
+      Q: Recent development reports highlight which factor for sustainable growth?
+      marked [1]: Environmental and social sustainability
+  ca_208 (Current Affairs): current-affairs-staleness
+      Q: Recent emphasis on missile defense systems is aimed at:
+      marked [1]: Protecting against aerial threats
+  ca_209 (Current Affairs): current-affairs-staleness
+      Q: Recent initiatives in rural development emphasize:
+      marked [1]: Infrastructure and livelihood generation
+  ca_210 (Current Affairs): current-affairs-staleness
+      Q: Recent global focus on æclimate resilienceÆ aims to:
+      marked [1]: Enhance ability to adapt to climate impacts
+  rea_002 (Reasoning): math-reasoning-verify
+      Q: Find the next term: AZ, BY, CX, DW, ?
+      marked [0]: EV
+  rea_011 (Reasoning): math-reasoning-verify
+      Q: Find the next term: 2, 5, 14, 41, 122, ?
+      marked [0]: 365
+  rea_012 (Reasoning): math-reasoning-verify
+      Q: Find the next term: BDF, CEH, DGJ, ?
+      marked [2]: EJL
+  rea_013 (Reasoning): very-short-stem
+      Q: Seed : Tree :: Word : ?
+      marked [0]: Sentence
+  rea_030 (Reasoning): math-reasoning-verify
+      Q: Find remainder when 7^100 is divided by 6.
+      marked [0]: 1
+  rea_038 (Reasoning): math-reasoning-verify
+      Q: Which number leaves remainder 1 when divided by 2,3,4,5?
+      marked [1]: 121
+  rea_039 (Reasoning): very-short-stem
+      Q: Find next: LM, OP, RS, ?
+      marked [0]: TU
+  rea_041 (Reasoning): math-reasoning-verify
+      Q: Find the next term: 5, 11, 23, 47, 95, ?
+      marked [0]: 191
+  rea_042 (Reasoning): math-reasoning-verify
+      Q: Find the next term: AC, FH, KM, PR, ?
+      marked [1]: UX
+  rea_052 (Reasoning): very-short-stem
+      Q: Pen : Ink :: Printer : ?
+      marked [1]: Cartridge
+  rea_055 (Reasoning): answer-visible-in-stem
+      Q: A is father of B. B is sister of C. How is A related to C?
+      marked [0]: Father
+  rea_057 (Reasoning): math-reasoning-verify
+      Q: What is the remainder when 9^50 is divided by 8?
+      marked [0]: 1
+  rea_060 (Reasoning): very-short-stem
+      Q: Find next: A, D, I, P, ?
+      marked [1]: X
+  rea_061 (Reasoning): very-short-stem
+      Q: Bird : Nest :: Bee : ?
+      marked [0]: Hive
+  rea_071 (Reasoning): math-reasoning-verify
+      Q: Find smallest number divisible by 2,3,4,5 and leaves remainder 1.
+      marked [0]: 61
+  rea_073 (Reasoning): very-short-stem
+      Q: Eye : See :: Ear : ?
+      marked [1]: Hear
+  rea_081 (Reasoning): math-reasoning-verify
+      Q: Find the next term: 2, 7, 23, 95, 479, ?
+      marked [1]: 2879
+  rea_082 (Reasoning): math-reasoning-verify
+      Q: Find the next term: AD, BE, CF, DG, ?
+      marked [0]: EH
+  rea_091 (Reasoning): math-reasoning-verify
+      Q: Find the next term: B, E, J, Q, Z, ?
+      marked [2]: L
+  rea_099 (Reasoning): answer-visible-in-stem
+      Q: Find odd: Triangle, Square, Circle, Pentagon
+      marked [2]: Circle
+  rea_102 (Reasoning): math-reasoning-verify
+      Q: Find remainder when 13^20 is divided by 12.
+      marked [0]: 1
+  rea_109 (Reasoning): answer-visible-in-stem
+      Q: If today is Friday, what day after 70 days?
+      marked [0]: Friday
+  rea_116 (Reasoning): math-reasoning-verify
+      Q: Find the smallest number divisible by 7, 11, 13.
+      marked [0]: 1001
+  rea_121 (Reasoning): math-reasoning-verify
+      Q: Find the next term: 7, 10, 20, 23, 46, 49, ?
+      marked [3]: 94
+  rea_122 (Reasoning): math-reasoning-verify
+      Q: Find the next term: A, F, K, P, U, ?
+      marked [0]: Z
+  rea_139 (Reasoning): answer-visible-in-stem
+      Q: Find the odd one out: Cow, Goat, Tiger, Dog
+      marked [2]: Tiger
+  rea_142 (Reasoning): math-reasoning-verify
+      Q: Find remainder when 17^23 is divided by 16.
+      marked [0]: 1
+  rea_144 (Reasoning): very-short-stem
+      Q: Fish : Water :: Bird : ?
+      marked [1]: Air
+  rea_152 (Reasoning): very-short-stem
+      Q: Find next: CF, HK, MP, ?
+      marked [0]: RU
+  rea_156 (Reasoning): math-reasoning-verify
+      Q: Find remainder when 11^15 is divided by 10.
+      marked [0]: 1
+  rea_161 (Reasoning): math-reasoning-verify
+      Q: Find the next term: 8, 14, 26, 50, 98, ?
+      marked [2]: 194
+  rea_162 (Reasoning): math-reasoning-verify
+      Q: Find the next term: BD, FI, JO, NV, ?
+      marked [1]: SD
+  rea_170 (Reasoning): math-reasoning-verify
+      Q: What is the remainder when 2^25 is divided by 7?
+      marked [1]: 2
+  rea_173 (Reasoning): answer-visible-in-stem
+      Q: If the 1st day of a month is Thursday, what will be the 23rd day of that month?
+      marked [1]: Thursday
+  rea_175 (Reasoning): math-reasoning-verify
+      Q: If in each step the smallest number is moved to the left end from the given sequence, then for 8 3 6 1 9 2, what will be
+      marked [0]: 1 2 8 3 6 9
+  rea_177 (Reasoning): math-reasoning-verify
+      Q: Find the next term: 1, 5, 14, 30, 55, ?
+      marked [1]: 91
+  rea_178 (Reasoning): math-reasoning-verify
+      Q: Find the next term: ZA, XC, VE, TG, ?
+      marked [0]: RI
+  rea_185 (Reasoning): math-reasoning-verify
+      Q: Which of the following numbers when divided by 5, 6 and 7 leaves remainder 3 in each case?
+      marked [0]: 213
+  rea_189 (Reasoning): math-reasoning-verify
+      Q: Find the next term: 13, 17, 25, 41, 73, ?
+      marked [1]: 137
+  rea_190 (Reasoning): math-reasoning-verify
+      Q: Find the next term: C, F, J, O, U, ?
+      marked [1]: B
+  rea_195 (Reasoning): answer-visible-in-stem
+      Q: Eight people are seated in a line. P is fourth to the left of Q. R is second to the right of P. If Q is at one end, what
+      marked [0]: Second
+  rea_196 (Reasoning): math-reasoning-verify
+      Q: What is the smallest number which, when divided by 8, 9 and 10, leaves a remainder 5 in each case?
+      marked [1]: 725
+  rea_198 (Reasoning): answer-visible-in-stem
+      Q: A person walks 5 m north, 5 m east, 10 m south and 5 m west. In which direction is he from the starting point?
+      marked [1]: South
+  def_023 (Defence): very-short-stem
+      Q: LOC and LAC represent:
+      marked [2]: Sensitive border lines with Pakistan and China respectively
+  def_028 (Defence): very-short-stem
+      Q: Cyber warfare involves:
+      marked [1]: Digital attacks on information systems
+  def_079 (Defence): very-short-stem
+      Q: Deterrence fails when:
+      marked [1]: Adversary doubts credibility of retaliation
+  def_152 (Defence): very-short-stem
+      Q: Hybrid warfare combines:
+      marked [1]: Conventional, irregular and cyber methods
+  mat_001 (Math): math-reasoning-verify
+      Q: A number is increased by 25% and then decreased by 20%. What is the net percentage change?
+      marked [0]: 0%
+  mat_004 (Math): math-reasoning-verify
+      Q: Find the remainder when 7^100 is divided by 6.
+      marked [0]: 1
+  mat_021 (Math): math-reasoning-verify
+      Q: Find remainder when 2^100 is divided by 7.
+      marked [0]: 4
+  mat_028 (Math): answer-visible-in-stem
+      Q: If radius doubles, circumference becomes:
+      marked [0]: Double
+  mat_031 (Math): math-reasoning-verify
+      Q: A number gives remainder 2 when divided by 5 and 3 when divided by 7. Smallest such number?
+      marked [0]: 17
+  mat_032 (Math): very-short-stem
+      Q: LCM of 12, 15 and 20?
+      marked [0]: 60
+  mat_040 (Math): math-reasoning-verify
+      Q: A number when divided by 9 leaves 4. What remainder when divided by 3?
+      marked [0]: 1
+  mat_041 (Math): math-reasoning-verify
+      Q: Find the remainder when 11^50 is divided by 10.
+      marked [3]: 9
+  mat_051 (Math): math-reasoning-verify
+      Q: Find the remainder when 3^101 is divided by 5.
+      marked [0]: 3
+  mat_060 (Math): math-reasoning-verify
+      Q: A number when divided by 4 leaves remainder 3 and when divided by 5 leaves remainder 4. What is the smallest such number
+      marked [1]: 39
+  mat_070 (Math): math-reasoning-verify
+      Q: A number when divided by 6 leaves remainder 5 and when divided by 7 leaves remainder 6. What is the smallest such number
+      marked [1]: 83
+  mat_076 (Math): math-reasoning-verify
+      Q: The average of 5 consecutive numbers is 20. What is the largest number?
+      marked [0]: 22
+  mat_080 (Math): math-reasoning-verify
+      Q: A number leaves remainder 1 when divided by 2, 3, 4 and 5. What is the smallest such number?
+      marked [0]: 61
+  mat_081 (Math): math-reasoning-verify
+      Q: Find the remainder when 13^99 is divided by 12.
+      marked [1]: 11
+  mat_082 (Math): math-reasoning-verify
+      Q: An item is increased by 40% and then decreased by 25%. What is the net percentage change?
+      marked [0]: No change
+  mat_091 (Math): math-reasoning-verify
+      Q: Find the remainder when 5^100 is divided by 4.
+      marked [1]: 0
+  mat_100 (Math): math-reasoning-verify
+      Q: Find the smallest number which when divided by 3, 4, 5 leaves remainder 2 in each case.
+      marked [0]: 62
+  mat_110 (Math): math-reasoning-verify
+      Q: A number leaves remainder 3 when divided by 4 and remainder 5 when divided by 6. What is the smallest such number?
+      marked [0]: 11
+  mat_120 (Math): math-reasoning-verify
+      Q: Find smallest number divisible by 3, 4, 5 and leaving remainder 1 in each case.
+      marked [0]: 61
+  mat_121 (Math): math-reasoning-verify
+      Q: A value increases by 30% and then decreases by 10%. What is the net percentage change?
+      marked [0]: 17% increase
+  mat_123 (Math): math-reasoning-verify
+      Q: Find remainder when 8^101 is divided by 7.
+      marked [1]: 2
+  mat_130 (Math): math-reasoning-verify
+      Q: A number leaves remainder 2 when divided by 3, 4, 5. What is the smallest such number?
+      marked [0]: 62
+  mat_138 (Math): answer-visible-in-stem
+      Q: If side of square doubles, perimeter becomes:
+      marked [0]: Double
+  mat_140 (Math): math-reasoning-verify
+      Q: Find smallest number divisible by 4,5,6 leaving remainder 3.
+      marked [0]: 63
+  mat_142 (Math): math-reasoning-verify
+      Q: Find remainder of 2^50 ≈ 7.
+      marked [0]: 4
+  mat_150 (Math): math-reasoning-verify
+      Q: A number leaves remainder 1 when divided by 2,3,4,5. Smallest?
+      marked [1]: 31
+  mat_156 (Math): very-short-stem
+      Q: Speed doubles, time?
+      marked [0]: Half
+  mat_158 (Math): answer-visible-in-stem
+      Q: Radius doubles, circumference?
+      marked [0]: Double
+  mat_159 (Math): very-short-stem
+      Q: If x+1/x=3, x▓+1/x▓?
+      marked [0]: 7
+  mat_160 (Math): math-reasoning-verify
+      Q: Smallest number divisible by 3,4,5 leaving remainder 2?
+      marked [0]: 62
+  mat_161 (Math): math-reasoning-verify
+      Q: A number is increased by 40% and then decreased by 20%. What is the net percentage change?
+      marked [1]: 8% increase
+  mat_162 (Math): math-reasoning-verify
+      Q: Find the remainder when 17^99 is divided by 16.
+      marked [0]: 1
+  mat_170 (Math): math-reasoning-verify
+      Q: A number leaves remainder 1 when divided by 3, 4 and 5. What is the smallest such number?
+      marked [1]: 31
+  mat_180 (Math): math-reasoning-verify
+      Q: Find the smallest number divisible by 4, 5, 6 leaving remainder 2.
+      marked [0]: 62
+  mat_181 (Math): very-short-stem
+      Q: LCM of 16, 20 and 24 is:
+      marked [0]: 240
+  mat_190 (Math): math-reasoning-verify
+      Q: Find smallest number which leaves remainder 3 when divided by 4, 5, 6.
+      marked [0]: 63
+  mat_191 (Math): math-reasoning-verify
+      Q: Find the remainder when 19^75 is divided by 18.
+      marked [1]: 17
+  mat_192 (Math): math-reasoning-verify
+      Q: A value increases by 50% and then decreases by 20%. What is the net percentage change?
+      marked [0]: 20% increase
+  mat_200 (Math): math-reasoning-verify
+      Q: Find the smallest number which when divided by 4, 5 and 6 leaves remainder 3 in each case.
+      marked [0]: 63
+  mat_210 (Math): math-reasoning-verify
+      Q: Find the smallest number which leaves remainder 2 when divided by 5, 6 and 7.
+      marked [1]: 107
+  mat_211 (Math): very-short-stem
+      Q: LCM of 12, 18 and 24 is:
+      marked [0]: 72
+  mat_215 (Math): math-reasoning-verify
+      Q: Average of 4 consecutive numbers is 25. Largest number?
+      marked [0]: 27
+  mat_220 (Math): math-reasoning-verify
+      Q: Find smallest number divisible by 3, 4, 5 leaving remainder 1.
+      marked [1]: 31
+  mat_222 (Math): math-reasoning-verify
+      Q: Find remainder when 2^60 is divided by 7.
+      marked [0]: 4
+  mat_230 (Math): math-reasoning-verify
+      Q: Smallest number leaving remainder 2 when divided by 3,4,5?
+      marked [0]: 62
+  sgk_071 (Static GK): answer-visible-in-stem
+      Q: Which dance form is associated with the Manipuri tradition?
+      marked [1]: Manipuri
+  sgk_111 (Static GK): meta-option
+      Q: Which classical dance form is known for storytelling through hand gestures (mudras)?
+      marked [2]: Both A and B
+  tech_140 (Technology): answer-visible-in-stem
+      Q: Which data structure is optimal for implementing recursion call stacks?
+      marked [1]: Stack
+  tech_155 (Technology): answer-visible-in-stem
+      Q: Which layer of OSI model is responsible for routing packets between networks?
+      marked [1]: Network
+
+--- Manual checks (requested) ---
+  rea_001:
+    Q: Find the next term: 4, 6, 12, 36, 144, ?
+    options: ['576', '720', '864', '432']
+    correctIndex=2 -> 864
+  pol_108:
+    Q: Which authority submits its reports directly to the President and not to Parliament?
+    options: ['UPSC', 'CAG', 'Finance Commission', 'All of the above']
+    correctIndex=3 -> All of the above
+  sgk_001:
+    Q: Which of the following bodies is responsible for adjudicating disputes related to elections in India?
+    options: ['Election Commission', 'Supreme Court', 'Parliament', 'High Courts']
+    correctIndex=3 -> High Courts
+========================================================================

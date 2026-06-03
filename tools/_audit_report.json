@@ -1,0 +1,5068 @@
+﻿{
+  "total": 2138,
+  "categories": {
+    "Static GK": 240,
+    "Technology": 240,
+    "Geography": 230,
+    "Math": 230,
+    "Polity": 208,
+    "Defence": 200,
+    "History": 200,
+    "Reasoning": 200,
+    "Science": 200,
+    "Current Affairs": 190
+  },
+  "dup_ids": {
+    "ca_121": [
+      "ca_121",
+      "ca_121"
+    ],
+    "ca_122": [
+      "ca_122",
+      "ca_122"
+    ],
+    "ca_123": [
+      "ca_123",
+      "ca_123"
+    ],
+    "ca_124": [
+      "ca_124",
+      "ca_124"
+    ],
+    "ca_125": [
+      "ca_125",
+      "ca_125"
+    ],
+    "ca_126": [
+      "ca_126",
+      "ca_126"
+    ],
+    "ca_127": [
+      "ca_127",
+      "ca_127"
+    ],
+    "ca_128": [
+      "ca_128",
+      "ca_128"
+    ],
+    "ca_129": [
+      "ca_129",
+      "ca_129"
+    ],
+    "ca_130": [
+      "ca_130",
+      "ca_130"
+    ],
+    "ca_131": [
+      "ca_131",
+      "ca_131"
+    ],
+    "ca_132": [
+      "ca_132",
+      "ca_132"
+    ],
+    "ca_133": [
+      "ca_133",
+      "ca_133"
+    ],
+    "ca_134": [
+      "ca_134",
+      "ca_134"
+    ],
+    "ca_135": [
+      "ca_135",
+      "ca_135"
+    ],
+    "ca_136": [
+      "ca_136",
+      "ca_136"
+    ],
+    "ca_137": [
+      "ca_137",
+      "ca_137"
+    ],
+    "ca_138": [
+      "ca_138",
+      "ca_138"
+    ],
+    "ca_139": [
+      "ca_139",
+      "ca_139"
+    ],
+    "ca_140": [
+      "ca_140",
+      "ca_140"
+    ],
+    "sgk_001": [
+      "sgk_001",
+      "sgk_001"
+    ],
+    "sgk_002": [
+      "sgk_002",
+      "sgk_002"
+    ],
+    "sgk_003": [
+      "sgk_003",
+      "sgk_003"
+    ],
+    "sgk_004": [
+      "sgk_004",
+      "sgk_004"
+    ],
+    "sgk_005": [
+      "sgk_005",
+      "sgk_005"
+    ],
+    "sgk_006": [
+      "sgk_006",
+      "sgk_006"
+    ],
+    "sgk_007": [
+      "sgk_007",
+      "sgk_007"
+    ],
+    "sgk_008": [
+      "sgk_008",
+      "sgk_008"
+    ],
+    "sgk_009": [
+      "sgk_009",
+      "sgk_009"
+    ],
+    "sgk_010": [
+      "sgk_010",
+      "sgk_010"
+    ],
+    "sgk_011": [
+      "sgk_011",
+      "sgk_011"
+    ],
+    "sgk_012": [
+      "sgk_012",
+      "sgk_012"
+    ],
+    "sgk_013": [
+      "sgk_013",
+      "sgk_013"
+    ],
+    "sgk_014": [
+      "sgk_014",
+      "sgk_014"
+    ],
+    "sgk_015": [
+      "sgk_015",
+      "sgk_015"
+    ],
+    "sgk_016": [
+      "sgk_016",
+      "sgk_016"
+    ],
+    "sgk_017": [
+      "sgk_017",
+      "sgk_017"
+    ],
+    "sgk_018": [
+      "sgk_018",
+      "sgk_018"
+    ],
+    "sgk_019": [
+      "sgk_019",
+      "sgk_019"
+    ],
+    "sgk_020": [
+      "sgk_020",
+      "sgk_020"
+    ],
+    "sgk_021": [
+      "sgk_021",
+      "sgk_021"
+    ],
+    "sgk_022": [
+      "sgk_022",
+      "sgk_022"
+    ],
+    "sgk_023": [
+      "sgk_023",
+      "sgk_023"
+    ],
+    "sgk_024": [
+      "sgk_024",
+      "sgk_024"
+    ],
+    "sgk_025": [
+      "sgk_025",
+      "sgk_025"
+    ],
+    "sgk_026": [
+      "sgk_026",
+      "sgk_026"
+    ],
+    "sgk_027": [
+      "sgk_027",
+      "sgk_027"
+    ],
+    "sgk_028": [
+      "sgk_028",
+      "sgk_028"
+    ],
+    "sgk_029": [
+      "sgk_029",
+      "sgk_029"
+    ],
+    "sgk_030": [
+      "sgk_030",
+      "sgk_030"
+    ],
+    "sgk_031": [
+      "sgk_031",
+      "sgk_031"
+    ],
+    "sgk_032": [
+      "sgk_032",
+      "sgk_032"
+    ],
+    "sgk_033": [
+      "sgk_033",
+      "sgk_033"
+    ],
+    "sgk_034": [
+      "sgk_034",
+      "sgk_034"
+    ],
+    "sgk_035": [
+      "sgk_035",
+      "sgk_035"
+    ],
+    "sgk_036": [
+      "sgk_036",
+      "sgk_036"
+    ],
+    "sgk_037": [
+      "sgk_037",
+      "sgk_037"
+    ],
+    "sgk_038": [
+      "sgk_038",
+      "sgk_038"
+    ],
+    "sgk_039": [
+      "sgk_039",
+      "sgk_039"
+    ],
+    "sgk_040": [
+      "sgk_040",
+      "sgk_040"
+    ],
+    "tech_041": [
+      "tech_041",
+      "tech_041"
+    ],
+    "tech_042": [
+      "tech_042",
+      "tech_042"
+    ],
+    "tech_043": [
+      "tech_043",
+      "tech_043"
+    ],
+    "tech_044": [
+      "tech_044",
+      "tech_044"
+    ],
+    "tech_045": [
+      "tech_045",
+      "tech_045"
+    ],
+    "tech_046": [
+      "tech_046",
+      "tech_046"
+    ],
+    "tech_047": [
+      "tech_047",
+      "tech_047"
+    ],
+    "tech_048": [
+      "tech_048",
+      "tech_048"
+    ],
+    "tech_049": [
+      "tech_049",
+      "tech_049"
+    ],
+    "tech_050": [
+      "tech_050",
+      "tech_050"
+    ],
+    "tech_051": [
+      "tech_051",
+      "tech_051"
+    ],
+    "tech_052": [
+      "tech_052",
+      "tech_052"
+    ],
+    "tech_053": [
+      "tech_053",
+      "tech_053"
+    ],
+    "tech_054": [
+      "tech_054",
+      "tech_054"
+    ],
+    "tech_055": [
+      "tech_055",
+      "tech_055"
+    ],
+    "tech_056": [
+      "tech_056",
+      "tech_056"
+    ],
+    "tech_057": [
+      "tech_057",
+      "tech_057"
+    ],
+    "tech_058": [
+      "tech_058",
+      "tech_058"
+    ],
+    "tech_059": [
+      "tech_059",
+      "tech_059"
+    ],
+    "tech_060": [
+      "tech_060",
+      "tech_060"
+    ],
+    "tech_061": [
+      "tech_061",
+      "tech_061"
+    ],
+    "tech_062": [
+      "tech_062",
+      "tech_062"
+    ],
+    "tech_063": [
+      "tech_063",
+      "tech_063"
+    ],
+    "tech_064": [
+      "tech_064",
+      "tech_064"
+    ],
+    "tech_065": [
+      "tech_065",
+      "tech_065"
+    ],
+    "tech_066": [
+      "tech_066",
+      "tech_066"
+    ],
+    "tech_067": [
+      "tech_067",
+      "tech_067"
+    ],
+    "tech_068": [
+      "tech_068",
+      "tech_068"
+    ],
+    "tech_069": [
+      "tech_069",
+      "tech_069"
+    ],
+    "tech_070": [
+      "tech_070",
+      "tech_070"
+    ],
+    "tech_071": [
+      "tech_071",
+      "tech_071"
+    ],
+    "tech_072": [
+      "tech_072",
+      "tech_072"
+    ],
+    "tech_073": [
+      "tech_073",
+      "tech_073"
+    ],
+    "tech_074": [
+      "tech_074",
+      "tech_074"
+    ],
+    "tech_075": [
+      "tech_075",
+      "tech_075"
+    ],
+    "tech_076": [
+      "tech_076",
+      "tech_076"
+    ],
+    "tech_077": [
+      "tech_077",
+      "tech_077"
+    ],
+    "tech_078": [
+      "tech_078",
+      "tech_078"
+    ],
+    "tech_079": [
+      "tech_079",
+      "tech_079"
+    ],
+    "tech_080": [
+      "tech_080",
+      "tech_080"
+    ]
+  },
+  "exact_dup": {
+    "which event occurred earliest?": [
+      "his_120",
+      "his_192"
+    ],
+    "which river flows through a rift valley in india?": [
+      "geo_041",
+      "sgk_088"
+    ],
+    "which river originates from the amarkantak plateau?": [
+      "geo_081",
+      "sgk_048"
+    ],
+    "recent discussions around india's fiscal strategy emphasize which key challenge?": [
+      "ca_121",
+      "ca_121"
+    ],
+    "recent debates on ai-generated content regulation primarily revolve around which concern?": [
+      "ca_122",
+      "ca_122"
+    ],
+    "recent climate finance discussions highlight which major issue for developing countries?": [
+      "ca_123",
+      "ca_123"
+    ],
+    "indiaÆs recent focus on connectivity corridors (like imec-type initiatives) aims to achieve what strategic outcome?": [
+      "ca_124",
+      "ca_124"
+    ],
+    "recent expansion of dbt (direct benefit transfer) systems primarily aims to:": [
+      "ca_125",
+      "ca_125"
+    ],
+    "recent emphasis on multi-domain warfare highlights integration of which domains?": [
+      "ca_126",
+      "ca_126"
+    ],
+    "recent global reports stress æinclusive growthÆ. what does this imply?": [
+      "ca_127",
+      "ca_127"
+    ],
+    "recent discussions around un reforms focus mainly on:": [
+      "ca_128",
+      "ca_128"
+    ],
+    "recent push in indiaÆs space sector liberalization aims to:": [
+      "ca_129",
+      "ca_129"
+    ],
+    "which emerging concept promotes reducing emissions across supply chains and industries?": [
+      "ca_130",
+      "ca_130"
+    ],
+    "recent growth in indiaÆs startup ecosystem is largely driven by:": [
+      "ca_131",
+      "ca_131"
+    ],
+    "the rise of cyber warfare in recent conflicts emphasizes which capability?": [
+      "ca_132",
+      "ca_132"
+    ],
+    "indiaÆs recent trade diversification strategy aims to:": [
+      "ca_133",
+      "ca_133"
+    ],
+    "recent advancements in fusion energy research are significant because they:": [
+      "ca_134",
+      "ca_134"
+    ],
+    "recent environmental indices highlight which global concern?": [
+      "ca_135",
+      "ca_135"
+    ],
+    "recent agriculture-related policies in india emphasize which approach?": [
+      "ca_136",
+      "ca_136"
+    ],
+    "recent emphasis on ev adoption aims to address which issue?": [
+      "ca_137",
+      "ca_137"
+    ],
+    "recent discussions on digital taxation globally focus on:": [
+      "ca_138",
+      "ca_138"
+    ],
+    "indiaÆs recent push in 6g research reflects which objective?": [
+      "ca_139",
+      "ca_139"
+    ],
+    "recent global economic forums emphasize 'resilient recovery'. what does this imply?": [
+      "ca_140",
+      "ca_140"
+    ],
+    "if a:b = 5:7 and b:c = 3:4, find a:c.": [
+      "mat_024",
+      "mat_164"
+    ],
+    "if x + 1/x = 5, find x▓ + 1/x▓.": [
+      "mat_069",
+      "mat_179"
+    ],
+    "which of the following bodies is responsible for adjudicating disputes related to elections in india?": [
+      "sgk_001",
+      "sgk_001"
+    ],
+    "which classical dance form is known for its strong narrative style and elaborate facial expressions originating from kerala?": [
+      "sgk_002",
+      "sgk_002"
+    ],
+    "which unesco world heritage site in india is associated with rock-cut architecture and buddhist monasteries?": [
+      "sgk_003",
+      "sgk_003"
+    ],
+    "which international organization is primarily responsible for maintaining global financial stability?": [
+      "sgk_004",
+      "sgk_004"
+    ],
+    "which indian civilian award is given for exceptional service in any field of human endeavor and ranks below bharat ratna?": [
+      "sgk_005",
+      "sgk_005"
+    ],
+    "which of the following books is authored by amartya sen?": [
+      "sgk_006",
+      "sgk_006"
+    ],
+    "which term in cricket refers to a bowler taking three wickets in three consecutive deliveries?": [
+      "sgk_007",
+      "sgk_007"
+    ],
+    "which river is known as the 'sorrow of bihar' due to frequent flooding?": [
+      "sgk_008",
+      "sgk_008"
+    ],
+    "which institution in india is responsible for managing monetary policy?": [
+      "sgk_009",
+      "sgk_009"
+    ],
+    "which grouping includes brazil, russia, india, china, and south africa?": [
+      "sgk_010",
+      "sgk_010"
+    ],
+    "which indian classical music tradition is primarily associated with north india?": [
+      "sgk_011",
+      "sgk_011"
+    ],
+    "which monument is known for its indo-islamic architecture and located in delhi?": [
+      "sgk_012",
+      "sgk_012"
+    ],
+    "where is the headquarters of the world trade organization located?": [
+      "sgk_013",
+      "sgk_013"
+    ],
+    "which indian scientist is known for his work in space research and served as president of india?": [
+      "sgk_014",
+      "sgk_014"
+    ],
+    "which award is given for bravery in peacetime in india?": [
+      "sgk_015",
+      "sgk_015"
+    ],
+    "who authored 'discovery of india'?": [
+      "sgk_016",
+      "sgk_016"
+    ],
+    "in which sport is the term 'smash' commonly used?": [
+      "sgk_017",
+      "sgk_017"
+    ],
+    "which mountain range separates europe and asia?": [
+      "sgk_018",
+      "sgk_018"
+    ],
+    "what does gdp primarily measure?": [
+      "sgk_019",
+      "sgk_019"
+    ],
+    "which organization deals with global health issues?": [
+      "sgk_020",
+      "sgk_020"
+    ],
+    "which dance form originated in tamil nadu and is known for geometric movements?": [
+      "sgk_021",
+      "sgk_021"
+    ],
+    "which monument is associated with vijayanagara empire architecture?": [
+      "sgk_022",
+      "sgk_022"
+    ],
+    "which organization focuses on global education, science and culture?": [
+      "sgk_023",
+      "sgk_023"
+    ],
+    "who is known as the father of indian nuclear program?": [
+      "sgk_024",
+      "sgk_024"
+    ],
+    "which award is india's highest literary honor?": [
+      "sgk_025",
+      "sgk_025"
+    ],
+    "who wrote 'the god of small things'?": [
+      "sgk_026",
+      "sgk_026"
+    ],
+    "which sport uses the term 'love' for zero score?": [
+      "sgk_027",
+      "sgk_027"
+    ],
+    "which desert is the largest hot desert in the world?": [
+      "sgk_028",
+      "sgk_028"
+    ],
+    "which body regulates the securities market in india?": [
+      "sgk_029",
+      "sgk_029"
+    ],
+    "which organization focuses on child welfare globally?": [
+      "sgk_030",
+      "sgk_030"
+    ],
+    "which instrument is primarily associated with carnatic music?": [
+      "sgk_031",
+      "sgk_031"
+    ],
+    "which monument is known for its dravidian architecture?": [
+      "sgk_032",
+      "sgk_032"
+    ],
+    "which organization provides loans to developing countries?": [
+      "sgk_033",
+      "sgk_033"
+    ],
+    "who is known for discovering the raman effect?": [
+      "sgk_034",
+      "sgk_034"
+    ],
+    "which award is given for excellence in sports in india?": [
+      "sgk_035",
+      "sgk_035"
+    ],
+    "who authored 'india after gandhi'?": [
+      "sgk_036",
+      "sgk_036"
+    ],
+    "which sport uses the term 'checkmate'?": [
+      "sgk_037",
+      "sgk_037"
+    ],
+    "which plateau is known as the 'roof of the world'?": [
+      "sgk_038",
+      "sgk_038"
+    ],
+    "which institution prepares india's union budget?": [
+      "sgk_039",
+      "sgk_039"
+    ],
+    "which organization focuses on agriculture and food security?": [
+      "sgk_040",
+      "sgk_040"
+    ],
+    "what is the primary function of a dns cache in networking?": [
+      "tech_041",
+      "tech_041"
+    ],
+    "which type of attack involves overwhelming a system with traffic to make it unavailable?": [
+      "tech_042",
+      "tech_042"
+    ],
+    "which cloud service model provides virtualized computing resources like servers and storage?": [
+      "tech_043",
+      "tech_043"
+    ],
+    "which of the following best describes overfitting in machine learning?": [
+      "tech_044",
+      "tech_044"
+    ],
+    "what is the primary advantage of iot devices?": [
+      "tech_045",
+      "tech_045"
+    ],
+    "what role does encryption play in digital payments?": [
+      "tech_046",
+      "tech_046"
+    ],
+    "which protocol is primarily used for sending emails?": [
+      "tech_047",
+      "tech_047"
+    ],
+    "which practice enhances password security?": [
+      "tech_048",
+      "tech_048"
+    ],
+    "what enables seamless connectivity between multiple devices in 5g networks?": [
+      "tech_049",
+      "tech_049"
+    ],
+    "which concept ensures that only authorized users access system resources?": [
+      "tech_050",
+      "tech_050"
+    ],
+    "which cloud feature allows automatic resource scaling based on demand?": [
+      "tech_051",
+      "tech_051"
+    ],
+    "which attack exploits vulnerabilities in web applications by injecting malicious sql queries?": [
+      "tech_052",
+      "tech_052"
+    ],
+    "which ai technique involves trial-and-error learning using rewards?": [
+      "tech_053",
+      "tech_053"
+    ],
+    "what is the main use of virtual reality?": [
+      "tech_054",
+      "tech_054"
+    ],
+    "what does http stand for?": [
+      "tech_055",
+      "tech_055"
+    ],
+    "which technology underpins most cryptocurrencies?": [
+      "tech_056",
+      "tech_056"
+    ],
+    "which system allows machines to operate with minimal human intervention?": [
+      "tech_057",
+      "tech_057"
+    ],
+    "what is the role of navigation satellites?": [
+      "tech_058",
+      "tech_058"
+    ],
+    "which technology is used for wireless data transfer over short distances?": [
+      "tech_059",
+      "tech_059"
+    ],
+    "which data structure is best suited for hierarchical data representation?": [
+      "tech_060",
+      "tech_060"
+    ],
+    "what is the purpose of a vpn?": [
+      "tech_061",
+      "tech_061"
+    ],
+    "which feature ensures data availability even during system failure?": [
+      "tech_062",
+      "tech_062"
+    ],
+    "which application uses ai for voice recognition?": [
+      "tech_063",
+      "tech_063"
+    ],
+    "what is the key feature of edge computing?": [
+      "tech_064",
+      "tech_064"
+    ],
+    "which device connects multiple networks together?": [
+      "tech_065",
+      "tech_065"
+    ],
+    "what is the main advantage of digital wallets?": [
+      "tech_066",
+      "tech_066"
+    ],
+    "which technology integrates sensors and machines for smart manufacturing?": [
+      "tech_067",
+      "tech_067"
+    ],
+    "what type of satellite is primarily used for weather forecasting?": [
+      "tech_068",
+      "tech_068"
+    ],
+    "which technology is used for contactless card payments?": [
+      "tech_069",
+      "tech_069"
+    ],
+    "which principle ensures data hiding in programming?": [
+      "tech_070",
+      "tech_070"
+    ],
+    "which attack intercepts communication between two parties secretly?": [
+      "tech_071",
+      "tech_071"
+    ],
+    "which model provides full control over infrastructure?": [
+      "tech_072",
+      "tech_072"
+    ],
+    "which field of ai focuses on enabling machines to understand human language?": [
+      "tech_073",
+      "tech_073"
+    ],
+    "what is the purpose of smart contracts in blockchain?": [
+      "tech_074",
+      "tech_074"
+    ],
+    "which protocol is used for file transfer over networks?": [
+      "tech_075",
+      "tech_075"
+    ],
+    "which system enables instant interbank fund transfer in india?": [
+      "tech_076",
+      "tech_076"
+    ],
+    "which concept refers to machines learning from data without human programming?": [
+      "tech_077",
+      "tech_077"
+    ],
+    "what is the function of a launch vehicle?": [
+      "tech_078",
+      "tech_078"
+    ],
+    "which device converts digital signals to analog signals?": [
+      "tech_079",
+      "tech_079"
+    ],
+    "which concept allows a function to call itself?": [
+      "tech_080",
+      "tech_080"
+    ]
+  },
+  "near_dup": {
+    "which event occurred earliest": [
+      {
+        "id": "his_120",
+        "question": "Which event occurred earliest?"
+      },
+      {
+        "id": "his_192",
+        "question": "Which event occurred earliest?"
+      }
+    ],
+    "which river flows through a rift valley in india": [
+      {
+        "id": "geo_041",
+        "question": "Which river flows through a rift valley in India?"
+      },
+      {
+        "id": "sgk_088",
+        "question": "Which river flows through a rift valley in India?"
+      }
+    ],
+    "which river originates from the amarkantak plateau": [
+      {
+        "id": "geo_081",
+        "question": "Which river originates from the Amarkantak Plateau?"
+      },
+      {
+        "id": "sgk_048",
+        "question": "Which river originates from the Amarkantak plateau?"
+      }
+    ],
+    "recent discussions around india s fiscal strategy emphasize which key challenge": [
+      {
+        "id": "ca_121",
+        "question": "Recent discussions around India's fiscal strategy emphasize which key challenge?"
+      },
+      {
+        "id": "ca_121",
+        "question": "Recent discussions around India's fiscal strategy emphasize which key challenge?"
+      }
+    ],
+    "recent debates on ai generated content regulation primarily revolve around which concern": [
+      {
+        "id": "ca_122",
+        "question": "Recent debates on AI-generated content regulation primarily revolve around which concern?"
+      },
+      {
+        "id": "ca_122",
+        "question": "Recent debates on AI-generated content regulation primarily revolve around which concern?"
+      }
+    ],
+    "recent climate finance discussions highlight which major issue for developing countries": [
+      {
+        "id": "ca_123",
+        "question": "Recent climate finance discussions highlight which major issue for developing countries?"
+      },
+      {
+        "id": "ca_123",
+        "question": "Recent climate finance discussions highlight which major issue for developing countries?"
+      }
+    ],
+    "india s recent focus on connectivity corridors like imec type initiatives aims to achieve what strategic outcome": [
+      {
+        "id": "ca_124",
+        "question": "IndiaÆs recent focus on connectivity corridors (like IMEC-type initiatives) aims to achieve what str"
+      },
+      {
+        "id": "ca_124",
+        "question": "IndiaÆs recent focus on connectivity corridors (like IMEC-type initiatives) aims to achieve what str"
+      }
+    ],
+    "recent expansion of dbt direct benefit transfer systems primarily aims to": [
+      {
+        "id": "ca_125",
+        "question": "Recent expansion of DBT (Direct Benefit Transfer) systems primarily aims to:"
+      },
+      {
+        "id": "ca_125",
+        "question": "Recent expansion of DBT (Direct Benefit Transfer) systems primarily aims to:"
+      }
+    ],
+    "recent emphasis on multi domain warfare highlights integration of which domains": [
+      {
+        "id": "ca_126",
+        "question": "Recent emphasis on multi-domain warfare highlights integration of which domains?"
+      },
+      {
+        "id": "ca_126",
+        "question": "Recent emphasis on multi-domain warfare highlights integration of which domains?"
+      }
+    ],
+    "recent global reports stress inclusive growth what does this imply": [
+      {
+        "id": "ca_127",
+        "question": "Recent global reports stress æinclusive growthÆ. What does this imply?"
+      },
+      {
+        "id": "ca_127",
+        "question": "Recent global reports stress æinclusive growthÆ. What does this imply?"
+      }
+    ],
+    "recent discussions around un reforms focus mainly on": [
+      {
+        "id": "ca_128",
+        "question": "Recent discussions around UN reforms focus mainly on:"
+      },
+      {
+        "id": "ca_128",
+        "question": "Recent discussions around UN reforms focus mainly on:"
+      }
+    ],
+    "recent push in india s space sector liberalization aims to": [
+      {
+        "id": "ca_129",
+        "question": "Recent push in IndiaÆs space sector liberalization aims to:"
+      },
+      {
+        "id": "ca_129",
+        "question": "Recent push in IndiaÆs space sector liberalization aims to:"
+      }
+    ],
+    "which emerging concept promotes reducing emissions across supply chains and industries": [
+      {
+        "id": "ca_130",
+        "question": "Which emerging concept promotes reducing emissions across supply chains and industries?"
+      },
+      {
+        "id": "ca_130",
+        "question": "Which emerging concept promotes reducing emissions across supply chains and industries?"
+      }
+    ],
+    "recent growth in india s startup ecosystem is largely driven by": [
+      {
+        "id": "ca_131",
+        "question": "Recent growth in IndiaÆs startup ecosystem is largely driven by:"
+      },
+      {
+        "id": "ca_131",
+        "question": "Recent growth in IndiaÆs startup ecosystem is largely driven by:"
+      }
+    ],
+    "the rise of cyber warfare in recent conflicts emphasizes which capability": [
+      {
+        "id": "ca_132",
+        "question": "The rise of cyber warfare in recent conflicts emphasizes which capability?"
+      },
+      {
+        "id": "ca_132",
+        "question": "The rise of cyber warfare in recent conflicts emphasizes which capability?"
+      }
+    ],
+    "india s recent trade diversification strategy aims to": [
+      {
+        "id": "ca_133",
+        "question": "IndiaÆs recent trade diversification strategy aims to:"
+      },
+      {
+        "id": "ca_133",
+        "question": "IndiaÆs recent trade diversification strategy aims to:"
+      }
+    ],
+    "recent advancements in fusion energy research are significant because they": [
+      {
+        "id": "ca_134",
+        "question": "Recent advancements in fusion energy research are significant because they:"
+      },
+      {
+        "id": "ca_134",
+        "question": "Recent advancements in fusion energy research are significant because they:"
+      }
+    ],
+    "recent environmental indices highlight which global concern": [
+      {
+        "id": "ca_135",
+        "question": "Recent environmental indices highlight which global concern?"
+      },
+      {
+        "id": "ca_135",
+        "question": "Recent environmental indices highlight which global concern?"
+      }
+    ],
+    "recent agriculture related policies in india emphasize which approach": [
+      {
+        "id": "ca_136",
+        "question": "Recent agriculture-related policies in India emphasize which approach?"
+      },
+      {
+        "id": "ca_136",
+        "question": "Recent agriculture-related policies in India emphasize which approach?"
+      }
+    ],
+    "recent emphasis on ev adoption aims to address which issue": [
+      {
+        "id": "ca_137",
+        "question": "Recent emphasis on EV adoption aims to address which issue?"
+      },
+      {
+        "id": "ca_137",
+        "question": "Recent emphasis on EV adoption aims to address which issue?"
+      }
+    ],
+    "recent discussions on digital taxation globally focus on": [
+      {
+        "id": "ca_138",
+        "question": "Recent discussions on digital taxation globally focus on:"
+      },
+      {
+        "id": "ca_138",
+        "question": "Recent discussions on digital taxation globally focus on:"
+      }
+    ],
+    "india s recent push in 6g research reflects which objective": [
+      {
+        "id": "ca_139",
+        "question": "IndiaÆs recent push in 6G research reflects which objective?"
+      },
+      {
+        "id": "ca_139",
+        "question": "IndiaÆs recent push in 6G research reflects which objective?"
+      }
+    ],
+    "recent global economic forums emphasize resilient recovery what does this imply": [
+      {
+        "id": "ca_140",
+        "question": "Recent global economic forums emphasize 'resilient recovery'. What does this imply?"
+      },
+      {
+        "id": "ca_140",
+        "question": "Recent global economic forums emphasize 'resilient recovery'. What does this imply?"
+      }
+    ],
+    "if x 1 x 3 find x▓ 1 x▓": [
+      {
+        "id": "mat_009",
+        "question": "If x + 1/x = 3, find x▓ + 1/x▓."
+      },
+      {
+        "id": "mat_099",
+        "question": "If x - 1/x = 3, find x▓ + 1/x▓."
+      }
+    ],
+    "if a b 5 7 and b c 3 4 find a c": [
+      {
+        "id": "mat_024",
+        "question": "If A:B = 5:7 and B:C = 3:4, find A:C."
+      },
+      {
+        "id": "mat_164",
+        "question": "If A:B = 5:7 and B:C = 3:4, find A:C."
+      }
+    ],
+    "if x 1 x 5 find x▓ 1 x▓": [
+      {
+        "id": "mat_069",
+        "question": "If x + 1/x = 5, find x▓ + 1/x▓."
+      },
+      {
+        "id": "mat_179",
+        "question": "If x + 1/x = 5, find x▓ + 1/x▓."
+      },
+      {
+        "id": "mat_209",
+        "question": "If x - 1/x = 5, find x▓ + 1/x▓."
+      }
+    ],
+    "if x 1 x 4 find x▓ 1 x▓": [
+      {
+        "id": "mat_128",
+        "question": "If x + 1/x = 4, find x▓ + 1/x▓."
+      },
+      {
+        "id": "mat_139",
+        "question": "If x - 1/x = 4, find x▓ + 1/x▓."
+      }
+    ],
+    "which of the following bodies is responsible for adjudicating disputes related to elections in india": [
+      {
+        "id": "sgk_001",
+        "question": "Which of the following bodies is responsible for adjudicating disputes related to elections in India"
+      },
+      {
+        "id": "sgk_001",
+        "question": "Which of the following bodies is responsible for adjudicating disputes related to elections in India"
+      }
+    ],
+    "which classical dance form is known for its strong narrative style and elaborate facial expressions originating from kerala": [
+      {
+        "id": "sgk_002",
+        "question": "Which classical dance form is known for its strong narrative style and elaborate facial expressions "
+      },
+      {
+        "id": "sgk_002",
+        "question": "Which classical dance form is known for its strong narrative style and elaborate facial expressions "
+      }
+    ],
+    "which unesco world heritage site in india is associated with rock cut architecture and buddhist monasteries": [
+      {
+        "id": "sgk_003",
+        "question": "Which UNESCO World Heritage Site in India is associated with rock-cut architecture and Buddhist mona"
+      },
+      {
+        "id": "sgk_003",
+        "question": "Which UNESCO World Heritage Site in India is associated with rock-cut architecture and Buddhist mona"
+      }
+    ],
+    "which international organization is primarily responsible for maintaining global financial stability": [
+      {
+        "id": "sgk_004",
+        "question": "Which international organization is primarily responsible for maintaining global financial stability"
+      },
+      {
+        "id": "sgk_004",
+        "question": "Which international organization is primarily responsible for maintaining global financial stability"
+      }
+    ],
+    "which indian civilian award is given for exceptional service in any field of human endeavor and ranks below bharat ratna": [
+      {
+        "id": "sgk_005",
+        "question": "Which Indian civilian award is given for exceptional service in any field of human endeavor and rank"
+      },
+      {
+        "id": "sgk_005",
+        "question": "Which Indian civilian award is given for exceptional service in any field of human endeavor and rank"
+      }
+    ],
+    "which of the following books is authored by amartya sen": [
+      {
+        "id": "sgk_006",
+        "question": "Which of the following books is authored by Amartya Sen?"
+      },
+      {
+        "id": "sgk_006",
+        "question": "Which of the following books is authored by Amartya Sen?"
+      }
+    ],
+    "which term in cricket refers to a bowler taking three wickets in three consecutive deliveries": [
+      {
+        "id": "sgk_007",
+        "question": "Which term in cricket refers to a bowler taking three wickets in three consecutive deliveries?"
+      },
+      {
+        "id": "sgk_007",
+        "question": "Which term in cricket refers to a bowler taking three wickets in three consecutive deliveries?"
+      }
+    ],
+    "which river is known as the sorrow of bihar due to frequent flooding": [
+      {
+        "id": "sgk_008",
+        "question": "Which river is known as the 'Sorrow of Bihar' due to frequent flooding?"
+      },
+      {
+        "id": "sgk_008",
+        "question": "Which river is known as the 'Sorrow of Bihar' due to frequent flooding?"
+      }
+    ],
+    "which institution in india is responsible for managing monetary policy": [
+      {
+        "id": "sgk_009",
+        "question": "Which institution in India is responsible for managing monetary policy?"
+      },
+      {
+        "id": "sgk_009",
+        "question": "Which institution in India is responsible for managing monetary policy?"
+      }
+    ],
+    "which grouping includes brazil russia india china and south africa": [
+      {
+        "id": "sgk_010",
+        "question": "Which grouping includes Brazil, Russia, India, China, and South Africa?"
+      },
+      {
+        "id": "sgk_010",
+        "question": "Which grouping includes Brazil, Russia, India, China, and South Africa?"
+      }
+    ],
+    "which indian classical music tradition is primarily associated with north india": [
+      {
+        "id": "sgk_011",
+        "question": "Which Indian classical music tradition is primarily associated with North India?"
+      },
+      {
+        "id": "sgk_011",
+        "question": "Which Indian classical music tradition is primarily associated with North India?"
+      }
+    ],
+    "which monument is known for its indo islamic architecture and located in delhi": [
+      {
+        "id": "sgk_012",
+        "question": "Which monument is known for its Indo-Islamic architecture and located in Delhi?"
+      },
+      {
+        "id": "sgk_012",
+        "question": "Which monument is known for its Indo-Islamic architecture and located in Delhi?"
+      }
+    ],
+    "where is the headquarters of the world trade organization located": [
+      {
+        "id": "sgk_013",
+        "question": "Where is the headquarters of the World Trade Organization located?"
+      },
+      {
+        "id": "sgk_013",
+        "question": "Where is the headquarters of the World Trade Organization located?"
+      }
+    ],
+    "which indian scientist is known for his work in space research and served as president of india": [
+      {
+        "id": "sgk_014",
+        "question": "Which Indian scientist is known for his work in space research and served as President of India?"
+      },
+      {
+        "id": "sgk_014",
+        "question": "Which Indian scientist is known for his work in space research and served as President of India?"
+      }
+    ],
+    "which award is given for bravery in peacetime in india": [
+      {
+        "id": "sgk_015",
+        "question": "Which award is given for bravery in peacetime in India?"
+      },
+      {
+        "id": "sgk_015",
+        "question": "Which award is given for bravery in peacetime in India?"
+      }
+    ],
+    "who authored discovery of india": [
+      {
+        "id": "sgk_016",
+        "question": "Who authored 'Discovery of India'?"
+      },
+      {
+        "id": "sgk_016",
+        "question": "Who authored 'Discovery of India'?"
+      }
+    ],
+    "in which sport is the term smash commonly used": [
+      {
+        "id": "sgk_017",
+        "question": "In which sport is the term 'smash' commonly used?"
+      },
+      {
+        "id": "sgk_017",
+        "question": "In which sport is the term 'smash' commonly used?"
+      }
+    ],
+    "which mountain range separates europe and asia": [
+      {
+        "id": "sgk_018",
+        "question": "Which mountain range separates Europe and Asia?"
+      },
+      {
+        "id": "sgk_018",
+        "question": "Which mountain range separates Europe and Asia?"
+      }
+    ],
+    "what does gdp primarily measure": [
+      {
+        "id": "sgk_019",
+        "question": "What does GDP primarily measure?"
+      },
+      {
+        "id": "sgk_019",
+        "question": "What does GDP primarily measure?"
+      }
+    ],
+    "which organization deals with global health issues": [
+      {
+        "id": "sgk_020",
+        "question": "Which organization deals with global health issues?"
+      },
+      {
+        "id": "sgk_020",
+        "question": "Which organization deals with global health issues?"
+      }
+    ],
+    "which dance form originated in tamil nadu and is known for geometric movements": [
+      {
+        "id": "sgk_021",
+        "question": "Which dance form originated in Tamil Nadu and is known for geometric movements?"
+      },
+      {
+        "id": "sgk_021",
+        "question": "Which dance form originated in Tamil Nadu and is known for geometric movements?"
+      }
+    ],
+    "which monument is associated with vijayanagara empire architecture": [
+      {
+        "id": "sgk_022",
+        "question": "Which monument is associated with Vijayanagara Empire architecture?"
+      },
+      {
+        "id": "sgk_022",
+        "question": "Which monument is associated with Vijayanagara Empire architecture?"
+      }
+    ],
+    "which organization focuses on global education science and culture": [
+      {
+        "id": "sgk_023",
+        "question": "Which organization focuses on global education, science and culture?"
+      },
+      {
+        "id": "sgk_023",
+        "question": "Which organization focuses on global education, science and culture?"
+      }
+    ],
+    "who is known as the father of indian nuclear program": [
+      {
+        "id": "sgk_024",
+        "question": "Who is known as the father of Indian nuclear program?"
+      },
+      {
+        "id": "sgk_024",
+        "question": "Who is known as the father of Indian nuclear program?"
+      }
+    ],
+    "which award is india s highest literary honor": [
+      {
+        "id": "sgk_025",
+        "question": "Which award is India's highest literary honor?"
+      },
+      {
+        "id": "sgk_025",
+        "question": "Which award is India's highest literary honor?"
+      }
+    ],
+    "who wrote the god of small things": [
+      {
+        "id": "sgk_026",
+        "question": "Who wrote 'The God of Small Things'?"
+      },
+      {
+        "id": "sgk_026",
+        "question": "Who wrote 'The God of Small Things'?"
+      }
+    ],
+    "which sport uses the term love for zero score": [
+      {
+        "id": "sgk_027",
+        "question": "Which sport uses the term 'love' for zero score?"
+      },
+      {
+        "id": "sgk_027",
+        "question": "Which sport uses the term 'love' for zero score?"
+      }
+    ],
+    "which desert is the largest hot desert in the world": [
+      {
+        "id": "sgk_028",
+        "question": "Which desert is the largest hot desert in the world?"
+      },
+      {
+        "id": "sgk_028",
+        "question": "Which desert is the largest hot desert in the world?"
+      }
+    ],
+    "which body regulates the securities market in india": [
+      {
+        "id": "sgk_029",
+        "question": "Which body regulates the securities market in India?"
+      },
+      {
+        "id": "sgk_029",
+        "question": "Which body regulates the securities market in India?"
+      }
+    ],
+    "which organization focuses on child welfare globally": [
+      {
+        "id": "sgk_030",
+        "question": "Which organization focuses on child welfare globally?"
+      },
+      {
+        "id": "sgk_030",
+        "question": "Which organization focuses on child welfare globally?"
+      }
+    ],
+    "which instrument is primarily associated with carnatic music": [
+      {
+        "id": "sgk_031",
+        "question": "Which instrument is primarily associated with Carnatic music?"
+      },
+      {
+        "id": "sgk_031",
+        "question": "Which instrument is primarily associated with Carnatic music?"
+      }
+    ],
+    "which monument is known for its dravidian architecture": [
+      {
+        "id": "sgk_032",
+        "question": "Which monument is known for its Dravidian architecture?"
+      },
+      {
+        "id": "sgk_032",
+        "question": "Which monument is known for its Dravidian architecture?"
+      }
+    ],
+    "which organization provides loans to developing countries": [
+      {
+        "id": "sgk_033",
+        "question": "Which organization provides loans to developing countries?"
+      },
+      {
+        "id": "sgk_033",
+        "question": "Which organization provides loans to developing countries?"
+      }
+    ],
+    "who is known for discovering the raman effect": [
+      {
+        "id": "sgk_034",
+        "question": "Who is known for discovering the Raman Effect?"
+      },
+      {
+        "id": "sgk_034",
+        "question": "Who is known for discovering the Raman Effect?"
+      }
+    ],
+    "which award is given for excellence in sports in india": [
+      {
+        "id": "sgk_035",
+        "question": "Which award is given for excellence in sports in India?"
+      },
+      {
+        "id": "sgk_035",
+        "question": "Which award is given for excellence in sports in India?"
+      }
+    ],
+    "who authored india after gandhi": [
+      {
+        "id": "sgk_036",
+        "question": "Who authored 'India After Gandhi'?"
+      },
+      {
+        "id": "sgk_036",
+        "question": "Who authored 'India After Gandhi'?"
+      }
+    ],
+    "which sport uses the term checkmate": [
+      {
+        "id": "sgk_037",
+        "question": "Which sport uses the term 'checkmate'?"
+      },
+      {
+        "id": "sgk_037",
+        "question": "Which sport uses the term 'checkmate'?"
+      }
+    ],
+    "which plateau is known as the roof of the world": [
+      {
+        "id": "sgk_038",
+        "question": "Which plateau is known as the 'Roof of the World'?"
+      },
+      {
+        "id": "sgk_038",
+        "question": "Which plateau is known as the 'Roof of the World'?"
+      }
+    ],
+    "which institution prepares india s union budget": [
+      {
+        "id": "sgk_039",
+        "question": "Which institution prepares India's Union Budget?"
+      },
+      {
+        "id": "sgk_039",
+        "question": "Which institution prepares India's Union Budget?"
+      }
+    ],
+    "which organization focuses on agriculture and food security": [
+      {
+        "id": "sgk_040",
+        "question": "Which organization focuses on agriculture and food security?"
+      },
+      {
+        "id": "sgk_040",
+        "question": "Which organization focuses on agriculture and food security?"
+      }
+    ],
+    "what is the primary function of a dns cache in networking": [
+      {
+        "id": "tech_041",
+        "question": "What is the primary function of a DNS cache in networking?"
+      },
+      {
+        "id": "tech_041",
+        "question": "What is the primary function of a DNS cache in networking?"
+      }
+    ],
+    "which type of attack involves overwhelming a system with traffic to make it unavailable": [
+      {
+        "id": "tech_042",
+        "question": "Which type of attack involves overwhelming a system with traffic to make it unavailable?"
+      },
+      {
+        "id": "tech_042",
+        "question": "Which type of attack involves overwhelming a system with traffic to make it unavailable?"
+      }
+    ],
+    "which cloud service model provides virtualized computing resources like servers and storage": [
+      {
+        "id": "tech_043",
+        "question": "Which cloud service model provides virtualized computing resources like servers and storage?"
+      },
+      {
+        "id": "tech_043",
+        "question": "Which cloud service model provides virtualized computing resources like servers and storage?"
+      }
+    ],
+    "which of the following best describes overfitting in machine learning": [
+      {
+        "id": "tech_044",
+        "question": "Which of the following best describes overfitting in machine learning?"
+      },
+      {
+        "id": "tech_044",
+        "question": "Which of the following best describes overfitting in machine learning?"
+      }
+    ],
+    "what is the primary advantage of iot devices": [
+      {
+        "id": "tech_045",
+        "question": "What is the primary advantage of IoT devices?"
+      },
+      {
+        "id": "tech_045",
+        "question": "What is the primary advantage of IoT devices?"
+      }
+    ],
+    "what role does encryption play in digital payments": [
+      {
+        "id": "tech_046",
+        "question": "What role does encryption play in digital payments?"
+      },
+      {
+        "id": "tech_046",
+        "question": "What role does encryption play in digital payments?"
+      }
+    ],
+    "which protocol is primarily used for sending emails": [
+      {
+        "id": "tech_047",
+        "question": "Which protocol is primarily used for sending emails?"
+      },
+      {
+        "id": "tech_047",
+        "question": "Which protocol is primarily used for sending emails?"
+      }
+    ],
+    "which practice enhances password security": [
+      {
+        "id": "tech_048",
+        "question": "Which practice enhances password security?"
+      },
+      {
+        "id": "tech_048",
+        "question": "Which practice enhances password security?"
+      }
+    ],
+    "what enables seamless connectivity between multiple devices in 5g networks": [
+      {
+        "id": "tech_049",
+        "question": "What enables seamless connectivity between multiple devices in 5G networks?"
+      },
+      {
+        "id": "tech_049",
+        "question": "What enables seamless connectivity between multiple devices in 5G networks?"
+      }
+    ],
+    "which concept ensures that only authorized users access system resources": [
+      {
+        "id": "tech_050",
+        "question": "Which concept ensures that only authorized users access system resources?"
+      },
+      {
+        "id": "tech_050",
+        "question": "Which concept ensures that only authorized users access system resources?"
+      }
+    ],
+    "which cloud feature allows automatic resource scaling based on demand": [
+      {
+        "id": "tech_051",
+        "question": "Which cloud feature allows automatic resource scaling based on demand?"
+      },
+      {
+        "id": "tech_051",
+        "question": "Which cloud feature allows automatic resource scaling based on demand?"
+      }
+    ],
+    "which attack exploits vulnerabilities in web applications by injecting malicious sql queries": [
+      {
+        "id": "tech_052",
+        "question": "Which attack exploits vulnerabilities in web applications by injecting malicious SQL queries?"
+      },
+      {
+        "id": "tech_052",
+        "question": "Which attack exploits vulnerabilities in web applications by injecting malicious SQL queries?"
+      }
+    ],
+    "which ai technique involves trial and error learning using rewards": [
+      {
+        "id": "tech_053",
+        "question": "Which AI technique involves trial-and-error learning using rewards?"
+      },
+      {
+        "id": "tech_053",
+        "question": "Which AI technique involves trial-and-error learning using rewards?"
+      }
+    ],
+    "what is the main use of virtual reality": [
+      {
+        "id": "tech_054",
+        "question": "What is the main use of virtual reality?"
+      },
+      {
+        "id": "tech_054",
+        "question": "What is the main use of virtual reality?"
+      }
+    ],
+    "what does http stand for": [
+      {
+        "id": "tech_055",
+        "question": "What does HTTP stand for?"
+      },
+      {
+        "id": "tech_055",
+        "question": "What does HTTP stand for?"
+      }
+    ],
+    "which technology underpins most cryptocurrencies": [
+      {
+        "id": "tech_056",
+        "question": "Which technology underpins most cryptocurrencies?"
+      },
+      {
+        "id": "tech_056",
+        "question": "Which technology underpins most cryptocurrencies?"
+      }
+    ],
+    "which system allows machines to operate with minimal human intervention": [
+      {
+        "id": "tech_057",
+        "question": "Which system allows machines to operate with minimal human intervention?"
+      },
+      {
+        "id": "tech_057",
+        "question": "Which system allows machines to operate with minimal human intervention?"
+      }
+    ],
+    "what is the role of navigation satellites": [
+      {
+        "id": "tech_058",
+        "question": "What is the role of navigation satellites?"
+      },
+      {
+        "id": "tech_058",
+        "question": "What is the role of navigation satellites?"
+      }
+    ],
+    "which technology is used for wireless data transfer over short distances": [
+      {
+        "id": "tech_059",
+        "question": "Which technology is used for wireless data transfer over short distances?"
+      },
+      {
+        "id": "tech_059",
+        "question": "Which technology is used for wireless data transfer over short distances?"
+      }
+    ],
+    "which data structure is best suited for hierarchical data representation": [
+      {
+        "id": "tech_060",
+        "question": "Which data structure is best suited for hierarchical data representation?"
+      },
+      {
+        "id": "tech_060",
+        "question": "Which data structure is best suited for hierarchical data representation?"
+      }
+    ],
+    "what is the purpose of a vpn": [
+      {
+        "id": "tech_061",
+        "question": "What is the purpose of a VPN?"
+      },
+      {
+        "id": "tech_061",
+        "question": "What is the purpose of a VPN?"
+      }
+    ],
+    "which feature ensures data availability even during system failure": [
+      {
+        "id": "tech_062",
+        "question": "Which feature ensures data availability even during system failure?"
+      },
+      {
+        "id": "tech_062",
+        "question": "Which feature ensures data availability even during system failure?"
+      }
+    ],
+    "which application uses ai for voice recognition": [
+      {
+        "id": "tech_063",
+        "question": "Which application uses AI for voice recognition?"
+      },
+      {
+        "id": "tech_063",
+        "question": "Which application uses AI for voice recognition?"
+      }
+    ],
+    "what is the key feature of edge computing": [
+      {
+        "id": "tech_064",
+        "question": "What is the key feature of edge computing?"
+      },
+      {
+        "id": "tech_064",
+        "question": "What is the key feature of edge computing?"
+      }
+    ],
+    "which device connects multiple networks together": [
+      {
+        "id": "tech_065",
+        "question": "Which device connects multiple networks together?"
+      },
+      {
+        "id": "tech_065",
+        "question": "Which device connects multiple networks together?"
+      }
+    ],
+    "what is the main advantage of digital wallets": [
+      {
+        "id": "tech_066",
+        "question": "What is the main advantage of digital wallets?"
+      },
+      {
+        "id": "tech_066",
+        "question": "What is the main advantage of digital wallets?"
+      }
+    ],
+    "which technology integrates sensors and machines for smart manufacturing": [
+      {
+        "id": "tech_067",
+        "question": "Which technology integrates sensors and machines for smart manufacturing?"
+      },
+      {
+        "id": "tech_067",
+        "question": "Which technology integrates sensors and machines for smart manufacturing?"
+      }
+    ],
+    "what type of satellite is primarily used for weather forecasting": [
+      {
+        "id": "tech_068",
+        "question": "What type of satellite is primarily used for weather forecasting?"
+      },
+      {
+        "id": "tech_068",
+        "question": "What type of satellite is primarily used for weather forecasting?"
+      }
+    ],
+    "which technology is used for contactless card payments": [
+      {
+        "id": "tech_069",
+        "question": "Which technology is used for contactless card payments?"
+      },
+      {
+        "id": "tech_069",
+        "question": "Which technology is used for contactless card payments?"
+      }
+    ],
+    "which principle ensures data hiding in programming": [
+      {
+        "id": "tech_070",
+        "question": "Which principle ensures data hiding in programming?"
+      },
+      {
+        "id": "tech_070",
+        "question": "Which principle ensures data hiding in programming?"
+      }
+    ],
+    "which attack intercepts communication between two parties secretly": [
+      {
+        "id": "tech_071",
+        "question": "Which attack intercepts communication between two parties secretly?"
+      },
+      {
+        "id": "tech_071",
+        "question": "Which attack intercepts communication between two parties secretly?"
+      }
+    ],
+    "which model provides full control over infrastructure": [
+      {
+        "id": "tech_072",
+        "question": "Which model provides full control over infrastructure?"
+      },
+      {
+        "id": "tech_072",
+        "question": "Which model provides full control over infrastructure?"
+      }
+    ],
+    "which field of ai focuses on enabling machines to understand human language": [
+      {
+        "id": "tech_073",
+        "question": "Which field of AI focuses on enabling machines to understand human language?"
+      },
+      {
+        "id": "tech_073",
+        "question": "Which field of AI focuses on enabling machines to understand human language?"
+      }
+    ],
+    "what is the purpose of smart contracts in blockchain": [
+      {
+        "id": "tech_074",
+        "question": "What is the purpose of smart contracts in blockchain?"
+      },
+      {
+        "id": "tech_074",
+        "question": "What is the purpose of smart contracts in blockchain?"
+      }
+    ],
+    "which protocol is used for file transfer over networks": [
+      {
+        "id": "tech_075",
+        "question": "Which protocol is used for file transfer over networks?"
+      },
+      {
+        "id": "tech_075",
+        "question": "Which protocol is used for file transfer over networks?"
+      }
+    ],
+    "which system enables instant interbank fund transfer in india": [
+      {
+        "id": "tech_076",
+        "question": "Which system enables instant interbank fund transfer in India?"
+      },
+      {
+        "id": "tech_076",
+        "question": "Which system enables instant interbank fund transfer in India?"
+      }
+    ],
+    "which concept refers to machines learning from data without human programming": [
+      {
+        "id": "tech_077",
+        "question": "Which concept refers to machines learning from data without human programming?"
+      },
+      {
+        "id": "tech_077",
+        "question": "Which concept refers to machines learning from data without human programming?"
+      }
+    ],
+    "what is the function of a launch vehicle": [
+      {
+        "id": "tech_078",
+        "question": "What is the function of a launch vehicle?"
+      },
+      {
+        "id": "tech_078",
+        "question": "What is the function of a launch vehicle?"
+      }
+    ],
+    "which device converts digital signals to analog signals": [
+      {
+        "id": "tech_079",
+        "question": "Which device converts digital signals to analog signals?"
+      },
+      {
+        "id": "tech_079",
+        "question": "Which device converts digital signals to analog signals?"
+      }
+    ],
+    "which concept allows a function to call itself": [
+      {
+        "id": "tech_080",
+        "question": "Which concept allows a function to call itself?"
+      },
+      {
+        "id": "tech_080",
+        "question": "Which concept allows a function to call itself?"
+      }
+    ]
+  },
+  "ci_dist_overall": {
+    "0": 582,
+    "1": 1158,
+    "2": 350,
+    "3": 48
+  },
+  "ci_dist_by_cat": {
+    "Current Affairs": {
+      "1": 186,
+      "2": 4
+    },
+    "Defence": {
+      "1": 196,
+      "2": 4
+    },
+    "Geography": {
+      "0": 19,
+      "1": 143,
+      "2": 66,
+      "3": 2
+    },
+    "History": {
+      "0": 53,
+      "1": 89,
+      "2": 52,
+      "3": 6
+    },
+    "Math": {
+      "0": 190,
+      "1": 28,
+      "2": 6,
+      "3": 6
+    },
+    "Polity": {
+      "0": 32,
+      "1": 95,
+      "2": 72,
+      "3": 9
+    },
+    "Reasoning": {
+      "0": 92,
+      "1": 65,
+      "2": 24,
+      "3": 19
+    },
+    "Science": {
+      "0": 7,
+      "1": 135,
+      "2": 57,
+      "3": 1
+    },
+    "Static GK": {
+      "0": 153,
+      "1": 65,
+      "2": 17,
+      "3": 5
+    },
+    "Technology": {
+      "0": 36,
+      "1": 156,
+      "2": 48
+    }
+  },
+  "ci_invalid": [],
+  "dup_options": [
+    {
+      "id": "rea_002",
+      "options": [
+        "EV",
+        "FU",
+        "GU",
+        "EV"
+      ]
+    },
+    {
+      "id": "rea_038",
+      "options": [
+        "61",
+        "121",
+        "121",
+        "None"
+      ]
+    },
+    {
+      "id": "rea_196",
+      "options": [
+        "365",
+        "725",
+        "725",
+        "7250"
+      ]
+    },
+    {
+      "id": "mat_070",
+      "options": [
+        "41",
+        "83",
+        "41",
+        "55"
+      ]
+    },
+    {
+      "id": "mat_210",
+      "options": [
+        "212",
+        "107",
+        "212",
+        "212"
+      ]
+    }
+  ],
+  "empty_fields": [],
+  "malformed": [
+    {
+      "id": "rea_002",
+      "issues": [
+        "duplicate-options"
+      ]
+    },
+    {
+      "id": "rea_038",
+      "issues": [
+        "duplicate-options"
+      ]
+    },
+    {
+      "id": "rea_196",
+      "issues": [
+        "duplicate-options"
+      ]
+    },
+    {
+      "id": "mat_070",
+      "issues": [
+        "duplicate-options"
+      ]
+    },
+    {
+      "id": "mat_210",
+      "issues": [
+        "duplicate-options"
+      ]
+    }
+  ],
+  "bad_option_count": [],
+  "encoding": [],
+  "ambiguous": [
+    {
+      "id": "pol_108",
+      "category": "Polity",
+      "reasons": [
+        "manual-review-requested",
+        "meta-option",
+        "factual-debate",
+        "cag-reporting-debate-all-of-above"
+      ],
+      "question": "Which authority submits its reports directly to the President and not to Parliament?",
+      "correctIndex": 3,
+      "markedAnswer": "All of the above"
+    },
+    {
+      "id": "pol_172",
+      "category": "Polity",
+      "reasons": [
+        "meta-option"
+      ],
+      "question": "Which emergency has no maximum time limit for its operation?",
+      "correctIndex": 2,
+      "markedAnswer": "Financial Emergency"
+    },
+    {
+      "id": "his_046",
+      "category": "History",
+      "reasons": [
+        "answer-visible-in-stem"
+      ],
+      "question": "Which committee proposed grouping of provinces under Cabinet Mission Plan?",
+      "correctIndex": 2,
+      "markedAnswer": "Cabinet Mission"
+    },
+    {
+      "id": "his_194",
+      "category": "History",
+      "reasons": [
+        "answer-visible-in-stem"
+      ],
+      "question": "Which Mughal ruler wrote his autobiography Tuzuk-i-Jahangiri?",
+      "correctIndex": 1,
+      "markedAnswer": "Jahangir"
+    },
+    {
+      "id": "his_198",
+      "category": "History",
+      "reasons": [
+        "very-short-stem"
+      ],
+      "question": "Who founded Arya Samaj?",
+      "correctIndex": 0,
+      "markedAnswer": "Dayananda Saraswati"
+    },
+    {
+      "id": "geo_142",
+      "category": "Geography",
+      "reasons": [
+        "answer-visible-in-stem"
+      ],
+      "question": "Which plate boundary type is associated with transform faults like San Andreas Fault?",
+      "correctIndex": 2,
+      "markedAnswer": "Transform"
+    },
+    {
+      "id": "sci_098",
+      "category": "Science",
+      "reasons": [
+        "answer-visible-in-stem"
+      ],
+      "question": "Which reaction type involves addition of atoms without removal?",
+      "correctIndex": 1,
+      "markedAnswer": "Addition"
+    },
+    {
+      "id": "ca_001",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Which of the following best describes the primary objective of the G20 grouping?",
+      "correctIndex": 1,
+      "markedAnswer": "Platform for global economic coordination and financial stability"
+    },
+    {
+      "id": "ca_002",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Which feature best distinguishes mission-mode government schemes like Digital India?",
+      "correctIndex": 1,
+      "markedAnswer": "Time-bound implementation with measurable targets"
+    },
+    {
+      "id": "ca_003",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Which of the following best explains the role of the Reserve Bank of India in inflation control?",
+      "correctIndex": 1,
+      "markedAnswer": "Adjusting repo rates and liquidity conditions"
+    },
+    {
+      "id": "ca_004",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Which of the following best reflects the goal of global climate agreements like COP summits?",
+      "correctIndex": 1,
+      "markedAnswer": "Limit global temperature rise and reduce emissions"
+    },
+    {
+      "id": "ca_005",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Why is IndiaÆs participation in QUAD strategically significant?",
+      "correctIndex": 1,
+      "markedAnswer": "To strengthen maritime security and regional balance in Indo-Pacific"
+    },
+    {
+      "id": "ca_006",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Which of the following is a key component measured by the Human Development Index (HDI)?",
+      "correctIndex": 1,
+      "markedAnswer": "Life expectancy and education levels"
+    },
+    {
+      "id": "ca_007",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Which of the following best explains the significance of reusable launch vehicle technology?",
+      "correctIndex": 1,
+      "markedAnswer": "Lowers cost of space missions significantly"
+    },
+    {
+      "id": "ca_008",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Which is a key objective of joint military exercises conducted by India with other countries?",
+      "correctIndex": 1,
+      "markedAnswer": "Enhance interoperability and strategic cooperation"
+    },
+    {
+      "id": "ca_009",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Which factor most directly influences a countryÆs GDP growth rate?",
+      "correctIndex": 1,
+      "markedAnswer": "Investment and consumption levels"
+    },
+    {
+      "id": "ca_010",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "What is the primary objective of financial inclusion schemes in India?",
+      "correctIndex": 1,
+      "markedAnswer": "Provide banking services to underserved populations"
+    },
+    {
+      "id": "ca_011",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Which of the following best describes carbon neutrality?",
+      "correctIndex": 1,
+      "markedAnswer": "Balancing carbon emissions with carbon removal"
+    },
+    {
+      "id": "ca_012",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Which function is primarily associated with the World Trade Organization (WTO)?",
+      "correctIndex": 1,
+      "markedAnswer": "Regulation of global trade rules"
+    },
+    {
+      "id": "ca_013",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Which of the following best explains the importance of Artificial Intelligence in governance?",
+      "correctIndex": 1,
+      "markedAnswer": "Improves decision-making through data analysis"
+    },
+    {
+      "id": "ca_014",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Which index measures inequality within a country?",
+      "correctIndex": 1,
+      "markedAnswer": "Gini coefficient"
+    },
+    {
+      "id": "ca_015",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Which aspect is most critical in modern defense strategy involving cyber warfare?",
+      "correctIndex": 1,
+      "markedAnswer": "Data security and network resilience"
+    },
+    {
+      "id": "ca_016",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Which policy tool is used by RBI to control liquidity in the banking system?",
+      "correctIndex": 1,
+      "markedAnswer": "Repo rate"
+    },
+    {
+      "id": "ca_017",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Which factor is most important in strengthening bilateral relations between countries?",
+      "correctIndex": 1,
+      "markedAnswer": "Mutual economic and strategic interests"
+    },
+    {
+      "id": "ca_018",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Which of the following is a key aim of biodiversity conservation programs?",
+      "correctIndex": 1,
+      "markedAnswer": "Protect species and ecosystems"
+    },
+    {
+      "id": "ca_019",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Which of the following best explains the role of satellites in modern communication?",
+      "correctIndex": 1,
+      "markedAnswer": "Enable long-distance signal transmission"
+    },
+    {
+      "id": "ca_020",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Which is a key outcome expected from global economic summits like G20?",
+      "correctIndex": 1,
+      "markedAnswer": "Policy coordination among major economies"
+    },
+    {
+      "id": "ca_021",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Which indicator is most directly used to measure inflation in India?",
+      "correctIndex": 1,
+      "markedAnswer": "CPI"
+    },
+    {
+      "id": "ca_022",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Which is a major goal of infrastructure-focused government initiatives?",
+      "correctIndex": 1,
+      "markedAnswer": "Boost economic growth and connectivity"
+    },
+    {
+      "id": "ca_023",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Which of the following best describes the role of IMF?",
+      "correctIndex": 1,
+      "markedAnswer": "Provide financial stability and support to countries"
+    },
+    {
+      "id": "ca_024",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Which technology is increasingly used in modern warfare for surveillance?",
+      "correctIndex": 1,
+      "markedAnswer": "Drones"
+    },
+    {
+      "id": "ca_025",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Which concept focuses on sustainable use of resources without compromising future generations?",
+      "correctIndex": 1,
+      "markedAnswer": "Sustainable development"
+    },
+    {
+      "id": "ca_026",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Which innovation is most associated with digital payments in India?",
+      "correctIndex": 1,
+      "markedAnswer": "UPI system"
+    },
+    {
+      "id": "ca_027",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Which factor most directly affects fiscal deficit?",
+      "correctIndex": 1,
+      "markedAnswer": "Government expenditure vs revenue gap"
+    },
+    {
+      "id": "ca_028",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Which aspect is central to strategic partnerships between nations?",
+      "correctIndex": 1,
+      "markedAnswer": "Shared geopolitical interests"
+    },
+    {
+      "id": "ca_029",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Which index focuses on happiness and well-being of citizens?",
+      "correctIndex": 1,
+      "markedAnswer": "World Happiness Report"
+    },
+    {
+      "id": "ca_030",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Which gas is most associated with global warming?",
+      "correctIndex": 1,
+      "markedAnswer": "Carbon dioxide"
+    },
+    {
+      "id": "ca_031",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Which field is most impacted by advancements in gene editing technologies like CRISPR?",
+      "correctIndex": 1,
+      "markedAnswer": "Biotechnology"
+    },
+    {
+      "id": "ca_032",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Which objective is central to skill development initiatives in India?",
+      "correctIndex": 1,
+      "markedAnswer": "Enhance employability"
+    },
+    {
+      "id": "ca_033",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Which organization primarily deals with global health emergencies?",
+      "correctIndex": 1,
+      "markedAnswer": "WHO"
+    },
+    {
+      "id": "ca_034",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Which is a key objective of defense modernization programs?",
+      "correctIndex": 1,
+      "markedAnswer": "Enhance combat readiness and technology"
+    },
+    {
+      "id": "ca_035",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Which factor is most responsible for inflation in an economy?",
+      "correctIndex": 1,
+      "markedAnswer": "Excess demand over supply"
+    },
+    {
+      "id": "ca_036",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Which is a major goal of climate summits like COP?",
+      "correctIndex": 1,
+      "markedAnswer": "Emission reduction commitments"
+    },
+    {
+      "id": "ca_037",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Why are strategic chokepoints like the Strait of Hormuz important in global geopolitics?",
+      "correctIndex": 1,
+      "markedAnswer": "Control of major energy supply routes"
+    },
+    {
+      "id": "ca_038",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Which sector is most transformed by advancements in artificial intelligence?",
+      "correctIndex": 1,
+      "markedAnswer": "Data processing and automation"
+    },
+    {
+      "id": "ca_039",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Which concept focuses on reducing carbon footprint through lifestyle changes?",
+      "correctIndex": 1,
+      "markedAnswer": "Sustainable living"
+    },
+    {
+      "id": "ca_040",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Which index evaluates economic inequality within a population?",
+      "correctIndex": 2,
+      "markedAnswer": "Gini coefficient"
+    },
+    {
+      "id": "ca_041",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Which of the following best reflects the shift in IndiaÆs digital governance approach under recent Digital Public Infras",
+      "correctIndex": 2,
+      "markedAnswer": "Creation of interoperable platforms like Aadhaar, UPI, and DigiLocker"
+    },
+    {
+      "id": "ca_042",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Why has the increasing adoption of UPI been considered transformative for IndiaÆs financial ecosystem?",
+      "correctIndex": 2,
+      "markedAnswer": "It enables real-time, low-cost digital transactions at scale"
+    },
+    {
+      "id": "ca_043",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Which factor has been central to IndiaÆs recent foreign policy emphasis on the Indo-Pacific region?",
+      "correctIndex": 2,
+      "markedAnswer": "Maritime security and trade routes"
+    },
+    {
+      "id": "ca_044",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Which of the following best explains the concept of 'climate finance' discussed in recent global climate negotiations?",
+      "correctIndex": 1,
+      "markedAnswer": "Financial support from developed to developing nations for climate action"
+    },
+    {
+      "id": "ca_045",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "What is the key significance of India's recent push in semiconductor manufacturing initiatives?",
+      "correctIndex": 1,
+      "markedAnswer": "Achieving self-reliance in critical technology supply chains"
+    },
+    {
+      "id": "ca_046",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Which trend has been highlighted in recent Human Development Index reports regarding developing countries?",
+      "correctIndex": 1,
+      "markedAnswer": "Stagnation or reversal due to global crises"
+    },
+    {
+      "id": "ca_047",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Which of the following best explains the significance of joint military exercises involving India and other nations?",
+      "correctIndex": 1,
+      "markedAnswer": "Enhancing operational coordination and strategic trust"
+    },
+    {
+      "id": "ca_048",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Which of the following best reflects the evolving role of BRICS in global governance?",
+      "correctIndex": 1,
+      "markedAnswer": "Economic cooperation platform among emerging economies"
+    },
+    {
+      "id": "ca_049",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Why has inflation targeting become a key policy framework in India?",
+      "correctIndex": 1,
+      "markedAnswer": "To stabilize prices and maintain purchasing power"
+    },
+    {
+      "id": "ca_050",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Which of the following best explains the growing importance of Artificial Intelligence in defense systems?",
+      "correctIndex": 1,
+      "markedAnswer": "Enhancing decision-making and autonomous operations"
+    },
+    {
+      "id": "ca_051",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Which concept has gained prominence in recent climate discussions to reduce emissions at the consumer level?",
+      "correctIndex": 1,
+      "markedAnswer": "Lifestyle for Environment (LiFE)"
+    },
+    {
+      "id": "ca_052",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Mission-mode schemes in India are increasingly evaluated based on which factor?",
+      "correctIndex": 1,
+      "markedAnswer": "Output-based measurable outcomes"
+    },
+    {
+      "id": "ca_053",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "IndiaÆs engagement with Africa in recent years has focused primarily on which area?",
+      "correctIndex": 1,
+      "markedAnswer": "Development partnership and capacity building"
+    },
+    {
+      "id": "ca_054",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Which of the following best describes the purpose of the Global Hunger Index?",
+      "correctIndex": 1,
+      "markedAnswer": "Assess hunger and malnutrition levels"
+    },
+    {
+      "id": "ca_055",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Which technological domain is increasingly critical in modern warfare strategies?",
+      "correctIndex": 1,
+      "markedAnswer": "Cybersecurity"
+    },
+    {
+      "id": "ca_056",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Which factor has driven the rapid expansion of IndiaÆs digital economy?",
+      "correctIndex": 1,
+      "markedAnswer": "Integration of digital payment systems and internet penetration"
+    },
+    {
+      "id": "ca_057",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "IndiaÆs recent space missions emphasize which strategic objective?",
+      "correctIndex": 1,
+      "markedAnswer": "Scientific research and global collaboration"
+    },
+    {
+      "id": "ca_058",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Which mechanism is commonly proposed to reduce carbon emissions through economic incentives?",
+      "correctIndex": 1,
+      "markedAnswer": "Carbon pricing or carbon markets"
+    },
+    {
+      "id": "ca_059",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Which of the following best describes the role of WHO in global governance?",
+      "correctIndex": 1,
+      "markedAnswer": "Global health coordination and emergency response"
+    },
+    {
+      "id": "ca_060",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Which is a major expected outcome from global summits like COP and G20?",
+      "correctIndex": 1,
+      "markedAnswer": "Policy coordination on global challenges"
+    },
+    {
+      "id": "ca_061",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "IndiaÆs recent push toward inclusion of its government bonds in global indices is expected to have which major economic ",
+      "correctIndex": 1,
+      "markedAnswer": "Increase in foreign portfolio investment inflows"
+    },
+    {
+      "id": "ca_062",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "The growing global focus on AI regulation frameworks is primarily aimed at addressing which concern?",
+      "correctIndex": 1,
+      "markedAnswer": "Ensuring ethical use and data privacy"
+    },
+    {
+      "id": "ca_063",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Recent COP discussions have emphasized 'loss and damage' funding. What does this concept refer to?",
+      "correctIndex": 1,
+      "markedAnswer": "Compensation for climate-related damages in vulnerable countries"
+    },
+    {
+      "id": "ca_064",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "IndiaÆs increasing focus on indigenous defense production aligns with which broader strategic objective?",
+      "correctIndex": 1,
+      "markedAnswer": "Achieving self-reliance and reducing import dependency"
+    },
+    {
+      "id": "ca_065",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "IndiaÆs engagement in the Global South dialogue initiatives reflects which diplomatic priority?",
+      "correctIndex": 1,
+      "markedAnswer": "Strengthening leadership among developing nations"
+    },
+    {
+      "id": "ca_066",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Recent global reports have highlighted increasing inequality post-pandemic. Which factor has contributed most to this tr",
+      "correctIndex": 1,
+      "markedAnswer": "Unequal recovery across sectors and countries"
+    },
+    {
+      "id": "ca_067",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Recent expansion of digital public infrastructure in India primarily aims to achieve which goal?",
+      "correctIndex": 1,
+      "markedAnswer": "Enhance accessibility and transparency of services"
+    },
+    {
+      "id": "ca_068",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Recent advancements in quantum computing are expected to significantly impact which field?",
+      "correctIndex": 1,
+      "markedAnswer": "Cryptography and data security"
+    },
+    {
+      "id": "ca_069",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "IndiaÆs updated climate commitments focus heavily on which transition?",
+      "correctIndex": 1,
+      "markedAnswer": "Renewable energy adoption"
+    },
+    {
+      "id": "ca_070",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Recent reforms discussions in global institutions like IMF and World Bank focus on what key issue?",
+      "correctIndex": 1,
+      "markedAnswer": "Greater representation of developing countries"
+    },
+    {
+      "id": "ca_071",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "The increasing adoption of Central Bank Digital Currency (CBDC) aims to achieve which objective?",
+      "correctIndex": 1,
+      "markedAnswer": "Enhance digital payment efficiency and financial inclusion"
+    },
+    {
+      "id": "ca_072",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Recent developments in hypersonic missile technology are significant because they:",
+      "correctIndex": 1,
+      "markedAnswer": "Travel at speeds exceeding Mach 5 making interception difficult"
+    },
+    {
+      "id": "ca_073",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "IndiaÆs recent semiconductor initiatives are primarily aimed at:",
+      "correctIndex": 1,
+      "markedAnswer": "Strengthening domestic electronics manufacturing ecosystem"
+    },
+    {
+      "id": "ca_074",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Recent G20 discussions have emphasized sustainable growth. Which concept is central to this approach?",
+      "correctIndex": 1,
+      "markedAnswer": "Inclusive and resilient economic development"
+    },
+    {
+      "id": "ca_075",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Which concept is increasingly promoted globally to reduce environmental impact through individual behavior?",
+      "correctIndex": 1,
+      "markedAnswer": "Sustainable lifestyle practices"
+    },
+    {
+      "id": "ca_076",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "IndiaÆs recent focus on supply chain resilience partnerships is primarily aimed at:",
+      "correctIndex": 1,
+      "markedAnswer": "Diversifying and securing critical supply chains"
+    },
+    {
+      "id": "ca_077",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Recent World Happiness Reports emphasize which factor as key to higher rankings?",
+      "correctIndex": 1,
+      "markedAnswer": "Social support and well-being"
+    },
+    {
+      "id": "ca_078",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Advancements in generative AI technologies raise concerns mainly related to:",
+      "correctIndex": 1,
+      "markedAnswer": "Misinformation and ethical use"
+    },
+    {
+      "id": "ca_079",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "IndiaÆs focus on infrastructure development is expected to primarily boost:",
+      "correctIndex": 1,
+      "markedAnswer": "Economic growth and logistics efficiency"
+    },
+    {
+      "id": "ca_080",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "The concept of network-centric warfare emphasizes:",
+      "correctIndex": 1,
+      "markedAnswer": "Integration of information systems for real-time decision making"
+    },
+    {
+      "id": "ca_081",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Recent RBI policy stance shifts have primarily focused on which balance?",
+      "correctIndex": 1,
+      "markedAnswer": "Controlling inflation while supporting growth"
+    },
+    {
+      "id": "ca_082",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Recent discussions on AI governance globally emphasize which regulatory priority?",
+      "correctIndex": 1,
+      "markedAnswer": "Transparency, accountability, and data protection"
+    },
+    {
+      "id": "ca_083",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Recent climate negotiations have stressed 'just transition'. What does this imply?",
+      "correctIndex": 1,
+      "markedAnswer": "Fair transition to green economy considering workers and developing nations"
+    },
+    {
+      "id": "ca_084",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "IndiaÆs recent outreach to West Asia focuses significantly on which strategic area?",
+      "correctIndex": 1,
+      "markedAnswer": "Energy security and connectivity corridors"
+    },
+    {
+      "id": "ca_085",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Recent expansion of IndiaÆs digital identity ecosystem is intended to achieve what outcome?",
+      "correctIndex": 1,
+      "markedAnswer": "Enable seamless service delivery across sectors"
+    },
+    {
+      "id": "ca_086",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "IndiaÆs emphasis on integrated theatre commands aims to improve which aspect of defense?",
+      "correctIndex": 1,
+      "markedAnswer": "Jointness among armed forces"
+    },
+    {
+      "id": "ca_087",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Recent global reports emphasize resilience. What does economic resilience refer to?",
+      "correctIndex": 1,
+      "markedAnswer": "Ability to withstand shocks and recover quickly"
+    },
+    {
+      "id": "ca_088",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Recent reforms in multilateral institutions are driven by which concern?",
+      "correctIndex": 1,
+      "markedAnswer": "Need for equitable representation and governance"
+    },
+    {
+      "id": "ca_089",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "IndiaÆs recent advancements in space missions highlight which capability?",
+      "correctIndex": 1,
+      "markedAnswer": "Cost-effective and reliable launch systems"
+    },
+    {
+      "id": "ca_090",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Carbon markets discussed globally are designed to:",
+      "correctIndex": 1,
+      "markedAnswer": "Provide economic incentives to reduce emissions"
+    },
+    {
+      "id": "ca_091",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "IndiaÆs recent push in logistics policy reforms is expected to:",
+      "correctIndex": 1,
+      "markedAnswer": "Reduce transportation costs and improve efficiency"
+    },
+    {
+      "id": "ca_092",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Recent developments in drone warfare highlight which strategic shift?",
+      "correctIndex": 1,
+      "markedAnswer": "Increased reliance on unmanned and precision systems"
+    },
+    {
+      "id": "ca_093",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "IndiaÆs engagement with regional groupings like BIMSTEC emphasizes:",
+      "correctIndex": 1,
+      "markedAnswer": "Regional connectivity and economic cooperation"
+    },
+    {
+      "id": "ca_094",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Recent breakthroughs in mRNA technology are primarily significant for:",
+      "correctIndex": 1,
+      "markedAnswer": "Rapid vaccine development and medical innovation"
+    },
+    {
+      "id": "ca_095",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Recent economic surveys emphasize which factor as key to long-term growth?",
+      "correctIndex": 1,
+      "markedAnswer": "Investment in infrastructure and human capital"
+    },
+    {
+      "id": "ca_096",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Recent focus on green hydrogen missions aims to achieve what?",
+      "correctIndex": 1,
+      "markedAnswer": "Promote clean energy and reduce carbon emissions"
+    },
+    {
+      "id": "ca_097",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Which recent policy focus promotes circular economy principles?",
+      "correctIndex": 1,
+      "markedAnswer": "Reuse, recycling, and resource efficiency"
+    },
+    {
+      "id": "ca_098",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "IndiaÆs focus on manufacturing under PLI schemes aims to:",
+      "correctIndex": 1,
+      "markedAnswer": "Boost domestic production and global competitiveness"
+    },
+    {
+      "id": "ca_099",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Recent semiconductor ecosystem initiatives are crucial for which sector?",
+      "correctIndex": 1,
+      "markedAnswer": "Electronics and strategic industries"
+    },
+    {
+      "id": "ca_100",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Recent global summits increasingly emphasize 'resilient supply chains'. What does this imply?",
+      "correctIndex": 1,
+      "markedAnswer": "Diversified and secure supply networks"
+    },
+    {
+      "id": "ca_101",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Cybersecurity strategies in recent policies focus mainly on:",
+      "correctIndex": 1,
+      "markedAnswer": "Protecting digital infrastructure and data"
+    },
+    {
+      "id": "ca_102",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Recent discussions in WTO revolve around which issue?",
+      "correctIndex": 1,
+      "markedAnswer": "Trade rules and dispute resolution reforms"
+    },
+    {
+      "id": "ca_103",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Which recent initiative focuses on restoring degraded ecosystems?",
+      "correctIndex": 1,
+      "markedAnswer": "Ecosystem restoration programs"
+    },
+    {
+      "id": "ca_104",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Recent fiscal policy debates in India emphasize which balance?",
+      "correctIndex": 1,
+      "markedAnswer": "Balancing growth with fiscal discipline"
+    },
+    {
+      "id": "ca_105",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "IndiaÆs push in 5G technology primarily aims to:",
+      "correctIndex": 1,
+      "markedAnswer": "Enhance connectivity and digital economy"
+    },
+    {
+      "id": "ca_106",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Strategic partnerships in Indo-Pacific are largely focused on:",
+      "correctIndex": 1,
+      "markedAnswer": "Ensuring free and open maritime routes"
+    },
+    {
+      "id": "ca_107",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Recent global inequality reports highlight which concern?",
+      "correctIndex": 1,
+      "markedAnswer": "Widening income gaps post-pandemic"
+    },
+    {
+      "id": "ca_108",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Recent advancements in missile defense systems focus on:",
+      "correctIndex": 1,
+      "markedAnswer": "Intercepting incoming threats effectively"
+    },
+    {
+      "id": "ca_109",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Skill development initiatives in recent policy focus on:",
+      "correctIndex": 1,
+      "markedAnswer": "Enhancing workforce capability for modern industries"
+    },
+    {
+      "id": "ca_110",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Which approach is emphasized globally to reduce plastic pollution?",
+      "correctIndex": 1,
+      "markedAnswer": "Reduce, reuse, recycle strategies"
+    },
+    {
+      "id": "ca_111",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Recent developments in EV ecosystem in India aim to:",
+      "correctIndex": 1,
+      "markedAnswer": "Promote sustainable transportation"
+    },
+    {
+      "id": "ca_112",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Digital economy expansion is primarily driven by:",
+      "correctIndex": 1,
+      "markedAnswer": "Technology adoption and digital infrastructure"
+    },
+    {
+      "id": "ca_113",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Recent WHO initiatives have focused on:",
+      "correctIndex": 1,
+      "markedAnswer": "Global health preparedness and response"
+    },
+    {
+      "id": "ca_114",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Recent G20 agendas highlight which issue as a global priority?",
+      "correctIndex": 1,
+      "markedAnswer": "Sustainable and inclusive economic growth"
+    },
+    {
+      "id": "ca_115",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Recent advances in biotechnology are mainly applied in:",
+      "correctIndex": 1,
+      "markedAnswer": "Healthcare and agriculture"
+    },
+    {
+      "id": "ca_116",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Which recent global concept emphasizes net-zero emissions?",
+      "correctIndex": 1,
+      "markedAnswer": "Balancing emissions with removal efforts"
+    },
+    {
+      "id": "ca_117",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Modern defense policies increasingly rely on:",
+      "correctIndex": 1,
+      "markedAnswer": "Technology-driven warfare systems"
+    },
+    {
+      "id": "ca_118",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Financial inclusion initiatives primarily aim to:",
+      "correctIndex": 1,
+      "markedAnswer": "Expand access to banking and financial services"
+    },
+    {
+      "id": "ca_119",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "IndiaÆs recent trade agreements focus on:",
+      "correctIndex": 1,
+      "markedAnswer": "Enhancing market access and economic cooperation"
+    },
+    {
+      "id": "ca_120",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Recent global development reports emphasize which key challenge?",
+      "correctIndex": 1,
+      "markedAnswer": "Balancing growth with sustainability"
+    },
+    {
+      "id": "ca_121",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Recent discussions around India's fiscal strategy emphasize which key challenge?",
+      "correctIndex": 1,
+      "markedAnswer": "Balancing capital expenditure with fiscal deficit control"
+    },
+    {
+      "id": "ca_122",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Recent debates on AI-generated content regulation primarily revolve around which concern?",
+      "correctIndex": 1,
+      "markedAnswer": "Data privacy and misinformation risks"
+    },
+    {
+      "id": "ca_123",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Recent climate finance discussions highlight which major issue for developing countries?",
+      "correctIndex": 1,
+      "markedAnswer": "Access to adequate funding for adaptation and mitigation"
+    },
+    {
+      "id": "ca_124",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "IndiaÆs recent focus on connectivity corridors (like IMEC-type initiatives) aims to achieve what strategic outcome?",
+      "correctIndex": 1,
+      "markedAnswer": "Diversified trade routes and economic integration"
+    },
+    {
+      "id": "ca_125",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Recent expansion of DBT (Direct Benefit Transfer) systems primarily aims to:",
+      "correctIndex": 1,
+      "markedAnswer": "Reduce leakages and improve efficiency in welfare delivery"
+    },
+    {
+      "id": "ca_126",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Recent emphasis on multi-domain warfare highlights integration of which domains?",
+      "correctIndex": 1,
+      "markedAnswer": "Land, air, sea, cyber, and space"
+    },
+    {
+      "id": "ca_127",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Recent global reports stress æinclusive growthÆ. What does this imply?",
+      "correctIndex": 1,
+      "markedAnswer": "Growth benefiting all sections of society"
+    },
+    {
+      "id": "ca_128",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Recent discussions around UN reforms focus mainly on:",
+      "correctIndex": 1,
+      "markedAnswer": "Increasing representation of developing nations in decision-making"
+    },
+    {
+      "id": "ca_129",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Recent push in IndiaÆs space sector liberalization aims to:",
+      "correctIndex": 1,
+      "markedAnswer": "Encourage private players and innovation"
+    },
+    {
+      "id": "ca_130",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Which emerging concept promotes reducing emissions across supply chains and industries?",
+      "correctIndex": 1,
+      "markedAnswer": "Green supply chain management"
+    },
+    {
+      "id": "ca_131",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Recent growth in IndiaÆs startup ecosystem is largely driven by:",
+      "correctIndex": 1,
+      "markedAnswer": "Digital infrastructure and policy support"
+    },
+    {
+      "id": "ca_132",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "The rise of cyber warfare in recent conflicts emphasizes which capability?",
+      "correctIndex": 1,
+      "markedAnswer": "Protection of critical information infrastructure"
+    },
+    {
+      "id": "ca_133",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "IndiaÆs recent trade diversification strategy aims to:",
+      "correctIndex": 1,
+      "markedAnswer": "Reduce risk by expanding multiple trade partners"
+    },
+    {
+      "id": "ca_134",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Recent advancements in fusion energy research are significant because they:",
+      "correctIndex": 1,
+      "markedAnswer": "Offer potential for clean and abundant energy"
+    },
+    {
+      "id": "ca_135",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Recent environmental indices highlight which global concern?",
+      "correctIndex": 1,
+      "markedAnswer": "Climate vulnerability and ecological degradation"
+    },
+    {
+      "id": "ca_136",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Recent agriculture-related policies in India emphasize which approach?",
+      "correctIndex": 1,
+      "markedAnswer": "Use of technology and sustainability in farming"
+    },
+    {
+      "id": "ca_137",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Recent emphasis on EV adoption aims to address which issue?",
+      "correctIndex": 1,
+      "markedAnswer": "Reduce carbon emissions in transport sector"
+    },
+    {
+      "id": "ca_138",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Recent discussions on digital taxation globally focus on:",
+      "correctIndex": 1,
+      "markedAnswer": "Taxing multinational digital companies fairly"
+    },
+    {
+      "id": "ca_139",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "IndiaÆs recent push in 6G research reflects which objective?",
+      "correctIndex": 1,
+      "markedAnswer": "Future-ready communication infrastructure"
+    },
+    {
+      "id": "ca_140",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Recent global economic forums emphasize 'resilient recovery'. What does this imply?",
+      "correctIndex": 1,
+      "markedAnswer": "Recovery that can withstand future shocks"
+    },
+    {
+      "id": "ca_121",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Recent discussions around India's fiscal strategy emphasize which key challenge?",
+      "correctIndex": 1,
+      "markedAnswer": "Balancing capital expenditure with fiscal deficit control"
+    },
+    {
+      "id": "ca_122",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Recent debates on AI-generated content regulation primarily revolve around which concern?",
+      "correctIndex": 1,
+      "markedAnswer": "Data privacy and misinformation risks"
+    },
+    {
+      "id": "ca_123",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Recent climate finance discussions highlight which major issue for developing countries?",
+      "correctIndex": 1,
+      "markedAnswer": "Access to adequate funding for adaptation and mitigation"
+    },
+    {
+      "id": "ca_124",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "IndiaÆs recent focus on connectivity corridors (like IMEC-type initiatives) aims to achieve what strategic outcome?",
+      "correctIndex": 1,
+      "markedAnswer": "Diversified trade routes and economic integration"
+    },
+    {
+      "id": "ca_125",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Recent expansion of DBT (Direct Benefit Transfer) systems primarily aims to:",
+      "correctIndex": 1,
+      "markedAnswer": "Reduce leakages and improve efficiency in welfare delivery"
+    },
+    {
+      "id": "ca_126",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Recent emphasis on multi-domain warfare highlights integration of which domains?",
+      "correctIndex": 1,
+      "markedAnswer": "Land, air, sea, cyber, and space"
+    },
+    {
+      "id": "ca_127",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Recent global reports stress æinclusive growthÆ. What does this imply?",
+      "correctIndex": 1,
+      "markedAnswer": "Growth benefiting all sections of society"
+    },
+    {
+      "id": "ca_128",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Recent discussions around UN reforms focus mainly on:",
+      "correctIndex": 1,
+      "markedAnswer": "Increasing representation of developing nations in decision-making"
+    },
+    {
+      "id": "ca_129",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Recent push in IndiaÆs space sector liberalization aims to:",
+      "correctIndex": 1,
+      "markedAnswer": "Encourage private players and innovation"
+    },
+    {
+      "id": "ca_130",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Which emerging concept promotes reducing emissions across supply chains and industries?",
+      "correctIndex": 1,
+      "markedAnswer": "Green supply chain management"
+    },
+    {
+      "id": "ca_131",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Recent growth in IndiaÆs startup ecosystem is largely driven by:",
+      "correctIndex": 1,
+      "markedAnswer": "Digital infrastructure and policy support"
+    },
+    {
+      "id": "ca_132",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "The rise of cyber warfare in recent conflicts emphasizes which capability?",
+      "correctIndex": 1,
+      "markedAnswer": "Protection of critical information infrastructure"
+    },
+    {
+      "id": "ca_133",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "IndiaÆs recent trade diversification strategy aims to:",
+      "correctIndex": 1,
+      "markedAnswer": "Reduce risk by expanding multiple trade partners"
+    },
+    {
+      "id": "ca_134",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Recent advancements in fusion energy research are significant because they:",
+      "correctIndex": 1,
+      "markedAnswer": "Offer potential for clean and abundant energy"
+    },
+    {
+      "id": "ca_135",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Recent environmental indices highlight which global concern?",
+      "correctIndex": 1,
+      "markedAnswer": "Climate vulnerability and ecological degradation"
+    },
+    {
+      "id": "ca_136",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Recent agriculture-related policies in India emphasize which approach?",
+      "correctIndex": 1,
+      "markedAnswer": "Use of technology and sustainability in farming"
+    },
+    {
+      "id": "ca_137",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Recent emphasis on EV adoption aims to address which issue?",
+      "correctIndex": 1,
+      "markedAnswer": "Reduce carbon emissions in transport sector"
+    },
+    {
+      "id": "ca_138",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Recent discussions on digital taxation globally focus on:",
+      "correctIndex": 1,
+      "markedAnswer": "Taxing multinational digital companies fairly"
+    },
+    {
+      "id": "ca_139",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "IndiaÆs recent push in 6G research reflects which objective?",
+      "correctIndex": 1,
+      "markedAnswer": "Future-ready communication infrastructure"
+    },
+    {
+      "id": "ca_140",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Recent global economic forums emphasize 'resilient recovery'. What does this imply?",
+      "correctIndex": 1,
+      "markedAnswer": "Recovery that can withstand future shocks"
+    },
+    {
+      "id": "ca_181",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Recent trends in IndiaÆs retail inflation have prompted policymakers to focus on which key factor?",
+      "correctIndex": 1,
+      "markedAnswer": "Food price volatility management"
+    },
+    {
+      "id": "ca_182",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Recent global AI governance discussions emphasize which principle for responsible deployment?",
+      "correctIndex": 1,
+      "markedAnswer": "Human oversight and accountability"
+    },
+    {
+      "id": "ca_183",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Recent emphasis on climate adaptation strategies in India focuses primarily on:",
+      "correctIndex": 1,
+      "markedAnswer": "Resilience against extreme weather events"
+    },
+    {
+      "id": "ca_184",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "IndiaÆs recent emphasis on strategic autonomy is most visible in which approach?",
+      "correctIndex": 1,
+      "markedAnswer": "Issue-based partnerships with multiple countries"
+    },
+    {
+      "id": "ca_185",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Recent reforms in public service delivery systems aim to achieve:",
+      "correctIndex": 1,
+      "markedAnswer": "Transparency and efficiency through digitization"
+    },
+    {
+      "id": "ca_186",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Recent emphasis on indigenous aircraft carrier development signifies:",
+      "correctIndex": 1,
+      "markedAnswer": "Enhancement of blue-water naval capabilities"
+    },
+    {
+      "id": "ca_187",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Recent global economic outlook reports highlight which major risk?",
+      "correctIndex": 1,
+      "markedAnswer": "Geopolitical tensions affecting trade and growth"
+    },
+    {
+      "id": "ca_188",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Recent IMF lending frameworks are increasingly focused on which objective?",
+      "correctIndex": 1,
+      "markedAnswer": "Debt sustainability and structural reforms"
+    },
+    {
+      "id": "ca_189",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "IndiaÆs recent progress in digital public infrastructure is globally recognized for:",
+      "correctIndex": 1,
+      "markedAnswer": "Scalability and interoperability"
+    },
+    {
+      "id": "ca_190",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Recent discussions on ænet-zero pathwaysÆ emphasize which strategy?",
+      "correctIndex": 1,
+      "markedAnswer": "Balancing emissions with carbon sinks and technology"
+    },
+    {
+      "id": "ca_191",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Recent push towards digital lending regulations aims to:",
+      "correctIndex": 1,
+      "markedAnswer": "Protect consumers and ensure transparency"
+    },
+    {
+      "id": "ca_192",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "The recent focus on space militarization highlights which strategic concern?",
+      "correctIndex": 1,
+      "markedAnswer": "Security of satellites and space assets"
+    },
+    {
+      "id": "ca_193",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "IndiaÆs engagement with ASEAN countries primarily aims at:",
+      "correctIndex": 1,
+      "markedAnswer": "Trade, connectivity and regional stability"
+    },
+    {
+      "id": "ca_194",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Recent breakthroughs in semiconductor technology aim to improve:",
+      "correctIndex": 1,
+      "markedAnswer": "Processing power and energy efficiency"
+    },
+    {
+      "id": "ca_195",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Recent reports on climate vulnerability emphasize which key factor?",
+      "correctIndex": 1,
+      "markedAnswer": "Exposure and adaptive capacity of regions"
+    },
+    {
+      "id": "ca_196",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Recent energy transition policies in India prioritize which approach?",
+      "correctIndex": 1,
+      "markedAnswer": "Diversification into renewables and green fuels"
+    },
+    {
+      "id": "ca_197",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Recent initiatives to combat desertification focus on:",
+      "correctIndex": 1,
+      "markedAnswer": "Land restoration and sustainable practices"
+    },
+    {
+      "id": "ca_198",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Recent reforms in IndiaÆs banking sector aim to improve:",
+      "correctIndex": 1,
+      "markedAnswer": "Credit flow and financial stability"
+    },
+    {
+      "id": "ca_199",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Recent developments in quantum communication focus on:",
+      "correctIndex": 1,
+      "markedAnswer": "Ultra-secure data transmission"
+    },
+    {
+      "id": "ca_200",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Recent global summit agendas on æinclusive digital growthÆ emphasize:",
+      "correctIndex": 1,
+      "markedAnswer": "Bridging digital divide and ensuring access"
+    },
+    {
+      "id": "ca_201",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Recent focus on æborder infrastructureÆ in India aims to:",
+      "correctIndex": 1,
+      "markedAnswer": "Improve mobility and strategic deployment"
+    },
+    {
+      "id": "ca_202",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Recent discussions on global financial stability highlight which risk?",
+      "correctIndex": 1,
+      "markedAnswer": "Debt crises in emerging economies"
+    },
+    {
+      "id": "ca_203",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Recent focus on æcarbon sinksÆ refers to:",
+      "correctIndex": 1,
+      "markedAnswer": "Systems that absorb more carbon than they emit"
+    },
+    {
+      "id": "ca_204",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Recent global economic trends highlight which challenge for policymakers?",
+      "correctIndex": 1,
+      "markedAnswer": "Balancing inflation control with economic growth"
+    },
+    {
+      "id": "ca_205",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Recent advancements in robotics are primarily transforming which sector?",
+      "correctIndex": 1,
+      "markedAnswer": "Manufacturing and automation"
+    },
+    {
+      "id": "ca_206",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Recent Indo-Pacific strategies emphasize which principle?",
+      "correctIndex": 1,
+      "markedAnswer": "Free, open and inclusive maritime region"
+    },
+    {
+      "id": "ca_207",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Recent development reports highlight which factor for sustainable growth?",
+      "correctIndex": 1,
+      "markedAnswer": "Environmental and social sustainability"
+    },
+    {
+      "id": "ca_208",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Recent emphasis on missile defense systems is aimed at:",
+      "correctIndex": 1,
+      "markedAnswer": "Protecting against aerial threats"
+    },
+    {
+      "id": "ca_209",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Recent initiatives in rural development emphasize:",
+      "correctIndex": 1,
+      "markedAnswer": "Infrastructure and livelihood generation"
+    },
+    {
+      "id": "ca_210",
+      "category": "Current Affairs",
+      "reasons": [
+        "current-affairs-staleness"
+      ],
+      "question": "Recent global focus on æclimate resilienceÆ aims to:",
+      "correctIndex": 1,
+      "markedAnswer": "Enhance ability to adapt to climate impacts"
+    },
+    {
+      "id": "rea_001",
+      "category": "Reasoning",
+      "reasons": [
+        "manual-review-requested",
+        "math-reasoning-verify",
+        "likely-wrong-correctIndex-expected-720-at-index-1"
+      ],
+      "question": "Find the next term: 4, 6, 12, 36, 144, ?",
+      "correctIndex": 2,
+      "markedAnswer": "864"
+    },
+    {
+      "id": "rea_002",
+      "category": "Reasoning",
+      "reasons": [
+        "math-reasoning-verify"
+      ],
+      "question": "Find the next term: AZ, BY, CX, DW, ?",
+      "correctIndex": 0,
+      "markedAnswer": "EV"
+    },
+    {
+      "id": "rea_011",
+      "category": "Reasoning",
+      "reasons": [
+        "math-reasoning-verify"
+      ],
+      "question": "Find the next term: 2, 5, 14, 41, 122, ?",
+      "correctIndex": 0,
+      "markedAnswer": "365"
+    },
+    {
+      "id": "rea_012",
+      "category": "Reasoning",
+      "reasons": [
+        "math-reasoning-verify"
+      ],
+      "question": "Find the next term: BDF, CEH, DGJ, ?",
+      "correctIndex": 2,
+      "markedAnswer": "EJL"
+    },
+    {
+      "id": "rea_013",
+      "category": "Reasoning",
+      "reasons": [
+        "very-short-stem"
+      ],
+      "question": "Seed : Tree :: Word : ?",
+      "correctIndex": 0,
+      "markedAnswer": "Sentence"
+    },
+    {
+      "id": "rea_030",
+      "category": "Reasoning",
+      "reasons": [
+        "math-reasoning-verify"
+      ],
+      "question": "Find remainder when 7^100 is divided by 6.",
+      "correctIndex": 0,
+      "markedAnswer": "1"
+    },
+    {
+      "id": "rea_038",
+      "category": "Reasoning",
+      "reasons": [
+        "math-reasoning-verify"
+      ],
+      "question": "Which number leaves remainder 1 when divided by 2,3,4,5?",
+      "correctIndex": 1,
+      "markedAnswer": "121"
+    },
+    {
+      "id": "rea_039",
+      "category": "Reasoning",
+      "reasons": [
+        "very-short-stem"
+      ],
+      "question": "Find next: LM, OP, RS, ?",
+      "correctIndex": 0,
+      "markedAnswer": "TU"
+    },
+    {
+      "id": "rea_041",
+      "category": "Reasoning",
+      "reasons": [
+        "math-reasoning-verify"
+      ],
+      "question": "Find the next term: 5, 11, 23, 47, 95, ?",
+      "correctIndex": 0,
+      "markedAnswer": "191"
+    },
+    {
+      "id": "rea_042",
+      "category": "Reasoning",
+      "reasons": [
+        "math-reasoning-verify"
+      ],
+      "question": "Find the next term: AC, FH, KM, PR, ?",
+      "correctIndex": 1,
+      "markedAnswer": "UX"
+    },
+    {
+      "id": "rea_052",
+      "category": "Reasoning",
+      "reasons": [
+        "very-short-stem"
+      ],
+      "question": "Pen : Ink :: Printer : ?",
+      "correctIndex": 1,
+      "markedAnswer": "Cartridge"
+    },
+    {
+      "id": "rea_055",
+      "category": "Reasoning",
+      "reasons": [
+        "answer-visible-in-stem"
+      ],
+      "question": "A is father of B. B is sister of C. How is A related to C?",
+      "correctIndex": 0,
+      "markedAnswer": "Father"
+    },
+    {
+      "id": "rea_057",
+      "category": "Reasoning",
+      "reasons": [
+        "math-reasoning-verify"
+      ],
+      "question": "What is the remainder when 9^50 is divided by 8?",
+      "correctIndex": 0,
+      "markedAnswer": "1"
+    },
+    {
+      "id": "rea_060",
+      "category": "Reasoning",
+      "reasons": [
+        "very-short-stem"
+      ],
+      "question": "Find next: A, D, I, P, ?",
+      "correctIndex": 1,
+      "markedAnswer": "X"
+    },
+    {
+      "id": "rea_061",
+      "category": "Reasoning",
+      "reasons": [
+        "very-short-stem"
+      ],
+      "question": "Bird : Nest :: Bee : ?",
+      "correctIndex": 0,
+      "markedAnswer": "Hive"
+    },
+    {
+      "id": "rea_071",
+      "category": "Reasoning",
+      "reasons": [
+        "math-reasoning-verify"
+      ],
+      "question": "Find smallest number divisible by 2,3,4,5 and leaves remainder 1.",
+      "correctIndex": 0,
+      "markedAnswer": "61"
+    },
+    {
+      "id": "rea_073",
+      "category": "Reasoning",
+      "reasons": [
+        "very-short-stem"
+      ],
+      "question": "Eye : See :: Ear : ?",
+      "correctIndex": 1,
+      "markedAnswer": "Hear"
+    },
+    {
+      "id": "rea_081",
+      "category": "Reasoning",
+      "reasons": [
+        "math-reasoning-verify"
+      ],
+      "question": "Find the next term: 2, 7, 23, 95, 479, ?",
+      "correctIndex": 1,
+      "markedAnswer": "2879"
+    },
+    {
+      "id": "rea_082",
+      "category": "Reasoning",
+      "reasons": [
+        "math-reasoning-verify"
+      ],
+      "question": "Find the next term: AD, BE, CF, DG, ?",
+      "correctIndex": 0,
+      "markedAnswer": "EH"
+    },
+    {
+      "id": "rea_091",
+      "category": "Reasoning",
+      "reasons": [
+        "math-reasoning-verify"
+      ],
+      "question": "Find the next term: B, E, J, Q, Z, ?",
+      "correctIndex": 2,
+      "markedAnswer": "L"
+    },
+    {
+      "id": "rea_099",
+      "category": "Reasoning",
+      "reasons": [
+        "answer-visible-in-stem"
+      ],
+      "question": "Find odd: Triangle, Square, Circle, Pentagon",
+      "correctIndex": 2,
+      "markedAnswer": "Circle"
+    },
+    {
+      "id": "rea_102",
+      "category": "Reasoning",
+      "reasons": [
+        "math-reasoning-verify"
+      ],
+      "question": "Find remainder when 13^20 is divided by 12.",
+      "correctIndex": 0,
+      "markedAnswer": "1"
+    },
+    {
+      "id": "rea_109",
+      "category": "Reasoning",
+      "reasons": [
+        "answer-visible-in-stem"
+      ],
+      "question": "If today is Friday, what day after 70 days?",
+      "correctIndex": 0,
+      "markedAnswer": "Friday"
+    },
+    {
+      "id": "rea_116",
+      "category": "Reasoning",
+      "reasons": [
+        "math-reasoning-verify"
+      ],
+      "question": "Find the smallest number divisible by 7, 11, 13.",
+      "correctIndex": 0,
+      "markedAnswer": "1001"
+    },
+    {
+      "id": "rea_121",
+      "category": "Reasoning",
+      "reasons": [
+        "math-reasoning-verify"
+      ],
+      "question": "Find the next term: 7, 10, 20, 23, 46, 49, ?",
+      "correctIndex": 3,
+      "markedAnswer": "94"
+    },
+    {
+      "id": "rea_122",
+      "category": "Reasoning",
+      "reasons": [
+        "math-reasoning-verify"
+      ],
+      "question": "Find the next term: A, F, K, P, U, ?",
+      "correctIndex": 0,
+      "markedAnswer": "Z"
+    },
+    {
+      "id": "rea_139",
+      "category": "Reasoning",
+      "reasons": [
+        "answer-visible-in-stem"
+      ],
+      "question": "Find the odd one out: Cow, Goat, Tiger, Dog",
+      "correctIndex": 2,
+      "markedAnswer": "Tiger"
+    },
+    {
+      "id": "rea_142",
+      "category": "Reasoning",
+      "reasons": [
+        "math-reasoning-verify"
+      ],
+      "question": "Find remainder when 17^23 is divided by 16.",
+      "correctIndex": 0,
+      "markedAnswer": "1"
+    },
+    {
+      "id": "rea_144",
+      "category": "Reasoning",
+      "reasons": [
+        "very-short-stem"
+      ],
+      "question": "Fish : Water :: Bird : ?",
+      "correctIndex": 1,
+      "markedAnswer": "Air"
+    },
+    {
+      "id": "rea_152",
+      "category": "Reasoning",
+      "reasons": [
+        "very-short-stem"
+      ],
+      "question": "Find next: CF, HK, MP, ?",
+      "correctIndex": 0,
+      "markedAnswer": "RU"
+    },
+    {
+      "id": "rea_156",
+      "category": "Reasoning",
+      "reasons": [
+        "math-reasoning-verify"
+      ],
+      "question": "Find remainder when 11^15 is divided by 10.",
+      "correctIndex": 0,
+      "markedAnswer": "1"
+    },
+    {
+      "id": "rea_161",
+      "category": "Reasoning",
+      "reasons": [
+        "math-reasoning-verify"
+      ],
+      "question": "Find the next term: 8, 14, 26, 50, 98, ?",
+      "correctIndex": 2,
+      "markedAnswer": "194"
+    },
+    {
+      "id": "rea_162",
+      "category": "Reasoning",
+      "reasons": [
+        "math-reasoning-verify"
+      ],
+      "question": "Find the next term: BD, FI, JO, NV, ?",
+      "correctIndex": 1,
+      "markedAnswer": "SD"
+    },
+    {
+      "id": "rea_170",
+      "category": "Reasoning",
+      "reasons": [
+        "math-reasoning-verify"
+      ],
+      "question": "What is the remainder when 2^25 is divided by 7?",
+      "correctIndex": 1,
+      "markedAnswer": "2"
+    },
+    {
+      "id": "rea_173",
+      "category": "Reasoning",
+      "reasons": [
+        "answer-visible-in-stem"
+      ],
+      "question": "If the 1st day of a month is Thursday, what will be the 23rd day of that month?",
+      "correctIndex": 1,
+      "markedAnswer": "Thursday"
+    },
+    {
+      "id": "rea_175",
+      "category": "Reasoning",
+      "reasons": [
+        "math-reasoning-verify"
+      ],
+      "question": "If in each step the smallest number is moved to the left end from the given sequence, then for 8 3 6 1 9 2, what will be",
+      "correctIndex": 0,
+      "markedAnswer": "1 2 8 3 6 9"
+    },
+    {
+      "id": "rea_177",
+      "category": "Reasoning",
+      "reasons": [
+        "math-reasoning-verify"
+      ],
+      "question": "Find the next term: 1, 5, 14, 30, 55, ?",
+      "correctIndex": 1,
+      "markedAnswer": "91"
+    },
+    {
+      "id": "rea_178",
+      "category": "Reasoning",
+      "reasons": [
+        "math-reasoning-verify"
+      ],
+      "question": "Find the next term: ZA, XC, VE, TG, ?",
+      "correctIndex": 0,
+      "markedAnswer": "RI"
+    },
+    {
+      "id": "rea_185",
+      "category": "Reasoning",
+      "reasons": [
+        "math-reasoning-verify"
+      ],
+      "question": "Which of the following numbers when divided by 5, 6 and 7 leaves remainder 3 in each case?",
+      "correctIndex": 0,
+      "markedAnswer": "213"
+    },
+    {
+      "id": "rea_189",
+      "category": "Reasoning",
+      "reasons": [
+        "math-reasoning-verify"
+      ],
+      "question": "Find the next term: 13, 17, 25, 41, 73, ?",
+      "correctIndex": 1,
+      "markedAnswer": "137"
+    },
+    {
+      "id": "rea_190",
+      "category": "Reasoning",
+      "reasons": [
+        "math-reasoning-verify"
+      ],
+      "question": "Find the next term: C, F, J, O, U, ?",
+      "correctIndex": 1,
+      "markedAnswer": "B"
+    },
+    {
+      "id": "rea_195",
+      "category": "Reasoning",
+      "reasons": [
+        "answer-visible-in-stem"
+      ],
+      "question": "Eight people are seated in a line. P is fourth to the left of Q. R is second to the right of P. If Q is at one end, what",
+      "correctIndex": 0,
+      "markedAnswer": "Second"
+    },
+    {
+      "id": "rea_196",
+      "category": "Reasoning",
+      "reasons": [
+        "math-reasoning-verify"
+      ],
+      "question": "What is the smallest number which, when divided by 8, 9 and 10, leaves a remainder 5 in each case?",
+      "correctIndex": 1,
+      "markedAnswer": "725"
+    },
+    {
+      "id": "rea_198",
+      "category": "Reasoning",
+      "reasons": [
+        "answer-visible-in-stem"
+      ],
+      "question": "A person walks 5 m north, 5 m east, 10 m south and 5 m west. In which direction is he from the starting point?",
+      "correctIndex": 1,
+      "markedAnswer": "South"
+    },
+    {
+      "id": "def_023",
+      "category": "Defence",
+      "reasons": [
+        "very-short-stem"
+      ],
+      "question": "LOC and LAC represent:",
+      "correctIndex": 2,
+      "markedAnswer": "Sensitive border lines with Pakistan and China respectively"
+    },
+    {
+      "id": "def_028",
+      "category": "Defence",
+      "reasons": [
+        "very-short-stem"
+      ],
+      "question": "Cyber warfare involves:",
+      "correctIndex": 1,
+      "markedAnswer": "Digital attacks on information systems"
+    },
+    {
+      "id": "def_079",
+      "category": "Defence",
+      "reasons": [
+        "very-short-stem"
+      ],
+      "question": "Deterrence fails when:",
+      "correctIndex": 1,
+      "markedAnswer": "Adversary doubts credibility of retaliation"
+    },
+    {
+      "id": "def_152",
+      "category": "Defence",
+      "reasons": [
+        "very-short-stem"
+      ],
+      "question": "Hybrid warfare combines:",
+      "correctIndex": 1,
+      "markedAnswer": "Conventional, irregular and cyber methods"
+    },
+    {
+      "id": "mat_001",
+      "category": "Math",
+      "reasons": [
+        "math-reasoning-verify"
+      ],
+      "question": "A number is increased by 25% and then decreased by 20%. What is the net percentage change?",
+      "correctIndex": 0,
+      "markedAnswer": "0%"
+    },
+    {
+      "id": "mat_004",
+      "category": "Math",
+      "reasons": [
+        "math-reasoning-verify"
+      ],
+      "question": "Find the remainder when 7^100 is divided by 6.",
+      "correctIndex": 0,
+      "markedAnswer": "1"
+    },
+    {
+      "id": "mat_021",
+      "category": "Math",
+      "reasons": [
+        "math-reasoning-verify"
+      ],
+      "question": "Find remainder when 2^100 is divided by 7.",
+      "correctIndex": 0,
+      "markedAnswer": "4"
+    },
+    {
+      "id": "mat_028",
+      "category": "Math",
+      "reasons": [
+        "answer-visible-in-stem"
+      ],
+      "question": "If radius doubles, circumference becomes:",
+      "correctIndex": 0,
+      "markedAnswer": "Double"
+    },
+    {
+      "id": "mat_031",
+      "category": "Math",
+      "reasons": [
+        "math-reasoning-verify"
+      ],
+      "question": "A number gives remainder 2 when divided by 5 and 3 when divided by 7. Smallest such number?",
+      "correctIndex": 0,
+      "markedAnswer": "17"
+    },
+    {
+      "id": "mat_032",
+      "category": "Math",
+      "reasons": [
+        "very-short-stem"
+      ],
+      "question": "LCM of 12, 15 and 20?",
+      "correctIndex": 0,
+      "markedAnswer": "60"
+    },
+    {
+      "id": "mat_040",
+      "category": "Math",
+      "reasons": [
+        "math-reasoning-verify"
+      ],
+      "question": "A number when divided by 9 leaves 4. What remainder when divided by 3?",
+      "correctIndex": 0,
+      "markedAnswer": "1"
+    },
+    {
+      "id": "mat_041",
+      "category": "Math",
+      "reasons": [
+        "math-reasoning-verify"
+      ],
+      "question": "Find the remainder when 11^50 is divided by 10.",
+      "correctIndex": 3,
+      "markedAnswer": "9"
+    },
+    {
+      "id": "mat_051",
+      "category": "Math",
+      "reasons": [
+        "math-reasoning-verify"
+      ],
+      "question": "Find the remainder when 3^101 is divided by 5.",
+      "correctIndex": 0,
+      "markedAnswer": "3"
+    },
+    {
+      "id": "mat_060",
+      "category": "Math",
+      "reasons": [
+        "math-reasoning-verify"
+      ],
+      "question": "A number when divided by 4 leaves remainder 3 and when divided by 5 leaves remainder 4. What is the smallest such number",
+      "correctIndex": 1,
+      "markedAnswer": "39"
+    },
+    {
+      "id": "mat_070",
+      "category": "Math",
+      "reasons": [
+        "math-reasoning-verify"
+      ],
+      "question": "A number when divided by 6 leaves remainder 5 and when divided by 7 leaves remainder 6. What is the smallest such number",
+      "correctIndex": 1,
+      "markedAnswer": "83"
+    },
+    {
+      "id": "mat_076",
+      "category": "Math",
+      "reasons": [
+        "math-reasoning-verify"
+      ],
+      "question": "The average of 5 consecutive numbers is 20. What is the largest number?",
+      "correctIndex": 0,
+      "markedAnswer": "22"
+    },
+    {
+      "id": "mat_080",
+      "category": "Math",
+      "reasons": [
+        "math-reasoning-verify"
+      ],
+      "question": "A number leaves remainder 1 when divided by 2, 3, 4 and 5. What is the smallest such number?",
+      "correctIndex": 0,
+      "markedAnswer": "61"
+    },
+    {
+      "id": "mat_081",
+      "category": "Math",
+      "reasons": [
+        "math-reasoning-verify"
+      ],
+      "question": "Find the remainder when 13^99 is divided by 12.",
+      "correctIndex": 1,
+      "markedAnswer": "11"
+    },
+    {
+      "id": "mat_082",
+      "category": "Math",
+      "reasons": [
+        "math-reasoning-verify"
+      ],
+      "question": "An item is increased by 40% and then decreased by 25%. What is the net percentage change?",
+      "correctIndex": 0,
+      "markedAnswer": "No change"
+    },
+    {
+      "id": "mat_091",
+      "category": "Math",
+      "reasons": [
+        "math-reasoning-verify"
+      ],
+      "question": "Find the remainder when 5^100 is divided by 4.",
+      "correctIndex": 1,
+      "markedAnswer": "0"
+    },
+    {
+      "id": "mat_100",
+      "category": "Math",
+      "reasons": [
+        "math-reasoning-verify"
+      ],
+      "question": "Find the smallest number which when divided by 3, 4, 5 leaves remainder 2 in each case.",
+      "correctIndex": 0,
+      "markedAnswer": "62"
+    },
+    {
+      "id": "mat_110",
+      "category": "Math",
+      "reasons": [
+        "math-reasoning-verify"
+      ],
+      "question": "A number leaves remainder 3 when divided by 4 and remainder 5 when divided by 6. What is the smallest such number?",
+      "correctIndex": 0,
+      "markedAnswer": "11"
+    },
+    {
+      "id": "mat_120",
+      "category": "Math",
+      "reasons": [
+        "math-reasoning-verify"
+      ],
+      "question": "Find smallest number divisible by 3, 4, 5 and leaving remainder 1 in each case.",
+      "correctIndex": 0,
+      "markedAnswer": "61"
+    },
+    {
+      "id": "mat_121",
+      "category": "Math",
+      "reasons": [
+        "math-reasoning-verify"
+      ],
+      "question": "A value increases by 30% and then decreases by 10%. What is the net percentage change?",
+      "correctIndex": 0,
+      "markedAnswer": "17% increase"
+    },
+    {
+      "id": "mat_123",
+      "category": "Math",
+      "reasons": [
+        "math-reasoning-verify"
+      ],
+      "question": "Find remainder when 8^101 is divided by 7.",
+      "correctIndex": 1,
+      "markedAnswer": "2"
+    },
+    {
+      "id": "mat_130",
+      "category": "Math",
+      "reasons": [
+        "math-reasoning-verify"
+      ],
+      "question": "A number leaves remainder 2 when divided by 3, 4, 5. What is the smallest such number?",
+      "correctIndex": 0,
+      "markedAnswer": "62"
+    },
+    {
+      "id": "mat_138",
+      "category": "Math",
+      "reasons": [
+        "answer-visible-in-stem"
+      ],
+      "question": "If side of square doubles, perimeter becomes:",
+      "correctIndex": 0,
+      "markedAnswer": "Double"
+    },
+    {
+      "id": "mat_140",
+      "category": "Math",
+      "reasons": [
+        "math-reasoning-verify"
+      ],
+      "question": "Find smallest number divisible by 4,5,6 leaving remainder 3.",
+      "correctIndex": 0,
+      "markedAnswer": "63"
+    },
+    {
+      "id": "mat_142",
+      "category": "Math",
+      "reasons": [
+        "math-reasoning-verify"
+      ],
+      "question": "Find remainder of 2^50 ≈ 7.",
+      "correctIndex": 0,
+      "markedAnswer": "4"
+    },
+    {
+      "id": "mat_150",
+      "category": "Math",
+      "reasons": [
+        "math-reasoning-verify"
+      ],
+      "question": "A number leaves remainder 1 when divided by 2,3,4,5. Smallest?",
+      "correctIndex": 1,
+      "markedAnswer": "31"
+    },
+    {
+      "id": "mat_156",
+      "category": "Math",
+      "reasons": [
+        "very-short-stem"
+      ],
+      "question": "Speed doubles, time?",
+      "correctIndex": 0,
+      "markedAnswer": "Half"
+    },
+    {
+      "id": "mat_158",
+      "category": "Math",
+      "reasons": [
+        "answer-visible-in-stem"
+      ],
+      "question": "Radius doubles, circumference?",
+      "correctIndex": 0,
+      "markedAnswer": "Double"
+    },
+    {
+      "id": "mat_159",
+      "category": "Math",
+      "reasons": [
+        "very-short-stem"
+      ],
+      "question": "If x+1/x=3, x▓+1/x▓?",
+      "correctIndex": 0,
+      "markedAnswer": "7"
+    },
+    {
+      "id": "mat_160",
+      "category": "Math",
+      "reasons": [
+        "math-reasoning-verify"
+      ],
+      "question": "Smallest number divisible by 3,4,5 leaving remainder 2?",
+      "correctIndex": 0,
+      "markedAnswer": "62"
+    },
+    {
+      "id": "mat_161",
+      "category": "Math",
+      "reasons": [
+        "math-reasoning-verify"
+      ],
+      "question": "A number is increased by 40% and then decreased by 20%. What is the net percentage change?",
+      "correctIndex": 1,
+      "markedAnswer": "8% increase"
+    },
+    {
+      "id": "mat_162",
+      "category": "Math",
+      "reasons": [
+        "math-reasoning-verify"
+      ],
+      "question": "Find the remainder when 17^99 is divided by 16.",
+      "correctIndex": 0,
+      "markedAnswer": "1"
+    },
+    {
+      "id": "mat_170",
+      "category": "Math",
+      "reasons": [
+        "math-reasoning-verify"
+      ],
+      "question": "A number leaves remainder 1 when divided by 3, 4 and 5. What is the smallest such number?",
+      "correctIndex": 1,
+      "markedAnswer": "31"
+    },
+    {
+      "id": "mat_180",
+      "category": "Math",
+      "reasons": [
+        "math-reasoning-verify"
+      ],
+      "question": "Find the smallest number divisible by 4, 5, 6 leaving remainder 2.",
+      "correctIndex": 0,
+      "markedAnswer": "62"
+    },
+    {
+      "id": "mat_181",
+      "category": "Math",
+      "reasons": [
+        "very-short-stem"
+      ],
+      "question": "LCM of 16, 20 and 24 is:",
+      "correctIndex": 0,
+      "markedAnswer": "240"
+    },
+    {
+      "id": "mat_190",
+      "category": "Math",
+      "reasons": [
+        "math-reasoning-verify"
+      ],
+      "question": "Find smallest number which leaves remainder 3 when divided by 4, 5, 6.",
+      "correctIndex": 0,
+      "markedAnswer": "63"
+    },
+    {
+      "id": "mat_191",
+      "category": "Math",
+      "reasons": [
+        "math-reasoning-verify"
+      ],
+      "question": "Find the remainder when 19^75 is divided by 18.",
+      "correctIndex": 1,
+      "markedAnswer": "17"
+    },
+    {
+      "id": "mat_192",
+      "category": "Math",
+      "reasons": [
+        "math-reasoning-verify"
+      ],
+      "question": "A value increases by 50% and then decreases by 20%. What is the net percentage change?",
+      "correctIndex": 0,
+      "markedAnswer": "20% increase"
+    },
+    {
+      "id": "mat_200",
+      "category": "Math",
+      "reasons": [
+        "math-reasoning-verify"
+      ],
+      "question": "Find the smallest number which when divided by 4, 5 and 6 leaves remainder 3 in each case.",
+      "correctIndex": 0,
+      "markedAnswer": "63"
+    },
+    {
+      "id": "mat_210",
+      "category": "Math",
+      "reasons": [
+        "math-reasoning-verify"
+      ],
+      "question": "Find the smallest number which leaves remainder 2 when divided by 5, 6 and 7.",
+      "correctIndex": 1,
+      "markedAnswer": "107"
+    },
+    {
+      "id": "mat_211",
+      "category": "Math",
+      "reasons": [
+        "very-short-stem"
+      ],
+      "question": "LCM of 12, 18 and 24 is:",
+      "correctIndex": 0,
+      "markedAnswer": "72"
+    },
+    {
+      "id": "mat_215",
+      "category": "Math",
+      "reasons": [
+        "math-reasoning-verify"
+      ],
+      "question": "Average of 4 consecutive numbers is 25. Largest number?",
+      "correctIndex": 0,
+      "markedAnswer": "27"
+    },
+    {
+      "id": "mat_220",
+      "category": "Math",
+      "reasons": [
+        "math-reasoning-verify"
+      ],
+      "question": "Find smallest number divisible by 3, 4, 5 leaving remainder 1.",
+      "correctIndex": 1,
+      "markedAnswer": "31"
+    },
+    {
+      "id": "mat_222",
+      "category": "Math",
+      "reasons": [
+        "math-reasoning-verify"
+      ],
+      "question": "Find remainder when 2^60 is divided by 7.",
+      "correctIndex": 0,
+      "markedAnswer": "4"
+    },
+    {
+      "id": "mat_230",
+      "category": "Math",
+      "reasons": [
+        "math-reasoning-verify"
+      ],
+      "question": "Smallest number leaving remainder 2 when divided by 3,4,5?",
+      "correctIndex": 0,
+      "markedAnswer": "62"
+    },
+    {
+      "id": "sgk_001",
+      "category": "Static GK",
+      "reasons": [
+        "manual-review-requested",
+        "election-dispute-body-debate"
+      ],
+      "question": "Which of the following bodies is responsible for adjudicating disputes related to elections in India?",
+      "correctIndex": 3,
+      "markedAnswer": "High Courts"
+    },
+    {
+      "id": "sgk_001",
+      "category": "Static GK",
+      "reasons": [
+        "manual-review-requested",
+        "election-dispute-body-debate"
+      ],
+      "question": "Which of the following bodies is responsible for adjudicating disputes related to elections in India?",
+      "correctIndex": 3,
+      "markedAnswer": "High Courts"
+    },
+    {
+      "id": "sgk_071",
+      "category": "Static GK",
+      "reasons": [
+        "answer-visible-in-stem"
+      ],
+      "question": "Which dance form is associated with the Manipuri tradition?",
+      "correctIndex": 1,
+      "markedAnswer": "Manipuri"
+    },
+    {
+      "id": "sgk_111",
+      "category": "Static GK",
+      "reasons": [
+        "meta-option"
+      ],
+      "question": "Which classical dance form is known for storytelling through hand gestures (mudras)?",
+      "correctIndex": 2,
+      "markedAnswer": "Both A and B"
+    },
+    {
+      "id": "tech_140",
+      "category": "Technology",
+      "reasons": [
+        "answer-visible-in-stem"
+      ],
+      "question": "Which data structure is optimal for implementing recursion call stacks?",
+      "correctIndex": 1,
+      "markedAnswer": "Stack"
+    },
+    {
+      "id": "tech_155",
+      "category": "Technology",
+      "reasons": [
+        "answer-visible-in-stem"
+      ],
+      "question": "Which layer of OSI model is responsible for routing packets between networks?",
+      "correctIndex": 1,
+      "markedAnswer": "Network"
+    }
+  ],
+  "manual_checks": [
+    {
+      "id": "pol_108",
+      "question": "Which authority submits its reports directly to the President and not to Parliament?",
+      "options": [
+        "UPSC",
+        "CAG",
+        "Finance Commission",
+        "All of the above"
+      ],
+      "correctIndex": 3,
+      "markedAnswer": "All of the above"
+    },
+    {
+      "id": "sgk_001",
+      "question": "Which of the following bodies is responsible for adjudicating disputes related to elections in India?",
+      "options": [
+        "Election Commission",
+        "Supreme Court",
+        "Parliament",
+        "High Courts"
+      ],
+      "correctIndex": 3,
+      "markedAnswer": "High Courts"
+    },
+    {
+      "id": "rea_001",
+      "question": "Find the next term: 4, 6, 12, 36, 144, ?",
+      "options": [
+        "576",
+        "720",
+        "864",
+        "432"
+      ],
+      "correctIndex": 2,
+      "markedAnswer": "864"
+    }
+  ]
+}
