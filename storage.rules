@@ -1,0 +1,26 @@
+rules_version = '2';
+
+// Kept here for reference/version control -- paste this into Firebase
+// Console -> Build -> Storage -> Rules (this project has no CLI deploy
+// config wired up for Storage, so Console is the actual way this gets
+// applied; there's nothing to run locally).
+//
+// Only the one question-bank file is readable, and only by a signed-in
+// player (anonymous sign-in counts -- every player gets that automatically
+// on first launch, see AuthService.ensureSignedIn). No client, ever, can
+// write to Storage -- publishing a new question bank is a Console upload
+// done by Sanjay directly, which uses his own Firebase project permissions
+// and doesn't go through these rules at all. Everything else in the bucket
+// is denied by default.
+service firebase.storage {
+  match /b/{bucket}/o {
+    match /content/questions.json {
+      allow read: if request.auth != null;
+      allow write: if false;
+    }
+
+    match /{allPaths=**} {
+      allow read, write: if false;
+    }
+  }
+}

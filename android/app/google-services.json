@@ -12,7 +12,12 @@
           "package_name": "com.example.mindsprint_trivia"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "1003626375748-2pi3akcrusc8g6sbi2qg97nghi0sdd2m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyDqhTiC2B1s1Ppdwd2u9KANfguczWIu_7c"
@@ -20,7 +25,81 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1003626375748-2pi3akcrusc8g6sbi2qg97nghi0sdd2m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1003626375748:android:59cea04b602c8c46932a11",
+        "android_client_info": {
+          "package_name": "com.mindsprint.trivia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1003626375748-0fat42d5burctp7l1p611sj5df9qcbkh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mindsprint.trivia",
+            "certificate_hash": "d5e6e2ddeed47298d12c28c9a02164b0a88a2fb0"
+          }
+        },
+        {
+          "client_id": "1003626375748-6r0gj48ret24vg98q42vgmpkhujiluu2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mindsprint.trivia",
+            "certificate_hash": "a27a068827ce101144e057b6979d74b8c6148949"
+          }
+        },
+        {
+          "client_id": "1003626375748-6udtbpd650p40a3tj17arpjidmcdqh5i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mindsprint.trivia",
+            "certificate_hash": "0fa1c996f51f5b970e292a9a30003f34ecb67bb6"
+          }
+        },
+        {
+          "client_id": "1003626375748-8scbqepi6fauq3p6ctfdi159l4e8uu1e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mindsprint.trivia",
+            "certificate_hash": "d859fe9b662e8f0906d56d85fc931bf9e8458f3e"
+          }
+        },
+        {
+          "client_id": "1003626375748-fesu8ns6up7oav5c7ahclo956tlpjh9p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mindsprint.trivia",
+            "certificate_hash": "3a46a064c642cf542cc778381538cae1b6762cb7"
+          }
+        },
+        {
+          "client_id": "1003626375748-2pi3akcrusc8g6sbi2qg97nghi0sdd2m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqhTiC2B1s1Ppdwd2u9KANfguczWIu_7c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1003626375748-2pi3akcrusc8g6sbi2qg97nghi0sdd2m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }

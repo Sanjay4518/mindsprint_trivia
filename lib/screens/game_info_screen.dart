@@ -92,12 +92,22 @@ class GameInfoScreen extends StatelessWidget {
             ),
             buildInfoCard(
               "Accuracy rewards",
-              "• 100% accuracy → +500 XP + full stamina refill\n"
-                  "• 90%+ accuracy → +500 XP + stamina refund\n"
-                  "• 70%+ accuracy → +300 XP\n"
-                  "• 50%+ accuracy → +200 XP\n"
-                  "• 40%+ accuracy → +100 XP",
+              "• 100% accuracy → +200 XP + full stamina refill\n"
+                  "• 90%+ accuracy → +150 XP + stamina refund\n"
+                  "• 70%+ accuracy → +100 XP\n"
+                  "• 50%+ accuracy → +50 XP\n"
+                  "• 40%+ accuracy → +25 XP",
               icon: Icons.emoji_events_rounded,
+            ),
+            buildSectionTitle("Practice Mode"),
+            buildInfoCard(
+              "How it works",
+              "• A Premium feature — free players can watch a short ad for 15 minutes of access, or go Premium for unlimited access\n"
+                  "• Once unlocked: no stamina cost, untimed\n"
+                  "• Built entirely from your own wrong answers\n"
+                  "• Review each missed question with its correct answer, then get quizzed on it again\n"
+                  "• A question needs to be answered correctly across multiple separate sessions (not back-to-back) to count as mastered",
+              icon: Icons.replay_rounded,
             ),
             buildSectionTitle("Rapid Fire"),
             buildInfoCard(
@@ -126,10 +136,19 @@ class GameInfoScreen extends StatelessWidget {
               icon: Icons.bolt_rounded,
             ),
             buildInfoCard(
-              "Low stamina plan",
-              "• Rewarded ads can later give bonus stamina\n"
-                  "• Premium users will get unlimited stamina",
+              "Low stamina options",
+              "• Watch a short rewarded ad for +20 stamina\n"
+                  "• Watch a short ad for temporary Premium instead (see below)\n"
+                  "• Premium users have unlimited stamina, no waiting",
               icon: Icons.ondemand_video_rounded,
+            ),
+            buildSectionTitle("Temporary Premium"),
+            buildInfoCard(
+              "Free ways to try Premium",
+              "• Sign in with Google once and get 20 minutes of Premium, free\n"
+                  "• Watch a rewarded ad for 15 minutes of Premium — up to 2 times per day\n"
+                  "• During temporary Premium you get unlimited stamina and every category unlocked",
+              icon: Icons.card_giftcard_rounded,
             ),
             buildSectionTitle("Premium"),
             buildInfoCard(
@@ -140,11 +159,20 @@ class GameInfoScreen extends StatelessWidget {
                   "• More focused practice features later",
               icon: Icons.workspace_premium_rounded,
             ),
+            buildSectionTitle("Account"),
+            buildInfoCard(
+              "Signing in with Google",
+              "• Optional, but recommended — keeps your progress safe\n"
+                  "• Free one-time bonus: 20 minutes of Premium\n"
+                  "• Your name and photo come from your Google account\n"
+                  "• Buying Premium will require signing in first",
+              icon: Icons.g_mobiledata_rounded,
+            ),
             buildSectionTitle("Leaderboard"),
             buildInfoCard(
               "League system",
-              "• Players compete inside leagues like Bronze, Silver, Gold, Platinum, Diamond\n"
-                  "• Future updates can include promotion, demotion, and weekly resets",
+              "• Seven leagues, based on your total XP: Bronze, Silver, Gold, Platinum, Diamond, Master, and Legend\n"
+                  "• Your league updates automatically as your XP grows — no separate promotion step needed",
               icon: Icons.leaderboard_rounded,
             ),
           ],

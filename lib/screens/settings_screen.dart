@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import '../services/settings_service.dart';
-import '../services/audio_service.dart';
 import 'game_info_screen.dart';
 
 class SettingsScreen extends StatefulWidget {
@@ -11,6 +10,13 @@ class SettingsScreen extends StatefulWidget {
 }
 
 class _SettingsScreenState extends State<SettingsScreen> {
+  // Kept as a plain literal (no package_info_plus dependency) so this is a
+  // zero-risk, zero-new-dependency addition -- must be bumped by hand
+  // whenever pubspec.yaml's `version:` line changes. Matches pubspec.yaml's
+  // versionName+versionCode convention so it's directly comparable to what
+  // Play Console shows.
+  static const String _appVersion = "1.0.0+12";
+
   @override
   void initState() {
     super.initState();
@@ -19,14 +25,6 @@ class _SettingsScreenState extends State<SettingsScreen> {
         setState(() {});
       }
     });
-  }
-
-  void toggleMusic() async {
-    await SettingsService.toggleMusic();
-    await AudioService.refreshMusic();
-    if (mounted) {
-      setState(() {});
-    }
   }
 
   void toggleSfx() async {
@@ -50,26 +48,39 @@ class _SettingsScreenState extends State<SettingsScreen> {
         color: const Color(0xFF181C24),
         borderRadius: BorderRadius.circular(18),
       ),
-      child: SwitchListTile(
-        value: value,
-        onChanged: onChanged,
-        activeColor: color,
-        title: Row(
-          children: [
-            Icon(icon, color: color),
-            const SizedBox(width: 10),
-            Text(
-              title,
-              style: const TextStyle(
-                fontWeight: FontWeight.bold,
-                color: Colors.white,
+      // Wrapped in a transparent Material -- SwitchListTile/ListTile need a
+      // Material ancestor of their own to paint correctly; without one
+      // Flutter logs a harmless but noisy "ListTile background color or
+      // ink splashes may be invisible" exception (this is what shows as a
+      // brief red error banner on-screen even though nothing is broken).
+      child: Material(
+        color: Colors.transparent,
+        borderRadius: BorderRadius.circular(18),
+        clipBehavior: Clip.antiAlias,
+        child: SwitchListTile(
+          value: value,
+          onChanged: onChanged,
+          activeThumbColor: color,
+          title: Row(
+            children: [
+              Icon(icon, color: color),
+              const SizedBox(width: 10),
+              Text(
+                title,
+                style: const TextStyle(
+                  fontWeight: FontWeight.bold,
+                  color: Colors.white,
+                ),
               ),
+            ],
+          ),
+          subtitle: Padding(
+            padding: const EdgeInsets.only(left: 34),
+            child: Text(
+              subtitle,
+              style: const TextStyle(color: Colors.white54),
             ),
-          ],
-        ),
-        subtitle: Padding(
-          padding: const EdgeInsets.only(left: 34),
-          child: Text(subtitle, style: const TextStyle(color: Colors.white54)),
+          ),
         ),
       ),
     );
@@ -88,21 +99,29 @@ class _SettingsScreenState extends State<SettingsScreen> {
         color: const Color(0xFF181C24),
         borderRadius: BorderRadius.circular(18),
       ),
-      child: ListTile(
-        onTap: onTap,
-        leading: Icon(icon, color: color),
-        title: Text(
-          title,
-          style: const TextStyle(
-            fontWeight: FontWeight.bold,
-            color: Colors.white,
+      child: Material(
+        color: Colors.transparent,
+        borderRadius: BorderRadius.circular(18),
+        clipBehavior: Clip.antiAlias,
+        child: ListTile(
+          onTap: onTap,
+          leading: Icon(icon, color: color),
+          title: Text(
+            title,
+            style: const TextStyle(
+              fontWeight: FontWeight.bold,
+              color: Colors.white,
+            ),
           ),
-        ),
-        subtitle: Text(subtitle, style: const TextStyle(color: Colors.white54)),
-        trailing: const Icon(
-          Icons.arrow_forward_ios_rounded,
-          size: 16,
-          color: Colors.white54,
+          subtitle: Text(
+            subtitle,
+            style: const TextStyle(color: Colors.white54),
+          ),
+          trailing: const Icon(
+            Icons.arrow_forward_ios_rounded,
+            size: 16,
+            color: Colors.white54,
+          ),
         ),
       ),
     );
@@ -124,14 +143,6 @@ class _SettingsScreenState extends State<SettingsScreen> {
         child: Column(
           children: [
             buildToggleTile(
-              title: "Background Music",
-              subtitle: "Turn menu and gameplay music on or off",
-              value: SettingsService.musicOn,
-              onChanged: (_) => toggleMusic(),
-              icon: Icons.music_note,
-              color: Colors.blueAccent,
-            ),
-            buildToggleTile(
               title: "Sound Effects",
               subtitle: "Control answer sounds and gameplay feedback",
               value: SettingsService.sfxOn,
@@ -145,6 +156,12 @@ class _SettingsScreenState extends State<SettingsScreen> {
               icon: Icons.info_outline_rounded,
               color: Colors.lightBlueAccent,
               onTap: openGameInfo,
+            ),
+            const SizedBox(height: 24),
+            const Text(
+              "MindSprint Trivia v$_appVersion",
+              style: TextStyle(color: Colors.white38, fontSize: 12),
+              textAlign: TextAlign.center,
             ),
           ],
         ),

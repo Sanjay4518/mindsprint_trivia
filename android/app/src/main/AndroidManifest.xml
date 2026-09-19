@@ -1,12 +1,30 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- For local (on-device) notification reminders, see
+         lib/services/notification_service.dart. POST_NOTIFICATIONS is the
+         Android 13+ runtime permission (requested at the moment it's
+         actually needed, not here, see NotificationService.init());
+         RECEIVE_BOOT_COMPLETED is a normal, non-prompted permission that
+         lets a pending reminder survive a device reboot instead of
+         silently vanishing until the app is next opened. Deliberately NOT
+         requesting SCHEDULE_EXACT_ALARM: these reminders aren't
+         time-critical, so they're scheduled inexact (see
+         AndroidScheduleMode.inexactAllowWhileIdle in NotificationService),
+         which needs neither this permission nor the user having to grant
+         the separate "Alarms and reminders" special access screen it
+         implies on Android 12+. -->
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+
     <application
-        android:label="mindsprint_trivia"
+        android:label="MindSprint Trivia"
         android:name="${applicationName}"
-        android:icon="@mipmap/ic_launcher">
+        android:icon="@mipmap/ic_launcher"
+        android:enableOnBackInvokedCallback="true"
+        android:allowBackup="false">
 
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-3940256099942544~3347511713"/>
+            android:value="ca-app-pub-6370450824074258~9359335447"/>
 
         <activity
             android:name=".MainActivity"
@@ -31,6 +49,26 @@
         <meta-data
             android:name="flutterEmbedding"
             android:value="2" />
+
+        <!-- flutter_local_notifications plumbing: the first receiver is
+             what actually fires a reminder at its scheduled time; the
+             second re-arms any still-pending reminder after a reboot
+             (using RECEIVE_BOOT_COMPLETED above) so a scheduled reminder
+             can't silently be lost by the OS restarting. Neither is ever
+             referenced directly from Dart or Kotlin code here, these are
+             the plugin's own classes, declared exactly as its setup
+             instructions specify. -->
+        <receiver android:exported="false"
+            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver" />
+        <receiver android:exported="false"
+            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED"/>
+                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON"/>
+            </intent-filter>
+        </receiver>
     </application>
 
     <queries>

@@ -1,3 +1,4 @@
+
 import 'package:flutter/material.dart';
 import '../models/league.dart';
 
@@ -17,52 +18,62 @@ class LeagueProgress {
 }
 
 class LeagueService {
+  // Thresholds rebalanced 2026-09-10 alongside ResultScreen's accuracy
+  // bonus tiers (see that file for the full reasoning) -- Sanjay's
+  // explicit target was a player consistently in the 50-70% accuracy band
+  // taking about 5-6 Normal Mode rounds to clear Bronze -> Silver, with
+  // each later league taking noticeably longer than the one before. The
+  // gap between each league now widens every step (1000, 1500, 2500,
+  // 3500, 5000, 6500) instead of the old, flatter progression, so the
+  // early game stays a real but modest climb and the later leagues become
+  // a genuine long-term goal rather than clearing in a handful of rounds
+  // regardless of skill.
   static const List<League> leagues = [
     League(
       name: "Bronze",
       minXp: 0,
-      maxXp: 500,
+      maxXp: 1000,
       color: Color(0xFFB87333),
       icon: Icons.military_tech_rounded,
     ),
     League(
       name: "Silver",
-      minXp: 500,
-      maxXp: 1500,
+      minXp: 1000,
+      maxXp: 2500,
       color: Color(0xFFC0C0C0),
       icon: Icons.workspace_premium_rounded,
     ),
     League(
       name: "Gold",
-      minXp: 1500,
-      maxXp: 3000,
+      minXp: 2500,
+      maxXp: 5000,
       color: Color(0xFFFFC107),
       icon: Icons.emoji_events_rounded,
     ),
     League(
       name: "Platinum",
-      minXp: 3000,
-      maxXp: 5000,
+      minXp: 5000,
+      maxXp: 8500,
       color: Color(0xFF80DEEA),
       icon: Icons.diamond_rounded,
     ),
     League(
       name: "Diamond",
-      minXp: 5000,
-      maxXp: 8000,
+      minXp: 8500,
+      maxXp: 13500,
       color: Color(0xFF40E0D0),
       icon: Icons.diamond_outlined,
     ),
     League(
       name: "Master",
-      minXp: 8000,
-      maxXp: 12000,
+      minXp: 13500,
+      maxXp: 20000,
       color: Color(0xFFB388FF),
       icon: Icons.auto_awesome_rounded,
     ),
     League(
       name: "Legend",
-      minXp: 12000,
+      minXp: 20000,
       maxXp: null,
       color: Color(0xFFFF7043),
       icon: Icons.local_fire_department_rounded,
@@ -122,5 +133,16 @@ class LeagueService {
           orElse: () => leagues.first,
         )
         .color;
+  }
+
+  /// Looks up a [League] by its stored name (e.g. a leaderboard entry's
+  /// "league" field), rather than deriving one fresh from an XP value.
+  /// Falls back to the lowest league for an unrecognized/missing name,
+  /// same as [colorForLeague].
+  static League leagueForName(String leagueName) {
+    return leagues.firstWhere(
+      (league) => league.name == leagueName,
+      orElse: () => leagues.first,
+    );
   }
 }

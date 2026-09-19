@@ -61,6 +61,13 @@ class LeagueProgressCard extends StatelessWidget {
   final int totalXp;
   final EdgeInsetsGeometry padding;
 
+  /// When provided, adds a "See where you rank" row to the bottom of this
+  /// card that opens the Leaderboard -- lets Home merge the leaderboard
+  /// entry point into this card instead of needing its own separate button
+  /// elsewhere on the screen. Left null (no row shown) wherever this card
+  /// is used without a Leaderboard link nearby, e.g. the Profile screen.
+  final VoidCallback? onViewLeaderboard;
+
   const LeagueProgressCard({
     super.key,
     required this.currentLeague,
@@ -69,6 +76,7 @@ class LeagueProgressCard extends StatelessWidget {
     required this.xpToNextLeague,
     required this.totalXp,
     this.padding = const EdgeInsets.all(18),
+    this.onViewLeaderboard,
   });
 
   @override
@@ -152,6 +160,42 @@ class LeagueProgressCard extends StatelessWidget {
               ),
             ],
           ),
+          if (onViewLeaderboard != null) ...[
+            const SizedBox(height: 14),
+            const Divider(color: Colors.white10, height: 1),
+            const SizedBox(height: 10),
+            InkWell(
+              onTap: onViewLeaderboard,
+              borderRadius: BorderRadius.circular(10),
+              child: Padding(
+                padding: const EdgeInsets.symmetric(vertical: 4),
+                child: Row(
+                  children: [
+                    Icon(
+                      Icons.leaderboard_rounded,
+                      color: currentLeague.color,
+                      size: 18,
+                    ),
+                    const SizedBox(width: 8),
+                    Text(
+                      "See where you rank",
+                      style: TextStyle(
+                        color: currentLeague.color,
+                        fontWeight: FontWeight.w700,
+                        fontSize: 13,
+                      ),
+                    ),
+                    const Spacer(),
+                    Icon(
+                      Icons.arrow_forward_ios_rounded,
+                      color: currentLeague.color,
+                      size: 14,
+                    ),
+                  ],
+                ),
+              ),
+            ),
+          ],
         ],
       ),
     );

@@ -2,7 +2,7 @@ name: mindsprint_trivia
 description: "A new Flutter project."
 publish_to: 'none'
 
-version: 1.0.0+1
+version: 1.0.0+13
 
 environment:
   sdk: ^3.7.0
@@ -15,6 +15,38 @@ dependencies:
   shared_preferences: ^2.2.2
   audioplayers: ^5.2.1
   google_mobile_ads: ^6.0.0
+  firebase_core: ^4.13.0
+  firebase_auth: ^6.5.7
+  cloud_firestore: ^6.8.0
+  firebase_storage: ^13.0.0
+  google_sign_in: ^7.2.0
+  flutter_svg: ^2.3.0
+  in_app_purchase: ^3.3.0
+  in_app_purchase_android: ^0.5.2
+  path_provider: ^2.1.0
+  # Local (on-device only, no backend/Cloud Functions) notifications for the
+  # "stamina full" and "streak at risk" reminders -- see
+  # lib/services/notification_service.dart. Deliberately an older-but-solid
+  # version rather than the newest published release: the newest currently
+  # requires a much newer minimum Flutter SDK than this project's
+  # `environment: sdk: ^3.7.0` (and whatever Flutter version that implies)
+  # is known to satisfy, and there's no way to verify a Flutter upgrade
+  # from this session (see the `flutter pub get` note in the project's
+  # todo doc) -- 18.0.1 only needs Flutter SDK 3.13+, comfortably covered.
+  flutter_local_notifications: ^18.0.1
+  # Required by flutter_local_notifications for zonedSchedule (the API used
+  # to schedule a reminder for a specific future time rather than "N
+  # minutes from now"). Pinned within 18.0.1's own accepted range
+  # (>=0.9.0 <0.11.0) rather than the newest published timezone release,
+  # which that flutter_local_notifications version does not accept.
+  timezone: ^0.9.4
+  # Wraps Google Play's In-App Updates API -- see lib/services/update_service.dart.
+  # Deliberately 4.2.5, not the newest published release (5.0.0): that one
+  # requires Dart SDK 3.12+, which is newer than this project's
+  # `environment: sdk: ^3.7.0` -- same "can't verify a Flutter/Dart upgrade
+  # from this session" reasoning as the flutter_local_notifications pin
+  # above. 4.2.5 only needs Dart SDK 2.17+, comfortably covered.
+  in_app_update: ^4.2.5
 
 dev_dependencies:
   flutter_test:
@@ -27,3 +59,4 @@ flutter:
   assets:
     - assets/sounds/
     - assets/data/
+    - assets/images/

@@ -43,3 +43,10 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+android/build/
+
+# Local reference/working material, not app source
+/Claude outputs/
+/Emulator screenshots/
+/SCREENSHOTS/
+/Store Listing/

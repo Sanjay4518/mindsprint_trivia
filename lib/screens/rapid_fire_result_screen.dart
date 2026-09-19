@@ -1,9 +1,13 @@
+import 'dart:async';
 import 'package:flutter/material.dart';
+import 'game_info_screen.dart';
 import 'home_screen.dart';
-import 'rapid_fire_screen.dart';
-import '../services/stamina_service.dart';
+import 'profile_screen.dart';
+import '../helpers/mode_entry_helper.dart';
+import '../services/player_repository.dart';
 import '../services/player_service.dart';
-import '../services/usage_limit_service.dart';
+import '../widgets/promotion_celebration_dialog.dart';
+import '../widgets/sign_in_protect_prompt_dialog.dart';
 
 class RapidFireResultScreen extends StatefulWidget {
   final int score;
@@ -11,6 +15,7 @@ class RapidFireResultScreen extends StatefulWidget {
   final int wrong;
   final int bestStreak;
   final String weakestCategory;
+  final List<String> missedQuestionIds;
 
   const RapidFireResultScreen({
     super.key,
@@ -19,6 +24,7 @@ class RapidFireResultScreen extends StatefulWidget {
     required this.wrong,
     required this.bestStreak,
     required this.weakestCategory,
+    this.missedQuestionIds = const [],
   });
 
   @override
@@ -36,79 +42,80 @@ class _RapidFireResultScreenState extends State<RapidFireResultScreen> {
 
   void saveXp() async {
     if (!saved) {
-      await PlayerService.loadPlayer();
-      int xpToAdd = widget.score > 0 ? widget.score : 0;
+      // Wrapped for the same reason as ResultScreen.calculateAndSave: a
+      // failing reload must not abort this method before the round is
+      // actually recorded.
+      try {
+        await PlayerService.loadPlayer();
+      } catch (e) {
+        debugPrint(
+          'RapidFireResultScreen: loadPlayer failed, saving anyway: $e',
+        );
+      }
+      // High-risk/high-reward: pass the real (possibly negative) round
+      // score through -- PlayerService.recordRapidFireResult is what
+      // floors the player's lifetime total at 0, not this screen.
       await PlayerService.recordRapidFireResult(
-        xpEarned: xpToAdd,
+        xpEarned: widget.score,
         score: widget.score,
         correct: widget.correct,
         wrong: widget.wrong,
+        wrongQuestionIds: widget.missedQuestionIds,
       );
       saved = true;
+      unawaited(PlayerRepository.syncCurrentPlayer());
     }
 
     if (mounted) {
       setState(() {});
     }
+
+    // See ResultScreen.calculateAndSave's identical call -- a no-op
+    // whenever recordRapidFireResult() above didn't actually cross a
+    // league boundary.
+    if (mounted) {
+      final justPromoted = await PromotionCelebrationDialog.showIfPending(
+        context,
+      );
+      // See ResultScreen.calculateAndSave's identical chain -- a no-op for
+      // anyone already signed in, or when neither trigger applies yet.
+      if (mounted) {
+        final wantsSignIn = await SignInProtectPromptDialog.maybeShow(
+          context,
+          justPromoted: justPromoted,
+        );
+        if (wantsSignIn && mounted) {
+          await Navigator.push(
+            context,
+            MaterialPageRoute(builder: (_) => const ProfileScreen()),
+          );
+        }
+      }
+    }
   }
 
+  // Opens the same full Game Info screen used elsewhere in the app (see
+  // game_info_screen.dart, and result_screen.dart's identical treatment)
+  // instead of a Rapid-Fire-only scoring dialog -- keeps Rapid Fire's
+  // rules exactly as they are, just gives players the same complete
+  // picture Normal Mode's result screen now does, from one place.
   void showInfo() {
-    showDialog(
-      context: context,
-      builder:
-          (_) => AlertDialog(
-            title: const Text("Rapid Fire Scoring"),
-            content: const Text(
-              "• Correct answer = +20 XP\n"
-              "• Wrong answer = -15 XP\n"
-              "• Streak bonus starts from 3 correct answers in a row\n"
-              "• Streak bonus = streak number × 10\n"
-              "• Example: 4th correct in a streak = +20 +40",
-            ),
-            actions: [
-              TextButton(
-                onPressed: () => Navigator.pop(context),
-                child: const Text("OK"),
-              ),
-            ],
-          ),
+    Navigator.push(
+      context,
+      MaterialPageRoute(builder: (_) => const GameInfoScreen()),
     );
   }
 
   void playAgain() async {
-    final canStart = await UsageLimitService.canStartRapidFire();
-
-    if (!canStart) {
-      if (!mounted) return;
-      ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(
-          content: Text(
-            "Daily Rapid Fire limit reached. Premium unlocks unlimited rounds.",
-          ),
-        ),
-      );
-      return;
-    }
-
-    bool canPlay = await StaminaService.useStamina(20);
-
-    if (!canPlay) {
-      if (!mounted) return;
-      ScaffoldMessenger.of(
-        context,
-      ).showSnackBar(const SnackBar(content: Text("Not enough stamina!")));
-      return;
-    }
-
-    await UsageLimitService.recordRapidFireRoundStarted();
-
-    if (!mounted) return;
-    Navigator.pushReplacement(
-      context,
-      MaterialPageRoute(
-        builder: (context) => const RapidFireScreen(category: "Mixed"),
-      ),
-    );
+    // Routed through ModeEntryHelper instead of spending stamina and
+    // navigating directly (as this used to) -- that bypassed the
+    // server-time sync before the stamina gate and the low-stamina popup
+    // (watch ad / go Premium) when stamina is short, and used a separately
+    // hardcoded stamina cost instead of ModeEntryHelper.rapidCost. Rapid
+    // Fire is always "Mixed" either way, so there's no category to
+    // preserve here (unlike Normal Mode's Play Again -- see
+    // result_screen.dart).
+    await ModeEntryHelper.openRapidMode(context);
   }
 
   void goHome() {
@@ -174,7 +181,11 @@ class _RapidFireResultScreenState extends State<RapidFireResultScreen> {
           ),
           const SizedBox(height: 8),
           Text(
-            "Your weakest category was ${widget.weakestCategory}. Premium lets you practice weak areas directly in Normal Mode.",
+            // "None" means a flawless round -- see
+            // RapidFireScreen.getWeakestCategory.
+            widget.weakestCategory == "None"
+                ? "Flawless round -- nothing missed. Premium unlocks focused practice by category, plus the ability to review and re-practice every question you've gotten wrong until you've truly mastered it."
+                : "Your weakest category was ${widget.weakestCategory}. Premium unlocks focused practice by category, plus the ability to review and re-practice every question you've gotten wrong until you've truly mastered it.",
             style: const TextStyle(color: Colors.white70),
           ),
         ],
@@ -184,7 +195,26 @@ class _RapidFireResultScreenState extends State<RapidFireResultScreen> {
 
   @override
   Widget build(BuildContext context) {
-    final savedXp = widget.score > 0 ? widget.score : 0;
+    // Same reasoning as ResultScreen: the back arrow is hidden, so the
+    // hardware back button shouldn't drop the player onto a stale result
+    // screen left behind by an earlier "Play Again."
+    return PopScope(
+      canPop: false,
+      onPopInvokedWithResult: (didPop, result) {
+        if (didPop) return;
+        goHome();
+      },
+      child: buildResultScaffold(),
+    );
+  }
+
+  Widget buildResultScaffold() {
+    // "XP Saved" is framed as a gain, so it shouldn't ever show a negative
+    // number -- "Final Score" above already shows the honest raw score
+    // (which legitimately can be negative on a rough round); this is just
+    // the floor for this one relabeled stat card, not a change to actual
+    // recorded XP (recordRapidFireResult above still gets the real score).
+    final savedXp = widget.score < 0 ? 0 : widget.score;
 
     return Scaffold(
       appBar: AppBar(
@@ -262,7 +292,9 @@ class _RapidFireResultScreenState extends State<RapidFireResultScreen> {
                   borderRadius: BorderRadius.circular(18),
                 ),
                 child: Text(
-                  "Weakest Category: ${widget.weakestCategory}",
+                  widget.weakestCategory == "None"
+                      ? "Weakest Category: none — flawless round!"
+                      : "Weakest Category: ${widget.weakestCategory}",
                   style: const TextStyle(
                     fontSize: 18,
                     color: Colors.white,

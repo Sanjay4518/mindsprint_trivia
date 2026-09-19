@@ -1,8 +1,25 @@
 import 'package:flutter/material.dart';
+import 'package:firebase_core/firebase_core.dart';
+import 'firebase_options.dart';
 import 'screens/splash_screen.dart';
 
-void main() {
+void main() async {
   WidgetsFlutterBinding.ensureInitialized();
+  try {
+    await Firebase.initializeApp(
+      options: DefaultFirebaseOptions.currentPlatform,
+    );
+  } catch (e) {
+    // Every Firebase-backed service in this app already fails open when
+    // there's no signed-in user (AuthService.uid == null short-circuits
+    // ServerTimeService, PlayerRepository, LeaderboardRepository,
+    // EntitlementRepository), so local-only mode genuinely works. Without
+    // this try/catch, a rare device that throws here (missing/outdated
+    // Play Services, a corrupted config merge on some OEM ROM) would never
+    // reach runApp() at all -- a permanent black screen with zero
+    // diagnostics instead of a working local-only app.
+    debugPrint('Firebase init failed, continuing in local-only mode: $e');
+  }
   runApp(const MyApp());
 }
 

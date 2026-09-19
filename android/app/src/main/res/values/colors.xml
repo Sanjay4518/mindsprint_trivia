@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand navy used behind the launcher's native splash, before the
+         Flutter engine draws its first frame. Matches the app icon's
+         gradient starting color. -->
+    <color name="launch_background_color">#13172B</color>
+</resources>

@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
 
-enum LowStaminaAction { watchAd, goPremium, close }
+enum LowStaminaAction { watchAd, unlockTempPremium, goPremium, close }
 
 class LowStaminaPopup extends StatelessWidget {
   final int currentStamina;
   final int requiredStamina;
   final Future<bool> Function() onWatchAd;
+  final Future<bool> Function() onUnlockTempPremium;
   final Future<bool> Function() onGoPremium;
 
   const LowStaminaPopup({
@@ -13,6 +14,7 @@ class LowStaminaPopup extends StatelessWidget {
     required this.currentStamina,
     required this.requiredStamina,
     required this.onWatchAd,
+    required this.onUnlockTempPremium,
     required this.onGoPremium,
   });
 
@@ -21,6 +23,7 @@ class LowStaminaPopup extends StatelessWidget {
     required int currentStamina,
     required int requiredStamina,
     required Future<bool> Function() onWatchAd,
+    required Future<bool> Function() onUnlockTempPremium,
     required Future<bool> Function() onGoPremium,
   }) {
     return showDialog<LowStaminaAction>(
@@ -31,6 +34,7 @@ class LowStaminaPopup extends StatelessWidget {
             currentStamina: currentStamina,
             requiredStamina: requiredStamina,
             onWatchAd: onWatchAd,
+            onUnlockTempPremium: onUnlockTempPremium,
             onGoPremium: onGoPremium,
           ),
     );
@@ -137,6 +141,21 @@ class LowStaminaPopup extends StatelessWidget {
                 final bool success = await onWatchAd();
                 if (success && context.mounted) {
                   Navigator.of(context).pop(LowStaminaAction.watchAd);
+                }
+              },
+            ),
+            const SizedBox(height: 12),
+            _ActionCard(
+              title: "Unlock Premium (15 min)",
+              subtitle: "Unlimited stamina + every category, temporarily",
+              icon: Icons.timer_rounded,
+              iconColor: const Color(0xFFC084FC),
+              backgroundColor: const Color(0xFF201A33),
+              borderColor: const Color(0xFF3D2F5C),
+              onTap: () async {
+                final bool success = await onUnlockTempPremium();
+                if (success && context.mounted) {
+                  Navigator.of(context).pop(LowStaminaAction.unlockTempPremium);
                 }
               },
             ),

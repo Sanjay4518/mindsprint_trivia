@@ -14,7 +14,13 @@ MOJIBAKE = re.compile(
 
 def norm_text(t: str) -> str:
     t = t.lower()
-    t = re.sub(r"[^\w\s]", " ", t)
+    # Keep arithmetic operators intact instead of collapsing them to spaces
+    # like every other punctuation mark -- previously "x+1/x" and "x-1/x"
+    # both normalized to "x 1 x" and were flagged as near-duplicates of each
+    # other, even though they're different Math/Reasoning template
+    # questions with different answers. Only +, -, *, /, = are preserved;
+    # everything else (commas, question marks, etc.) still becomes a space.
+    t = re.sub(r"[^\w\s+\-*/=]", " ", t)
     return re.sub(r"\s+", " ", t).strip()
 
 
